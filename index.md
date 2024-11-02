@@ -9,5 +9,3 @@ Welcome to my personal website.
 ## Projects
 - [Fokas Method for IBVPs of Heat Equations](Fokas/index.md)
 
-## Papers
-- [Paper 1](link-to-your-paper.pdf)
