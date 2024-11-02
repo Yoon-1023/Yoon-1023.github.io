@@ -13,22 +13,22 @@ This project focuses on applying the Fokas method to solve initial boundary valu
 
 ### Key Figures
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center;">
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between;">
 
-   <div style="flex: 1; min-width: 250px; max-width: 45%; text-align: center;">
+   <div style="width: 45%; text-align: center;">
        <img src="figures/D^+.pic.jpg" alt="Figure 1" style="width: 100%; height: auto; border-radius: 8px;">
    </div>
 
-   <div style="flex: 1; min-width: 250px; max-width: 45%; text-align: center;">
-       <img src="figures/344821711499232_.pic_hd.jpg" alt="Figure 2.5" style="width: 100%; height: auto; border-radius: 8px;">
+   <div style="width: 45%; text-align: center;">
+       <img src="figures/344821711499232_.pic_hd.jpg" alt="Figure 2" style="width: 100%; height: auto; border-radius: 8px;">
    </div>
 
-   <div style="flex: 1; min-width: 250px; max-width: 45%; text-align: center;">
-       <img src="figures/Fokas_2.5.1.png" alt="Figure 2.5.1" style="width: 100%; height: auto; border-radius: 8px;">
+   <div style="width: 45%; text-align: center;">
+       <img src="figures/Fokas_2.5.1.png" alt="Figure 3" style="width: 100%; height: auto; border-radius: 8px;">
    </div>
 
-   <div style="flex: 1; min-width: 250px; max-width: 45%; text-align: center;">
-       <img src="figures/Fokas_2.5.png" alt="Figure 2.5" style="width: 100%; height: auto; border-radius: 8px;">
+   <div style="width: 45%; text-align: center;">
+       <img src="figures/Fokas_2.5.png" alt="Figure 4" style="width: 100%; height: auto; border-radius: 8px;">
    </div>
 
 </div>
