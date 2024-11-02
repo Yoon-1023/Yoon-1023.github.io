@@ -7,10 +7,7 @@ layout: default
 Welcome to my personal website.
 
 ## Projects
-<iframe src="Fokas/Fokas_method_for_heat_equations.pdf" width="100%" height="600px">
-    This browser does not support PDFs. Please download the PDF to view it: 
-    <a href="Fokas/Fokas_method_for_heat_equations.pdf">Download PDF</a>.
-</iframe>
+- [Fokas Method for IBVPs of Heat Equations](Fokas/index.md)
 
 ## Papers
 - [Paper 1](link-to-your-paper.pdf)
