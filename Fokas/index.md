@@ -13,17 +13,24 @@ This project focuses on applying the Fokas method to solve initial boundary valu
 
 ### Key Figures
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <div style="flex: 1; min-width: 300px; max-width: 45%;">
-        <h4>Figure 2.5.1</h4>
-        <iframe src="figures/Fokas%202.5.1.pdf" width="100%" height="400px"></iframe>
-        <p style="text-align: center;">Key analysis results for boundary behavior.</p>
-    </div>
-    <div style="flex: 1; min-width: 300px; max-width: 45%;">
-        <h4>Figure 2.5</h4>
-        <iframe src="figures/Fokas%202.5.pdf" width="100%" height="400px"></iframe>
-        <p style="text-align: center;">Results illustrating temperature distribution.</p>
-    </div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center;">
+
+   <div style="flex: 1; min-width: 250px; max-width: 45%; text-align: center;">
+       <img src="figures/D^+.pic.jpg" alt="Figure 1" style="width: 100%; height: auto; border-radius: 8px;">
+   </div>
+
+   <div style="flex: 1; min-width: 250px; max-width: 45%; text-align: center;">
+       <img src="figures/344821711499232_.pic_hd.jpg" alt="Figure 2.5" style="width: 100%; height: auto; border-radius: 8px;">
+   </div>
+
+   <div style="flex: 1; min-width: 250px; max-width: 45%; text-align: center;">
+       <img src="figures/Fokas_2.5.1.png" alt="Figure 2.5.1" style="width: 100%; height: auto; border-radius: 8px;">
+   </div>
+
+   <div style="flex: 1; min-width: 250px; max-width: 45%; text-align: center;">
+       <img src="figures/Fokas_2.5.png" alt="Figure 2.5" style="width: 100%; height: auto; border-radius: 8px;">
+   </div>
+
 </div>
 
 ## PDF of Full Method
@@ -34,3 +41,8 @@ For a detailed presentation, view the full PDF of the Fokas method application b
     This browser does not support PDFs. Please download the PDF to view it:
     <a href="Fokas_method_for_heat_equations.pdf">Download PDF</a>.
 </iframe>
+
+
+<script type="text/javascript" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
