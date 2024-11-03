@@ -1,5 +1,25 @@
 /* style.css */
 
+/* Font styling to match the Cayman theme */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 /* Navigation link styles */
 nav ul {
     display: flex;
