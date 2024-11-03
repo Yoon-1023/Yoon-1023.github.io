@@ -9,7 +9,7 @@ permalink: /research/
 
 Supervisor: [Prof. Saverio Spagnolie](https://people.math.wisc.edu/~spagnolie/)
 
-Based on the general approach presented in *[A nematic liquid crystal with an immersed body: equilibrium, stress, and paradox][1]* and *[Exact and approximate solutions for elastic interactions in a nematic liquid crystal][2]*, 
+Based on the general approach presented in [*A nematic liquid crystal with an immersed body: equilibrium, stress, and paradox*](#key-references) and [*Exact and approximate solutions for elastic interactions in a nematic liquid crystal*](#key-references), 
 
 ## Key Figures
 <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: center;">
