@@ -1,17 +1,17 @@
-title: "Junhao Yin's Personal Website"
-theme: minima
+title: "Junhao Yin"
+theme: jekyll-theme-cayman
 description: "A personal website for Junhao Yin"
 paginate: 5
 
 # Navigation links setup
 navbar:
   - title: "Home"
-    url: "/"
+    url: /
   - title: "Research"
-    url: "/research/"
+    url: /research/
   - title: "Projects"
-    url: "/projects/"
+    url: /projects/
   - title: "Courses"
-    url: "/courses/"
+    url: /courses/
   - title: "CV"
-    url: "/cv/"
+    url: /cv/
