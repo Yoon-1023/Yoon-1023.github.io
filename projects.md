@@ -8,7 +8,7 @@ permalink: /projects/
 
 ## 1. Fokas Method for IBVPs of Heat Equations
 
-**Supervisor**: [Prof.Jean-Luc Thiffeault](https://people.math.wisc.edu/~thiffeault/), Chair, Department of Mathematics, UW-Madison
+**Supervisor**: [Prof. Jean-Luc Thiffeault](https://people.math.wisc.edu/~thiffeault/), Chair, Department of Mathematics, UW-Madison
 
 This project focuses on applying the Fokas method to solve initial boundary value problems (IBVPs) in heat equations. Below are some key visuals illustrating our results.
 
@@ -47,7 +47,7 @@ For a detailed presentation of the project, view the full PDF below.
 
 ## 2. Selected Problems in Complex Analysis
 
-**Supervisor**: [Prof.Alexei Poltoratski](https://people.math.wisc.edu/~poltoratski/), Department of Mathematics, UW-Madison
+**Supervisor**: [Prof. Alexei Poltoratski](https://people.math.wisc.edu/~poltoratski/), Department of Mathematics, UW-Madison
 
 This project explores a range of complex analysis problems, including applications and notable theorems. Below, you’ll find visual highlights and a link to the full project document.
 
