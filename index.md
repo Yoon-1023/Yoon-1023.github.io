@@ -66,8 +66,9 @@ nav ul li a.active {
   <div class="photo-box">
     <img src="/dc55329f32f89fddf885749e03580c5b.jpeg" alt="Junhao Yin's photo">
     <h3>Junhao Yin</h3>
-    <p>PhD Candidate in Applied Mathematics</p>
-    <p>University of Example</p>
+    <p>Senior Undergraduate</p>
+    <p>Nanjing University</p>
+    <p>University of Wisconsin-Madison</p>
   </div>
 
   <!-- About Me section on the right -->
