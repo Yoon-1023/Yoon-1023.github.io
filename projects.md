@@ -10,7 +10,7 @@ permalink: /projects/
 
 **Supervisor**: [Prof. Jean-Luc Thiffeault](https://people.math.wisc.edu/~thiffeault/), Chair, Department of Mathematics, UW-Madison
 
-This project focuses on applying the Fokas method to solve initial boundary value problems (IBVPs) in heat equations. Below are some key visuals illustrating our results.
+In this project, I explore solutions to various Initial Boundary Value Problems (IBVPs) for the heat equation using the [Fokas method (unified transform method)](https://en.wikipedia.org/wiki/Fokas_method). In the first example, I address a problem on the half-line with a general Robin boundary condition and a general initial condition. I derive the solution in the [Ehrenpreis's form](https://en.wikipedia.org/wiki/Ehrenpreis%27s_fundamental_principle) and prove its validity, excluding the straightforward verification of uniqueness. Additionally, I provide a comparison between the Fokas method and the classical image method, highlighting key differences and advantages. In the second example, I examine a finite interval with general Dirichlet boundary conditions and a general initial condition. Here, I derive a solution in a similar form and retrieve the traditional series solution using the Half-Residue Theorem. 
 
 ### Visual Highlights
 
