@@ -51,8 +51,24 @@ permalink: /
   <!-- About Me section on the right -->
   <div class="about-me">
     <h2>About Me</h2>
-    <p>I am a PhD candidate in Applied Mathematics, focusing on complex analysis, fluid dynamics, and mathematical modeling. My research primarily involves using analytical and computational methods to solve problems in mathematical physics, particularly within the field of nematic liquid crystals and boundary value problems.</p>
-    
-    <p>I am currently working under the supervision of <a href="https://people.math.wisc.edu/~spagnolie/">Saverio Spagnolie</a> on the interaction of immersed bodies in semi-infinite nematic liquid crystals. I have also collaborated with <a href="https://people.math.wisc.edu/~thiffeault/">Jean-Luc Thiffeault</a> and <a href="https://people.math.wisc.edu/~poltoratski/">Alexei Poltoratski</a> on other projects in applied mathematics and complex analysis.</p>
+  <p>
+      I am majoring in Mathematics and Applied Mathematics at Nanjing University and am currently studying at the University of Wisconsin- 
+  Madison through its VISP Pre-Master Program. My research interests span a broad range of topics in physical mathematics, including fluid 
+  dynamics, stochastic modeling, and dynamical systems.
+  </p>
+
+  <p>
+      My current research, supervised by <a href="https://people.math.wisc.edu/~spagnolie/">Saverio Spagnolie</a> and based on the work of <a 
+  href="https://people.math.wisc.edu/~tgchandler/">Thomas G. J. Chandler</a>, focuses on the interaction of an immersed body within a semi- 
+  infinite nematic liquid crystal. This project utilizes a blend of applied mathematical techniques, including asymptotic analysis, numerical 
+  methods, and complex analysis, to tackle the unique challenges presented by such interactions in anisotropic environments.
+  </p>
+
+  <p>
+      More broadly, I am fascinated by the application of analytical mathematics to model physical systems, particularly where intricate 
+  mathematical methods reveal insights into real-world phenomena. For example, I am interested in the interactions of bodies and boundaries in 
+  three-dimensional unsteady Stokes flow, which involves exploring the Maxey-Riley equation using the Laplace transform method and Lorentz 
+  reciprocity principles.
+  </p>
   </div>
 </div>
