@@ -1,11 +1,7 @@
 title: "Junhao Yin's Personal Website"
 theme: minima
 description: "A personal website for Junhao Yin"
-
-# Enable Jekyll theme minima navigation links
-collections:
-  pages:
-    output: true
+paginate: 5
 
 # Navigation links setup
 navbar:
