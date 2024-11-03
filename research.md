@@ -9,7 +9,7 @@ permalink: /research/
 
 Supervisor: [Prof. Saverio Spagnolie](https://people.math.wisc.edu/~spagnolie/)
 
-Based on the general approach presented in [*A nematic liquid crystal with an immersed body: equilibrium, stress, and paradox*](#key-references) and [*Exact and approximate solutions for elastic interactions in a nematic liquid crystal*](#key-references), I examine the equilibrium configurations of a semi-infinite nematic liquid crystal with an immersed body in two dimensions, as well as the associated body forces, torques and tractions. 
+Based on the general approach presented in [*A nematic liquid crystal with an immersed body: equilibrium, stress, and paradox*](#key-references) and [*Exact and approximate solutions for elastic interactions in a nematic liquid crystal*](#key-references), I examine the equilibrium configurations of a semi-infinite nematic liquid crystal with an immersed body in two dimensions, as well as the associated body forces, torques and tractions. Inspired by the previous work by Crowdy for  A complex variable approach is adopted 
 
 ## Key Figures
 <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: center;">
