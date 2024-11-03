@@ -4,16 +4,6 @@ title: "Junhao Yin"
 permalink: /
 ---
 
-# Junhao Yin
-
-**PhD Candidate in Applied Mathematics**  
-Department of Mathematics, University of Example
-
-Email: [your.email@example.com](mailto:your.email@example.com)  
-[GitHub](https://github.com/Yoon-1023) | [LinkedIn](https://www.linkedin.com/in/yourprofile) | [CV](cv/)
-
----
-
 ## About Me
 
 I am a PhD candidate in Applied Mathematics, focusing on complex analysis, fluid dynamics, and mathematical modeling. My research primarily involves using analytical and computational methods to solve problems in mathematical physics, particularly within the field of nematic liquid crystals and boundary value problems.
