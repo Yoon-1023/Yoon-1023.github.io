@@ -1,16 +1,21 @@
 title: "Junhao Yin's Personal Website"
 theme: minima
 description: "A personal website for Junhao Yin"
- 
-# Navigation bar setup
+
+# Enable Jekyll theme minima navigation links
+collections:
+  pages:
+    output: true
+
+# Navigation links setup
 navbar:
   - title: "Home"
-    url: /
+    url: "/"
   - title: "Research"
-    url: /research/
+    url: "/research/"
   - title: "Projects"
-    url: /projects/
+    url: "/projects/"
   - title: "Courses"
-    url: /courses/
+    url: "/courses/"
   - title: "CV"
-    url: /cv/
+    url: "/cv/"
