@@ -6,7 +6,7 @@ permalink: /projects/
 
 # Projects
 
-## Fokas Method for IBVPs of Heat Equations
+## 1.Fokas Method for IBVPs of Heat Equations
 
 **Collaborator**: [Jean-Luc Thiffeault](https://people.math.wisc.edu/~thiffeault/), Chair, Department of Mathematics, UW-Madison
 
@@ -45,7 +45,7 @@ For a detailed presentation of the project, view the full PDF below.
 ---
 ---
 
-## Selected Problems in Complex Analysis
+## 2.Selected Problems in Complex Analysis
 
 **Collaborator**: [Alexei Poltoratski](https://people.math.wisc.edu/~poltoratski/), Department of Mathematics, UW-Madison
 
