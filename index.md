@@ -38,8 +38,6 @@ permalink: /
 }
 </style>
 
-# Junhao Yin
-
 <nav>
   <ul style="list-style: none; padding: 0; display: flex; gap: 15px;">
     <li><a href="{{ '/' | relative_url }}">Home</a></li>
