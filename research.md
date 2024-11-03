@@ -12,12 +12,12 @@ Supervisor: [Saverio Spagnolie](https://people.math.wisc.edu/~spagnolie/)
 ## Key Figures
 <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: center;">
 
-   <div style="width: 55%; text-align: center;">
+   <div style="width: 60%; text-align: center;">
        <img src="/LC/figures/conformal_mapping.jpg" alt="Conformal Mapping" style="width: 100%; height: auto; border-radius: 8px;">
        <p>Figure 1: Conformal Mapping</p>
    </div>
 
-   <div style="width: 35%; text-align: center;">
+   <div style="width: 30%; text-align: center;">
        <img src="/LC/figures/integral_curves.jpg" alt="Integral Curves" style="width: 100%; height: auto; border-radius: 8px;">
        <p>Figure 2: Integral Curves</p>
    </div>
