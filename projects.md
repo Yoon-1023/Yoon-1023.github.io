@@ -49,7 +49,7 @@ For a detailed presentation of the project, view the full PDF below.
 
 **Supervisor**: [Prof. Alexei Poltoratski](https://people.math.wisc.edu/~poltoratski/), Department of Mathematics, UW-Madison
 
-This project explores a range of complex analysis problems, including applications and notable theorems. Below, you’ll find visual highlights and a link to the full project document.
+This project explores a range of challenging problems in Complex Analysis, including applications and notable theorems. Below, you’ll find the exact descriptions of these problems and a link to the full project document.
 
 ### 1. Modulus Estimate
 
