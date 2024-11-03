@@ -7,7 +7,7 @@ permalink: /research/
 # Research
 **Ongoing Research**
 
-Supervisor: [Prof. Saverio Spagnolie](https://people.math.wisc.edu/~spagnolie/)
+Supervisor: [Prof. Saverio Spagnolie](https://people.math.wisc.edu/~spagnolie/) and [Dr. Thomas G. J. Chandler](https://people.math.wisc.edu/~tgchandler/)
 
 Nematic liquid crystals, composed of rod-like molecules with directional order, exhibit complex behaviors due to the elasticity of their orientational structure. When immersed bodies are introduced into these materials, they disrupt the local orientation, creating defects and elastic stresses that lead to intricate body-boundary interactions. These interactions are influenced by factors such as anchoring conditions, defect positioning, and the geometric configuration of boundaries, all of which contribute to the unique physical properties of the system.
 
