@@ -79,7 +79,7 @@ $$
 az^3 - z + b = e^{-z}(z + 2),
 $$
 
-where $a > 0$ and $b > 2$, has exactly 2 roots in $\{ z \in \mathbb{C} : \operatorname{Re}(z) \geq 0 \}$.
+where $a > 0$ and $b > 2$, has exactly $2$ roots in $\{ z \in \mathbb{C} : \text{Re}(z) \geq 0 \}$.
 
 ### 4. Gauss-Lucas Theorem
 
