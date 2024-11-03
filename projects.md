@@ -63,7 +63,8 @@ This project explores a range of complex analysis problems, including applicatio
        <p>Source: <a href="https://en.wikipedia.org/w/index.php?title=Steiner_inellipse&oldid=1126942784">Wikipedia contributors</a></p>
    </div>
 
-  <div style="width: 45%; text-align: center; margin: 0 auto;">
+   <!-- Centered third image in the second row -->
+   <div style="width: 45%; text-align: center; display: flex; justify-content: center; margin: 0 auto;">
        <img src="/Complex/figures/Swiss%20cheese.jpeg" alt="Swiss Cheese" style="width: 100%; height: auto; border-radius: 8px;">
        <p>Source: <a href="https://explainingmaths.wordpress.com/2022/03/08/alice-roth-and-swiss-cheeses/">Explaining Maths</a></p>
    </div>
