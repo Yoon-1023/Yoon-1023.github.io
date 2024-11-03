@@ -5,8 +5,8 @@ permalink: /
 ---
 
 <style>
-/* Container for layout */
-.container {
+/* Home-specific container for layout */
+.home-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -36,32 +36,9 @@ permalink: /
   border: 1px solid #ddd;
   border-radius: 8px;
 }
-
-/* Navigation styling */
-nav ul {
-  display: flex;
-  gap: 15px;
-  list-style: none;
-  padding: 0;
-}
-
-nav ul li a {
-  text-decoration: none;
-  padding: 8px 12px;
-  border-radius: 12px; /* Rounded corners for all links */
-  color: black;
-}
-
-/* Active page indicator */
-nav ul li a.active {
-  background-color: #ff6868; /* Rose color */
-  color: white;
-  border-radius: 20px; /* Pill shape */
-  padding: 8px 16px; /* Adjust padding for pill shape */
-}
 </style>
 
-<div class="container">
+<div class="home-container">
   <!-- Left box with photo and titles -->
   <div class="photo-box">
     <img src="/dc55329f32f89fddf885749e03580c5b.jpeg" alt="Junhao Yin's photo">
