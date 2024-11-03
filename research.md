@@ -7,7 +7,7 @@ permalink: /research/
 # Research
 **Ongoing Research**
 
-Supervisor: [Prof.Saverio Spagnolie](https://people.math.wisc.edu/~spagnolie/)
+Supervisor: [Prof. Saverio Spagnolie](https://people.math.wisc.edu/~spagnolie/)
 
 ## Key Figures
 <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: center;">
@@ -29,3 +29,8 @@ Supervisor: [Prof.Saverio Spagnolie](https://people.math.wisc.edu/~spagnolie/)
     This browser does not support PDFs. Please download the PDF to view it: 
     <a href="/LC/Interaction_of_an_immersed_body_in_a_semi_infinite_nematic_liquid_crystal.pdf">Download PDF</a>.
 </iframe>
+
+
+<script type="text/javascript" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
