@@ -7,7 +7,7 @@ permalink: /research/
 # Research
 **Ongoing Research**
 
-Supervisor: [Saverio Spagnolie](https://people.math.wisc.edu/~spagnolie/)
+Supervisor: [Prof.Saverio Spagnolie](https://people.math.wisc.edu/~spagnolie/)
 
 ## Key Figures
 <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: center;">
