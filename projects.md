@@ -51,55 +51,53 @@ For a detailed presentation of the project, view the full PDF below.
 
 This project explores a range of complex analysis problems, including applications and notable theorems. Below, you’ll find visual highlights and a link to the full project document.
 
-### Selected Problems in Complex Analysis
-
-#### 1. Modulus Estimate
+### 1. Modulus Estimate
 
 Prove that there is a constant \( C \), independent of \( n \), such that if \( \{z_j\} \) are complex numbers and if 
 
-\[
+$$
 \sum_{j=1}^n |z_j| \geq 1,
-\]
+$$
 
 then there exists a subcollection \( \{z_{j_1}, \dots, z_{j_k}\} \subseteq \{z_1, \dots, z_n\} \) such that 
 
-\[
+$$
 \left| \sum_{m=1}^k z_{j_m} \right| \geq C.
-\]
+$$
 
 Find the best constant \( C \).
 
-#### 2. Injective Extension
+### 2. Injective Extension
 
 Let \( f \) be holomorphic on a neighborhood of \( D(0, 1) \). Assume that the restriction of \( f \) to \( D(0, 1) \) is one-to-one and \( f' \) is nowhere zero on \( D(0, 1) \). Prove that \( f \) is one-to-one on a neighborhood of \( D(0, 1) \).
 
-#### 3. Zeros Analysis
+### 3. Zeros Analysis
 
 Prove that the equation 
 
-\[
+$$
 az^3 - z + b = e^{-z}(z + 2),
-\]
+$$
 
 where \( a > 0 \) and \( b > 2 \), has exactly 2 roots in \( \{ z \in \mathbb{C} : \operatorname{Re}(z) \geq 0 \} \).
 
-#### 4. Gauss-Lucas Theorem
+### 4. Gauss-Lucas Theorem
 
 If \( f \) is a polynomial on \( \mathbb{C} \), then the zeros of \( f' \) are contained in the closed convex hull of the zeros of \( f \).
 
-#### 5. Strict Harmonicity
+### 5. Strict Harmonicity
 
 If \( f : U \rightarrow \mathbb{R} \) is merely continuous, we might call \( f \) *strictly subharmonic* if whenever \( D(z, r) \subseteq U \), then
 
-\[
+$$
 f(z) < \frac{1}{2\pi} \int_0^{2\pi} f(z + re^{i\theta}) \, d\theta.
-\]
+$$
 
 For \( C^2 \) functions, is this equivalent to the assertion that \( \nabla^2 f > 0 \)? Does one definition imply the other? Can you think of a definition that applies to continuous functions and is equivalent to \( \nabla^2 f > 0 \) when \( f \) is \( C^2 \)?
 
-#### 6. The Swiss Cheese
+### 6. The Swiss Cheese
 
-Let \( D(a_j, r_j) \) be pairwise disjoint closed discs in \( D(0, 1) \) such that the union of discs \( \bigcup_{j=1}^{\infty} D(a_j, r_j) \) is dense in \( D(0, 1) \). Let \( K = D(0, 1) - \bigcup_{j=1}^{\infty} D(a_j, r_j) \). Prove that such discs can be chosen so that \( \sum_{j=1}^{\infty} r_j < 1 \) and that, in this case, the conclusion of Mergelyan's theorem fails on \( K \). 
+Let \( D(a_j, r_j) \) be pairwise disjoint closed discs in \( D(0, 1) \) such that the union of discs \( \bigcup_{j=1}^{\infty} D(a_j, r_j) \) is dense in \( D(0, 1) \). Let \( K = D(0, 1) - \bigcup_{j=1}^{\infty} D(a_j, r_j) \). Prove that such discs can be chosen so that \( \sum_{j=1}^{\infty} r_j < 1 \) and that, in this case, the conclusion of Mergelyan's theorem fails on \( K \).
 
 ### Visual Highlights
 
