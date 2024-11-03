@@ -85,6 +85,18 @@ where $$a > 0$$ and $$b > 2$$, has exactly $$2$$ roots in $$\{ z \in \mathbb{C} 
 
 If $$f$$ is a polynomial on $$\mathbb{C}$$, then the zeros of $$f'$$ are contained in the closed convex hull of the zeros of $$f$$.
 
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center;">
+   <div style="width: 45%; text-align: center;">
+       <img src="/Complex/figures/440px-Steiner-inellipse-1.svg.png" alt="Steiner Inellipse" style="width: 100%; height: auto; border-radius: 8px;">
+       <p>Source: <a href="https://en.wikipedia.org/w/index.php?title=Steiner_inellipse&oldid=1126942784">Wikipedia contributors</a></p>
+   </div>
+
+   <div style="width: 45%; text-align: center;">
+       <img src="/Complex/figures/Steiner_Inellipse.svg.png" alt="Another Steiner Inellipse" style="width: 100%; height: auto; border-radius: 8px;">
+       <p>Source: <a href="https://en.wikipedia.org/w/index.php?title=Steiner_inellipse&oldid=1126942784">Wikipedia contributors</a></p>
+   </div>
+</div>
+
 ### 5. Strict Harmonicity
 
 If $$f : U \rightarrow \mathbb{R}$$ is merely continuous, we might call $$f$$ *strictly subharmonic* if whenever $$D(z, r) \subseteq U$$, then
@@ -99,19 +111,7 @@ For $$C^2$$ functions, is this equivalent to the assertion that $$\nabla^2 f > 0
 
 Let $$D(a_j, r_j)$$ be pairwise disjoint closed discs in $$D(0, 1)$$ such that the union of discs $$\bigcup_{j=1}^{\infty} D(a_j, r_j)$$ is dense in $$D(0, 1)$$. Let $$K = D(0, 1) - \bigcup_{j=1}^{\infty} D(a_j, r_j)$$. Prove that such discs can be chosen so that $$\sum_{j=1}^{\infty} r_j < 1$$ and that, in this case, the conclusion of Mergelyan's theorem fails on $$K$$.
 
-### Visual Highlights
-
 <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center;">
-   <div style="width: 45%; text-align: center;">
-       <img src="/Complex/figures/440px-Steiner-inellipse-1.svg.png" alt="Steiner Inellipse" style="width: 100%; height: auto; border-radius: 8px;">
-       <p>Source: <a href="https://en.wikipedia.org/w/index.php?title=Steiner_inellipse&oldid=1126942784">Wikipedia contributors</a></p>
-   </div>
-
-   <div style="width: 45%; text-align: center;">
-       <img src="/Complex/figures/Steiner_Inellipse.svg.png" alt="Another Steiner Inellipse" style="width: 100%; height: auto; border-radius: 8px;">
-       <p>Source: <a href="https://en.wikipedia.org/w/index.php?title=Steiner_inellipse&oldid=1126942784">Wikipedia contributors</a></p>
-   </div>
-
    <!-- Centered third image in the second row -->
    <div style="width: 45%; text-align: center; display: flex; justify-content: center; margin: 0 auto;">
        <img src="/Complex/figures/Swiss%20cheese.jpeg" alt="Swiss Cheese" style="width: 100%; height: auto; border-radius: 8px;">
