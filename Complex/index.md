@@ -40,3 +40,8 @@ For a detailed presentation of the project, view the full PDF below.
     This browser does not support PDFs. Please download the PDF to view it:
     <a href="Selected_problems_in_Complex_Analysis.pdf">Download PDF</a>.
 </iframe>
+
+
+<script type="text/javascript" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
