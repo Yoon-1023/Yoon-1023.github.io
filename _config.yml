@@ -1,3 +1,16 @@
 title: "Junhao Yin's Personal Website"
 theme: minima
 description: "A personal website for Junhao Yin"
+ 
+# Navigation bar setup
+navbar:
+  - title: "Home"
+    url: /
+  - title: "Research"
+    url: /research/
+  - title: "Projects"
+    url: /projects/
+  - title: "Courses"
+    url: /courses/
+  - title: "CV"
+    url: /cv/
