@@ -52,9 +52,9 @@ permalink: /
   <div class="about-me">
     <h2>About Me</h2>
   <p>
-      I am majoring in Mathematics and Applied Mathematics at Nanjing University and am currently studying at the University of Wisconsin- 
-  Madison through its VISP Pre-Master Program. My research interests span a broad range of topics in physical mathematics, including fluid 
-  dynamics, stochastic modeling, and dynamical systems.
+     I am majoring in Mathematics and Applied Mathematics at Nanjing University and have been studying at the University of Wisconsin-Madison 
+  through its VISP Pre-Master Program since Spring 2024. My research interests span a broad range of topics in physical mathematics, including 
+  fluid dynamics, stochastic modeling, and dynamical systems.
   </p>
 
   <p>
