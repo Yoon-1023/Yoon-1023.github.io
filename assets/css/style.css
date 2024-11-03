@@ -1,12 +1,5 @@
 /* style.css */
 
-/* Constrain content width */
-.container {
-    max-width: 600px; /* Adjust as needed */
-    margin: 0 auto;
-    padding: 20px;
-}
-
 /* Font styling to match the Cayman theme */
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
