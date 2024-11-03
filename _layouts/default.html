@@ -42,18 +42,42 @@
         }
     </style>
 </head>
-<body>
+<body> 
 
     <!-- Navigation Bar -->
-    <nav>
-        <ul style="display: flex; justify-content: center; list-style: none; padding: 10px; gap: 15px;">
-            <li><a href="{{ '/' | relative_url }}">Home</a></li>
-            <li><a href="{{ '/research/' | relative_url }}">Research</a></li>
-            <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
-            <li><a href="{{ '/courses/' | relative_url }}">Courses</a></li>
-            <li><a href="{{ '/cv/' | relative_url }}">CV</a></li>
-        </ul>
-    </nav>
+<nav style="padding: 15px 0;">
+    <ul style="display: flex; justify-content: center; list-style: none; padding: 0; gap: 20px;">
+        <li><a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %}active{% endif %}">Home</a></li>
+        <li><a href="{{ '/research/' | relative_url }}" class="{% if page.url == '/research/' %}active{% endif %}">Research</a></li>
+        <li><a href="{{ '/projects/' | relative_url }}" class="{% if page.url == '/projects/' %}active{% endif %}">Projects</a></li>
+        <li><a href="{{ '/courses/' | relative_url }}" class="{% if page.url == '/courses/' %}active{% endif %}">Courses</a></li>
+        <li><a href="{{ '/cv/' | relative_url }}" class="{% if page.url == '/cv/' %}active{% endif %}">CV</a></li>
+    </ul>
+</nav>
+
+<style>
+/* Navigation link styles */
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px; /* Pill shape */
+    color: #333; /* Default text color */
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+    background-color: #ddd; /* Light background on hover */
+}
+
+/* Active page indicator */
+nav ul li a.active {
+    background-color: #ff6868; /* Rose color */
+    color: white; /* Text color for active link */
+    border-radius: 20px; /* Pill shape */
+}
+</style>
 
     <!-- Main Content Container -->
     <div class="container">
