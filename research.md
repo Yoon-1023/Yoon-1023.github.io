@@ -9,6 +9,8 @@ permalink: /research/
 
 Supervisor: [Prof. Saverio Spagnolie](https://people.math.wisc.edu/~spagnolie/)
 
+Based on the general approach presented in *[A nematic liquid crystal with an immersed body: equilibrium, stress, and paradox][1]* and *[Exact and approximate solutions for elastic interactions in a nematic liquid crystal][2]*, 
+
 ## Key Figures
 <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: center;">
 
@@ -31,6 +33,13 @@ Supervisor: [Prof. Saverio Spagnolie](https://people.math.wisc.edu/~spagnolie/)
 </iframe>
 
 
+## Key References
+
+1. **Chandler, T. G. J., & Spagnolie, S. E.** (2023). *A nematic liquid crystal with an immersed body: equilibrium, stress, and paradox*. Journal of Fluid Mechanics, 967. Cambridge University Press. DOI: [10.1017/jfm.2023.488](http://dx.doi.org/10.1017/jfm.2023.488)
+
+2. **Chandler, T. G. J., & Spagnolie, S. E.** (2024). *Exact and approximate solutions for elastic interactions in a nematic liquid crystal*. arXiv preprint, [arXiv:2311.17708](https://arxiv.org/abs/2311.17708)
+
 <script type="text/javascript" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
+
