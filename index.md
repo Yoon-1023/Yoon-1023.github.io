@@ -53,7 +53,7 @@ permalink: /
 <div class="container">
   <!-- Left box with photo and titles -->
   <div class="photo-box">
-    <img src="/path-to-your-photo.jpg" alt="Junhao Yin's photo">
+    <img src="/dc55329f32f89fddf885749e03580c5b.jpeg" alt="Junhao Yin's photo">
     <h3>Junhao Yin</h3>
     <p>PhD Candidate in Applied Mathematics</p>
     <p>University of Example</p>
