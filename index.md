@@ -58,8 +58,8 @@ permalink: /
   </p>
 
   <p>
-      My current research, supervised by <a href="https://people.math.wisc.edu/~spagnolie/">Saverio Spagnolie</a> and based on the work of <a 
-  href="https://people.math.wisc.edu/~tgchandler/">Thomas G. J. Chandler</a>, focuses on the elastic interaction of an immersed body within a 
+      My current research, supervised by <a href="https://people.math.wisc.edu/~spagnolie/">Prof.Saverio Spagnolie</a> and based on the work of <a 
+  href="https://people.math.wisc.edu/~tgchandler/">Dr.Thomas G. J. Chandler</a>, focuses on the elastic interaction of an immersed body within a 
   semi- infinite nematic liquid crystal. This project utilizes a blend of applied mathematical techniques, including asymptotic analysis, 
   numerical methods, and complex analysis, to tackle the unique challenges presented by such interactions in anisotropic environments.
   </p>
