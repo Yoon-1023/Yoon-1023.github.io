@@ -1,5 +1,14 @@
 /* style.css */
 
+/* Set a responsive max-width for a balanced layout */
+.container {
+    max-width: 80%; /* Allows flexibility without full width */
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 /* Font styling to match the Cayman theme */
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
