@@ -1,6 +1,4 @@
-/* style.css */
-
-/* Set a responsive max-width for a balanced layout */
+/* Global container styling for consistent width */
 .container {
     max-width: 1200px;
     width: 100%;
