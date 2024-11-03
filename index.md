@@ -1,6 +1,5 @@
 ---
 layout: page
-title: "Junhao Yin"
 permalink: /
 ---
 
