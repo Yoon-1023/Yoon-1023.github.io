@@ -59,16 +59,16 @@ permalink: /
 
   <p>
       My current research, supervised by <a href="https://people.math.wisc.edu/~spagnolie/">Saverio Spagnolie</a> and based on the work of <a 
-  href="https://people.math.wisc.edu/~tgchandler/">Thomas G. J. Chandler</a>, focuses on the interaction of an immersed body within a semi- 
-  infinite nematic liquid crystal. This project utilizes a blend of applied mathematical techniques, including asymptotic analysis, numerical 
-  methods, and complex analysis, to tackle the unique challenges presented by such interactions in anisotropic environments.
+  href="https://people.math.wisc.edu/~tgchandler/">Thomas G. J. Chandler</a>, focuses on the elastic interaction of an immersed body within a 
+  semi- infinite nematic liquid crystal. This project utilizes a blend of applied mathematical techniques, including asymptotic analysis, 
+  numerical methods, and complex analysis, to tackle the unique challenges presented by such interactions in anisotropic environments.
   </p>
 
   <p>
       More broadly, I am fascinated by the application of analytical mathematics to model physical systems, particularly where intricate 
   mathematical methods reveal insights into real-world phenomena. For example, I am interested in the interactions of bodies and boundaries in 
-  three-dimensional unsteady Stokes flow, which involves exploring the Maxey-Riley equation using the Laplace transform method and Lorentz 
-  reciprocity principles.
+  three-dimensional unsteady Stokes flow, which generally involves exploring the Maxey-Riley equation using the Laplace transform method and 
+  Lorentz reciprocity principles.
   </p>
   </div>
 </div>
