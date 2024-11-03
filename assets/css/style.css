@@ -2,7 +2,7 @@
 
 /* Set a responsive max-width for a balanced layout */
 .container {
-    max-width: 80%; /* Allows flexibility without full width */
+    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
     padding: 20px;
