@@ -38,16 +38,6 @@ permalink: /
 }
 </style>
 
-<nav>
-  <ul style="list-style: none; padding: 0; display: flex; gap: 15px;">
-    <li><a href="{{ '/' | relative_url }}">Home</a></li>
-    <li><a href="{{ '/research/' | relative_url }}">Research</a></li>
-    <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
-    <li><a href="{{ '/courses/' | relative_url }}">Courses</a></li>
-    <li><a href="{{ '/cv/' | relative_url }}">CV</a></li>
-  </ul>
-</nav>
-
 <div class="container">
   <!-- Left box with photo and titles -->
   <div class="photo-box">
