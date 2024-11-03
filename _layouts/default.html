@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul style="display: flex; justify-content: center; list-style: none; padding: 10px; gap: 15px;">
+            <li><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li><a href="{{ '/research/' | relative_url }}">Research</a></li>
+            <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
+            <li><a href="{{ '/courses/' | relative_url }}">Courses</a></li>
+            <li><a href="{{ '/cv/' | relative_url }}">CV</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="content">
+        {{ content }}
+    </div>
+
+    <!-- Footer -->
+    <footer style="text-align: center; padding: 15px; font-size: 0.9em; color: #666; border-top: 1px solid #ddd; margin-top: 20px;">
+        <p>
+            Junhao Yin &nbsp; | &nbsp; 
+            <a href="mailto:your.email@example.com">your.email@example.com</a> &nbsp; | &nbsp;
+            <a href="https://github.com/Yoon-1023">GitHub</a> &nbsp; | &nbsp;
+            <a href="https://www.linkedin.com/in/yourprofile">LinkedIn</a>
+        </p>
+        <p>
+            Department of Mathematics, University of Example
+        </p>
+        <p>
+            © 2023 Junhao Yin
+        </p>
+    </footer>
+
+</body>
+</html>
