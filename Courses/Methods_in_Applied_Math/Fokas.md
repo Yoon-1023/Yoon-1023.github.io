@@ -4,8 +4,6 @@ title: "Fokas Method for IBVPs of Heat Equations"
 permalink: /courses/fokas/
 ---
 
-<a href="/courses/" style="display: inline-block; margin: 10px 0; padding: 8px 16px; background-color: #4CAF50; color: white; border-radius: 4px; text-decoration: none; font-weight: bold;">Go Back</a>
-
 **Supervisor**: [Prof. Jean-Luc Thiffeault](https://people.math.wisc.edu/~thiffeault/), Chair, Department of Mathematics, UW-Madison
 
 In this project, I explore solutions to various Initial Boundary Value Problems (IBVPs) for the heat equation using the [Fokas method (unified transform method)](https://en.wikipedia.org/wiki/Fokas_method). In the first example, I address a problem on the half-line with a general Robin boundary condition and a general initial condition. I derive the solution in the [Ehrenpreis's form](https://en.wikipedia.org/wiki/Ehrenpreis%27s_fundamental_principle) and prove its validity, excluding the straightforward verification of uniqueness. Additionally, I provide a comparison between the Fokas method and the classical image method, highlighting key differences and advantages. In the second example, I examine a finite interval with general Dirichlet boundary conditions and a general initial condition. Here, I derive a solution in a similar form and retrieve the traditional series solution using the Half-Residue Theorem. 
@@ -39,3 +37,5 @@ For a detailed presentation of the project, view the full PDF below.
     This browser does not support PDFs. Please download the PDF to view it: 
     <a href="/Fokas/Fokas_method_for_heat_equations.pdf">Download PDF</a>.
 </iframe>
+
+<a href="/courses/" style="display: inline-block; margin: 10px 0; padding: 8px 16px; background-color: #4CAF50; color: white; border-radius: 4px; text-decoration: none; font-weight: bold;">Go Back</a>
