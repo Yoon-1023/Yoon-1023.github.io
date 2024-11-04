@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Movies of Vortex Dynamics"
-permalink: /vortex_dynamics/
+permalink: /courses/vortex_dynamics/
 ---
 
 # Vortex-dynamics
