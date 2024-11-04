@@ -199,4 +199,4 @@ C_{n, a, q} = 2 \max \left\{ \alpha(n) 2^a \sum_{j=0}^{\infty} 2^{j(a - n)}, \le
 $$
 
 
-<a href="/courses/" style="display: inline-block; margin: 10px 0; padding: 8px 16px; background-color: #4CAF50; color: white; border-radius: 4px; text-decoration: none; font-weight: bold;">Go Back</a>
+<a href="/courses/#interpolation-link" style="display: inline-block; margin: 10px 0; padding: 8px 16px; background-color: #4CAF50; color: white; border-radius: 4px; text-decoration: none; font-weight: bold;">Go Back</a>
