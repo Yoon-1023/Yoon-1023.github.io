@@ -112,7 +112,7 @@ $$
 
 ### Proof
 
-Without loss of generality, assume $$m(\{ |f(x)| > 0 \}) > 0$$. For any $$x \in \mathbb{R}^n$$ and $$r > 0$$:
+Without loss of generality, assume $$m(\{ \|f(x)\| > 0 \}) > 0$$. For any $$x \in \mathbb{R}^n$$ and $$r > 0$$:
 
 $$
 \left| \int_{B(x, r)} \frac{f(y)}{|y - x|^a} \, dy \right| \leq \int_{B(x, r)} \frac{|f(y)|}{|y - x|^a} \, dy = \sum_{j=0}^{\infty} \int_{B(x, \frac{r}{2^j}) \setminus B(x, \frac{r}{2^{j+1}})} \frac{|f(y)|}{|y - x|^a} \, dy
@@ -144,17 +144,39 @@ $$
 = \| f \|_{L^q(\mathbb{R}^n)} \left( \frac{\omega_n}{q' a - n} \right)^{\frac{1}{q'}} \cdot r^{\frac{n}{q'} - a} := \tilde{C}_{n, a, q} \cdot r^{-\frac{n}{p}} \| f \|_{L^q(\mathbb{R}^n)}.
 $$
 
-Let $$C := \max \{ C_{n, a}, \tilde{C}_{n, a, q} \}$$. We have the following estimate for $$|\mathcal{C} f(x)|$$:
+Let $$C := \max \{ C_{n, a}, \tilde{C}_{n, a, q} \}$$. We have the following estimate for $$\|\mathcal{C} f(x)\|$$:
 
 $$
-|\mathcal{C} f(x)| = \left| \int_{\mathbb{R}^n} \frac{f(y)}{|x - y|^a} \, dy \right| \leq C \left( r^{n - a} \mathcal{M} f(x) + r^{-\frac{n}{p}} \| f \|_{L^q(\mathbb{R}^n)} \right).
+|\mathcal{C} f(x)| = \left| \int_{\mathbb{R}^n} \frac{f(y)}{|x - y|^a} \, dy \right| \leq C \left( r^{n - a} \mathcal{M} f(x) + r^{-\frac{n}{p}} \| f \|_{L^q(\mathbb{R}^n)} \right).  (3.1)
 $$
 
-By the Strong Hardy-Littlewood maximal inequality: $$\| \mathcal{M} f \|_{L^q(\mathbb{R}^n)} \leq C_{q, n} \| f \|_{L^q(\mathbb{R}^n)}$$, where $$C_{p, n} = \left( \frac{3^n 2^p p}{p - 1} \right)^{\frac{1}{p}}$$. Besides, by our assumption, $$m(\{ |f(x)| > 0 \}) > 0 \Rightarrow \mathcal{M} f(x) > 0$$. Let $$r^{n - a} \mathcal{M} f(x) = r^{-\frac{n}{p}} \| f \|_{L^q(\mathbb{R}^n)}$$.
+By the Strong Hardy-Littlewood maximal inequality:
+$$
+\| \mathcal{M} f \|_{L^q(\mathbb{R}^n)} \leq C_{q, n} \| f \|_{L^q(\mathbb{R}^n)},
+$$
+where
+$$
+C_{p, n} = \left( \frac{3^n 2^p p}{p - 1} \right)^{\frac{1}{p}}.
+$$
 
-Then $$r = (\| f \|_{L^q(\mathbb{R}^n)})^{\frac{q}{n}} (\mathcal{M} f(x))^{-\frac{q}{n}}$$.
+Besides, by our assumption,
+$$
+m(\{ |f(x)| > 0 \}) > 0 \Rightarrow \mathcal{M} f(x) > 0.
+$$
 
-Thus, equation \eqref{3.1} yields that
+Let 
+$$
+r^{n - a} \mathcal{M} f(x) = r^{-\frac{n}{p}} \| f \|_{L^q(\mathbb{R}^n)}.
+$$
+
+This implies that we can choose $$ r $$ so that:
+
+$$
+r = \left( \| f \|_{L^q(\mathbb{R}^n)} \right)^{\frac{q}{n}} \left( \mathcal{M} f(x) \right)^{-\frac{q}{n}}.
+$$
+
+
+Thus, inequality (3.1) becomes
 
 $$
 |\mathcal{C} f(x)|^p \leq (2C)^p (\mathcal{M} f(x))^q (\| f \|_{L^q(\mathbb{R}^n)})^{p - q}.
