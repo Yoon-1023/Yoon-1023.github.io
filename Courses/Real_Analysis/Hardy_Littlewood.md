@@ -20,58 +20,117 @@ MathJax = {
 
 ## Hardy-Littlewood Inequality for Uncentered Balls
 
-Suppose \( f: \mathbb{R}^n \rightarrow \mathbb{R} \in L^1(\mathbb{R}^n) \) and define the maximal function \( \mathcal{M}f \) as:
+Suppose $$f: \mathbb{R}^n \rightarrow \mathbb{R} \in L^{1}(\mathbb{R}^n)$$, with
+
 $$
-\mathcal{M}f(x) := \sup_{r > 0} \frac{1}{|B(x, r)|} \int_{B(x, r)} |f| \, dm.
-$$
-Define another maximal function \( \mathcal{N}f \) by
-$$
-\mathcal{N}f(x) := \sup_{t > 0} \left\{ \frac{1}{t} \int_{B_t} |f| \, dm \right\},
-$$
-where \( B_t = B(y, r) \subseteq \mathbb{R}^n \), \( m(B_t) = t \), and \( x \in B_t \). Show that for all \( \lambda > 0 \),
-$$
-\lambda \cdot m(\{ \mathcal{N}f(x) > \lambda \}) \leq 6^n \| f \|_{L^1(\mathbb{R}^n)}.
+\mathcal{M}f(x) := \sup\limits_{r > 0} \frac{1}{|B(x, r)|} \int_{B(x, r)} |f| \, dm.
 $$
 
-**Proof**. For any \( t > 0 \) and \( x \in B_t = B(y, r) \), we have \( B_t \subset B(x, |y - x| + r) \subset B(x, 2r) \). Therefore,
+Define
+
 $$
-\int_{B_t} |f| \, dm \leq \int_{B(x, 2r)} |f| \, dm,
+\mathcal{N}f(x) := \sup\limits_{t > 0} \left\{ \frac{1}{t} \int_{B_{t}} |f| \, dm \right\},
 $$
-and so
+
+where $$B_{t} = B(y, r) \subseteq \mathbb{R}^n$$, $$m(B_{t}) = t$$, and $$x \in B_{t}$$. Show that
+
 $$
-\frac{1}{t} \int_{B_t} |f| \, dm \leq 2^n \frac{1}{|B(x, 2r)|} \int_{B(x, 2r)} |f| \, dm \leq 2^n \mathcal{M}f(x).
+\lambda \cdot m(\{ \mathcal{N}f(x) > \lambda \}) \leq 6^n \| f \|_{L^1(\mathbb{R}^n)}, \quad \forall \lambda > 0.
 $$
-Taking the supremum with respect to \( t \) on the left-hand side, we get \( \mathcal{N}f(x) \leq 2^n \mathcal{M}f(x) \). Then observe that \( \{ \mathcal{N}f(x) > \lambda \} \subset \{ \mathcal{M}f(x) > 2^{-n} \lambda \} \). So,
+
+**Proof**. For any $$t > 0$$, if $$x \in B_{t} = B(y, r)$$, then $$B_{t} \subset B(x, |y - x| + r) \subset B(x, 2r)$$. Thus, we have the estimate:
+
+$$
+\int_{B_t} |f| \, dm \leq \int_{B(x, 2r)} |f| \, dm.
+$$
+
+Therefore,
+
+$$
+\frac{1}{t} \int_{B_{t}} |f| \, dm \leq 2^n \frac{1}{|B(x, 2r)|} \int_{B(x, 2r)} |f| \, dm \leq 2^n \mathcal{M}f(x).
+$$
+
+Taking the $$\sup$$ with respect to $$t$$ on the left side, we get the inequality $$\mathcal{N}f(x) \leq 2^n \mathcal{M}f(x)$$. Then observe that $$\{ \mathcal{N}f(x) > \lambda \} \subset \{ \mathcal{M}f(x) > 2^{-n} \lambda \}$$. So,
+
 $$
 m(\{ \mathcal{N}f(x) > \lambda \}) \leq m(\{ \mathcal{M}f(x) > 2^{-n} \lambda \}).
 $$
-Using the inequality \( \lambda \cdot m(\{ \mathcal{M}f(x) > \lambda \}) \leq 3^n \| f \|_{L^1(\mathbb{R}^n)} \), we conclude
+
+Notice that
+
 $$
-\lambda \cdot m(\{ \mathcal{N}f(x) > \lambda \}) \leq \lambda \cdot m(\{ \mathcal{M}f(x) > 2^{-n} \lambda \}) \leq 6^n \| f \|_{L^1(\mathbb{R}^n)}.
+\lambda \cdot m(\{ \mathcal{M}f(x) > \lambda \}) \leq 3^n \| f \|_{L^1(\mathbb{R}^n)}.
 $$
 
-## (Strong) Hardy-Littlewood Maximal Inequality
+Finally, we conclude:
 
-Suppose \( f: \mathbb{R}^n \rightarrow \mathbb{R} \), \( f \in L^p(\mathbb{R}^n) \cap L^1(\mathbb{R}^n) \) with \( 1 < p \leq \infty \). Show that there exists a constant \( C_{p,n} > 0 \) such that
 $$
-\| \mathcal{M}f \|_{L^p(\mathbb{R}^n)} \leq C_{p,n} \| f \|_{L^p(\mathbb{R}^n)}.
+\lambda \cdot m(\{ \mathcal{N}f(x) > \lambda \}) \leq \lambda \cdot m(\{ \mathcal{M}f(x) > 2^{-n} \lambda \}) \leq 6^n \| f \|_{L^1(\mathbb{R}^n)}, \quad \forall \lambda > 0.
 $$
 
-**Proof**. Define \( g_t(x) := f(x) \chi_{\{ |f(x)| > t/2 \}}(x) \) and \( \varphi_t(x) := f(x) \chi_{\{ |f(x)| \leq t/2 \}}(x) \). Then \( f(x) = g_t(x) + \varphi_t(x) \), which implies \( \mathcal{M}f(x) \leq \mathcal{M}g_t(x) + \mathcal{M}\varphi_t(x) \). Clearly, \( \mathcal{M}\varphi_t(x) \leq t/2 \). For any \( x \in \{ \mathcal{M}f(x) > t \} \), we have \( \mathcal{M}g_t(x) \geq \mathcal{M}f(x) - \mathcal{M}\varphi_t(x) > t/2 \). Thus,
+### (Strong) Hardy-Littlewood Maximal Inequality
+
+Suppose $$f: \mathbb{R}^n \rightarrow \mathbb{R}$$, with $$f \in L^p(\mathbb{R}^n) \cap L^1(\mathbb{R}^n)$$, where $$1 < p \leq \infty$$. Show that there exists $$C_{p, n} > 0$$ such that
+
+$$
+\| \mathcal{M}f \|_{L^p(\mathbb{R}^n)} \leq C_{p, n} \| f \|_{L^p(\mathbb{R}^n)}.
+$$
+
+**Proof**. Set $$g_t(x) := f(x) \chi_{\{ |f(x)| > t/2 \}}(x)$$ and $$\varphi_t(x) := f(x) \chi_{\{ |f(x)| \leq t/2 \}}(x)$$ for any $$0 < \varepsilon < 1$$. Then $$f(x) = g_t(x) + \varphi_t(x)$$ implies
+
+$$
+\mathcal{M}f(x) \leq \mathcal{M}g_t(x) + \mathcal{M}\varphi_t(x).
+$$
+
+Apparently, $$\mathcal{M} \varphi_t(x) \leq t/2$$. For any $$x \in \{ \mathcal{M}f(x) > t \}$$, we have $$\mathcal{M}g_t(x) \geq \mathcal{M}f(x) - \mathcal{M}\varphi_t(x) > t/2$$. So,
+
 $$
 m(\{ \mathcal{M}f(x) > t \}) \leq m(\{ \mathcal{M}g_t(x) > t/2 \}).
 $$
 
-Applying the weak estimate to \( m(\{ \mathcal{M}g_t(x) > t/2 \}) \) yields
+Applying the weak estimate to $$m(\{ \mathcal{M}g_t(x) > t/2 \})$$, we get:
+
 $$
 m(\{ \mathcal{M}f(x) > t \}) \leq \frac{2 \cdot 3^n}{t} \| g_t \|_{L^1(\mathbb{R}^n)} = \frac{2 \cdot 3^n}{t} \int_{\{ |f(x)| > t/2 \}} |f| \, dm.
 $$
-Applying the Fubini-Tonelli theorem, we obtain
+
+Now, consider shifting the integrand using the distribution function and the Fubini-Tonelli theorem:
+
+\[
+\begin{align*}
+\text{LHS} &= \| \mathcal{M}f \|^p_{L^p(\mathbb{R}^n)} = \int_{\mathbb{R}^n} |\mathcal{M}f(x)|^p \, dx = \int_{\mathbb{R}^n} \int_{0}^{\mathcal{M}f(x)} p t^{p-1} \, dt \, dx \\
+&= \int_{\mathbb{R}^n} \int_{0}^{\infty} p t^{p-1} \chi_{\{ 0 \leq t \leq \mathcal{M}f(x) \}}(t) \, dt \, dx \\
+&= \int_{0}^{\infty} \int_{\mathbb{R}^n} p t^{p-1} \chi_{\{ \mathcal{M}f(x) > t \}}(x) \, dx \, dt \\
+&= \int_{0}^{\infty} p t^{p-1} m(\{ \mathcal{M}f(x) > t \}) \, dt.
+\end{align*}
+\]
+
+Substitute the weak bound on $$m(\{ \mathcal{M}f(x) > t \})$$:
+
+\[
+\begin{align*}
+&\leq \int_{0}^{\infty} p t^{p-1} \left( \frac{2 \cdot 3^n}{t} \int_{\{ |f(x)| > t/2 \}} |f(x)| \, dx \right) \, dt \\
+&= 2 \cdot 3^n p \int_{0}^{\infty} t^{p-2} \int_{\mathbb{R}^n} \chi_{\{ |f(x)| > t/2 \}}(x) |f(x)| \, dx \, dt \\
+&= 2 \cdot 3^n p \int_{\mathbb{R}^n} \int_{0}^{\infty} t^{p-2} \chi_{\{ t < 2 |f(x)| \}}(t) |f(x)| \, dt \, dx.
+\end{align*}
+\]
+
+Evaluating the inner integral, we get:
+
 $$
-\| \mathcal{M}f \|^p_{L^p(\mathbb{R}^n)} = C_{p,n} \| f \|^p_{L^p(\mathbb{R}^n)},
+= \frac{3^n 2^p p}{p - 1} \int_{\mathbb{R}^n} |f(x)|^{p-1} |f(x)| \, dx := C^p_{p, n} \| f \|^p_{L^{p}(\mathbb{R}^n)}.
 $$
-where \( C_{p,n} = \left( \frac{3^n 2^p p}{p - 1} \right)^{1/p} \).
+
+Therefore,
+
 $$
+\| \mathcal{M}f \|_{L^p(\mathbb{R}^n)} \leq C_{p, n} \| f \|_{L^{p}(\mathbb{R}^n)},
+$$
+
+where $$C_{p, n} = \left( \frac{3^n 2^p p}{p - 1} \right)^{1/p}$$.
+
+
+
 
 ## (Weak) Hardy-Littlewood Maximal Inequality
 
