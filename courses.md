@@ -14,7 +14,7 @@ servation laws, advection, diffusion. First order PDEs, characteristics, shocks.
 Hamilton-Jacobi equations. Higher order PDEs: classification, Fourier analysis, well-posedness. Series
 solutions and integral transforms. Green’s functions and distributions. Similarity solutions. Asymptotics
 of Fourier integrals. Laplace’s method, stationary phase. Ship waves. Perturbation methods.
-- **Reading**:[*Introduction to partial differential equations*](#references)
+- **Reading**: [*Introduction to partial differential equations*](#references)
 
 ## Spring 2024-MATH 705: Mathematical Fluid Dynamics
 
