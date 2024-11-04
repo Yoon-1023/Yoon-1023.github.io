@@ -17,7 +17,7 @@ of Fourier integrals. Laplace’s method, stationary phase. Ship waves. Perturba
 - **Reading**: [*Introduction to partial differential equations*](#references)
 
 <div style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
-    <a href="/courses/fokas/" style="text-decoration: none; color: white; font-weight: bold;">Fokas method for IBVPs of heat equation</a>
+    <a href="/courses/fokas/" style="text-decoration: none; color: white; font-weight: bold;">Project: Fokas method for IBVPs of heat equation</a>
 </div>
 
 ## Spring 2024-MATH 705: Mathematical Fluid Dynamics
@@ -50,7 +50,7 @@ meromorphic functions, conformal mappings, harmonic functions, approximation and
   - [*Complex Analysis*](#references), by Elias M. Stein and Rami Shakarchi
 
 <div style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
-    <a href="/courses/selected/" style="text-decoration: none; color: white; font-weight: bold;">Selected Problems in Complex Analysis</a>
+    <a href="/courses/selected/" style="text-decoration: none; color: white; font-weight: bold;">Project: Selected Problems in Complex Analysis</a>
 </div>
 
 ## Spring 2024-MATH 725: Real Analysis II
