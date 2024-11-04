@@ -76,7 +76,7 @@ $$
 \| \mathcal{M}f \|_{L^p(\mathbb{R}^n)} \leq C_{p, n} \| f \|_{L^p(\mathbb{R}^n)}.
 $$
 
-**Proof**. Set $$g_t(x) := f(x) \chi_{\{ |f(x)| > t/2 \}}(x)$$ and $$\varphi_t(x) := f(x) \chi_{\{ |f(x)| \leq t/2 \}}(x)$$ for any $$0 < \varepsilon < 1$$. Then $$f(x) = g_t(x) + \varphi_t(x)$$ implies
+**Proof**. Set $$g_t(x) := f(x) \chi_{\{ \|f(x)\| > t/2 \}}(x)$$ and $$\varphi_t(x) := f(x) \chi_{\{ \|f(x)\| \leq t/2 \}}(x)$$ for any $$0 < \varepsilon < 1$$. Then $$f(x) = g_t(x) + \varphi_t(x)$$ implies
 
 $$
 \mathcal{M}f(x) \leq \mathcal{M}g_t(x) + \mathcal{M}\varphi_t(x).
