@@ -96,24 +96,35 @@ $$
 
 Now, consider shifting the integrand using the distribution function and the Fubini-Tonelli theorem:
 
-\[
-\begin{align*}
-\text{LHS} &= \| \mathcal{M}f \|^p_{L^p(\mathbb{R}^n)} = \int_{\mathbb{R}^n} |\mathcal{M}f(x)|^p \, dx = \int_{\mathbb{R}^n} \int_{0}^{\mathcal{M}f(x)} p t^{p-1} \, dt \, dx \\
-&= \int_{\mathbb{R}^n} \int_{0}^{\infty} p t^{p-1} \chi_{\{ 0 \leq t \leq \mathcal{M}f(x) \}}(t) \, dt \, dx \\
-&= \int_{0}^{\infty} \int_{\mathbb{R}^n} p t^{p-1} \chi_{\{ \mathcal{M}f(x) > t \}}(x) \, dx \, dt \\
-&= \int_{0}^{\infty} p t^{p-1} m(\{ \mathcal{M}f(x) > t \}) \, dt.
-\end{align*}
-\]
+$$
+\text{LHS} = \| \mathcal{M}f \|^p_{L^p(\mathbb{R}^n)} = \int_{\mathbb{R}^n} |\mathcal{M}f(x)|^p \, dx = \int_{\mathbb{R}^n} \int_{0}^{\mathcal{M}f(x)} p t^{p-1} \, dt \, dx.
+$$
+
+$$
+= \int_{\mathbb{R}^n} \int_{0}^{\infty} p t^{p-1} \chi_{\{ 0 \leq t \leq \mathcal{M}f(x) \}}(t) \, dt \, dx.
+$$
+
+$$
+= \int_{0}^{\infty} \int_{\mathbb{R}^n} p t^{p-1} \chi_{\{ \mathcal{M}f(x) > t \}}(x) \, dx \, dt.
+$$
+
+$$
+= \int_{0}^{\infty} p t^{p-1} m(\{ \mathcal{M}f(x) > t \}) \, dt.
+$$
 
 Substitute the weak bound on $$m(\{ \mathcal{M}f(x) > t \})$$:
 
-\[
-\begin{align*}
-&\leq \int_{0}^{\infty} p t^{p-1} \left( \frac{2 \cdot 3^n}{t} \int_{\{ |f(x)| > t/2 \}} |f(x)| \, dx \right) \, dt \\
-&= 2 \cdot 3^n p \int_{0}^{\infty} t^{p-2} \int_{\mathbb{R}^n} \chi_{\{ |f(x)| > t/2 \}}(x) |f(x)| \, dx \, dt \\
-&= 2 \cdot 3^n p \int_{\mathbb{R}^n} \int_{0}^{\infty} t^{p-2} \chi_{\{ t < 2 |f(x)| \}}(t) |f(x)| \, dt \, dx.
-\end{align*}
-\]
+$$
+\leq \int_{0}^{\infty} p t^{p-1} \left( \frac{2 \cdot 3^n}{t} \int_{\{ |f(x)| > t/2 \}} |f(x)| \, dx \right) \, dt.
+$$
+
+$$
+= 2 \cdot 3^n p \int_{0}^{\infty} t^{p-2} \int_{\mathbb{R}^n} \chi_{\{ |f(x)| > t/2 \}}(x) |f(x)| \, dx \, dt.
+$$
+
+$$
+= 2 \cdot 3^n p \int_{\mathbb{R}^n} \int_{0}^{\infty} t^{p-2} \chi_{\{ t < 2 |f(x)| \}}(t) |f(x)| \, dt \, dx.
+$$
 
 Evaluating the inner integral, we get:
 
