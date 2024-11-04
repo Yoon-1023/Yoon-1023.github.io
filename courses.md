@@ -23,7 +23,13 @@ of Fourier integrals. Laplace’s method, stationary phase. Ship waves. Perturba
 include the kinematics of fluids, the Navier-Stokes equations, potential 
 flows, vorticity dynamics, viscosity-dominated (Stokes) flows, lubrication theory, classical airfoil theory, boundary layers, and water waves.
 Discussions range from classical, centuries-old techniques to open questions of active research and just recently observed phenomena.
-- **Reading**:Elementary fluid dynamics
+- **Reading**:
+  - [*Elementary Fluid Dynamics*](#references), by David J. Acheson
+  - [*An Introduction to Fluid Dynamics*](#references), by George Keith Batchelor
+  - [*Fluid Mechanics: Volume 6*](#references), by Lev D. Landau and Evgenii M. Lifshitz
+  - [*Fundamental Mechanics of Fluids*](#references), by Iain G. Currie
+  - [*Vortex Dynamics*](#references), by Philip G. Saffman
+  - [*Microhydrodynamics, Brownian Motion, and Complex Fluids*](#references), by Michael D. Graham
 
 ## Spring 2024-MATH 722: Complex Analysis
 
