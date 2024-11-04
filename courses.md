@@ -31,6 +31,8 @@ Discussions range from classical, centuries-old techniques to open questions of 
   - [*Vortex Dynamics*](#references), by Philip G. Saffman
   - [*Microhydrodynamics, Brownian Motion, and Complex Fluids*](#references), by Michael D. Graham
 
+- **Movies**: [View movies of vortex dynamics that I filmed](Courses/Fluid_Dynamics/movies.md)
+
 ## Spring 2024-MATH 722: Complex Analysis
 
 - **Instructor**: [Prof. Alexei Poltoratski](https://people.math.wisc.edu/~poltoratski/)
