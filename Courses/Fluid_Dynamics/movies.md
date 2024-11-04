@@ -48,5 +48,6 @@ We initialize the system by placing $$N = 100$$ vortices of equal strength ($$\G
     </video>
 </div>
 
-
-<a href="/courses/" style="display: inline-block; margin: 10px 0; padding: 8px 16px; background-color: #4CAF50; color: white; border-radius: 4px; text-decoration: none; font-weight: bold;">Go Back</a>
+<a href="/courses/#vortex-dynamics-link" style="display: inline-block; margin: 10px 0; padding: 8px 16px; background-color: #4CAF50; color: white; border-radius: 4px; text-decoration: none; font-weight: bold;">
+    Go Back
+</a>
