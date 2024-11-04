@@ -36,7 +36,7 @@ Discussions range from classical, centuries-old techniques to open questions of 
   - [*Microhydrodynamics, Brownian Motion, and Complex Fluids*](#references), by Michael D. Graham
 
 <div id="vortex-dynamics-link" style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
-    <a href="/courses/vortex_dynamics/" style="text-decoration: none; color: white; font-weight: bold;">View movies of vortex dynamics that I filmed</a>
+    <a href="/courses/vortex_dynamics/" style="text-decoration: none; color: white; font-weight: bold;">Movies of vortex dynamics in two-dimensional potential flow</a>
 </div>
 
 ## Spring 2024-MATH 722: Complex Analysis
