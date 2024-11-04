@@ -59,7 +59,10 @@ meromorphic functions, conformal mappings, harmonic functions, approximation and
   - [*Real and Complex Analysis*](#references), by Walter Rudin
 
 <div style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
-    <a href="/courses/interpolation/" style="text-decoration: none; color: white; font-weight: bold;">Some thoughts on Interpolations</a>
+    <a href="/courses/interpolation/" style="text-decoration: none; color: white; font-weight: bold;">Some notes on Interpolations</a>
+</div>
+<div style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center; margin-left: 10px;">
+    <a href="/courses/hardy_littlewood/" style="text-decoration: none; color: white; font-weight: bold;">Some notes on Hardy-Littlewood inequalities</a>
 </div>
 
 ## Fall 2024-MATH 735: Stochastic Analysis
