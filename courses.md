@@ -36,7 +36,10 @@ Discussions range from classical, centuries-old techniques to open questions of 
 - **Instructor**: [Prof. Alexei Poltoratski](https://people.math.wisc.edu/~poltoratski/)
 - **Content**: The basic theory of functions of one complex variable including Cauchy formula, singularities and residues,
 meromorphic functions, conformal mappings, harmonic functions, approximation and the nonhomogeneous d-bar equation.
-- **Reading**:Function theory of one complex variable
+- **Reading**:
+  - [*Function Theory of One Complex Variable*](#references), by Robert E. Greene and Steven G. Krantz
+  - [*Functions of One Complex Variable II*](#references), by John B. Conway
+  - [*Complex Analysis*](#references), by Elias M. Stein and Rami Shakarchi
 
 ## Spring 2024-MATH 725: Real Analysis II
 
@@ -47,21 +50,32 @@ meromorphic functions, conformal mappings, harmonic functions, approximation and
   - **Topological Vector Spaces**: Seminorm, Fréchet spaces, weak convergence, and weak* convergence.
   - **Hilbert Spaces**: Riesz representation theorem, orthogonality, duality and adjoints, introduction to Fourier analysis.
   - **Distribution Theory**: Distributions, tempered and periodic distributions, Paley–Wiener theory, Sobolev spaces.
-- **Reading**:Real Analysis: Modern Techniques and Their Applications
+- **Reading**:
+  - [*Real Analysis: Modern Techniques and Their Applications*](#references), by Gerald B. Folland
+  - [*Real and Complex Analysis*](#references), by Walter Rudin
 
 ## Fall 2024-MATH 735: Stochastic Analysis
 - **Instructor**: [Prof. Tatyana Shcherbina](https://math.wisc.edu/staff/shcherbyna-tatiana/)
 - **Content**: Foundations of continuous time stochastic processes, semimartingales and the semimartingale in-
 tegral, Ito’s formula, stochastic differential equations, stochastic equations for Markov processes,
 application in finance, filtering, and control.
-- **Reading**:Stochastic integration and differential equations
+- **Reading**:
+  - [*A First Course in Stochastic Calculus*](#references), by Louis-Pierre Arguin
+  - [*Stochastic Differential Equations: An Introduction with Applications*](#references), by Bernt Øksendal
+  - [*Stochastic Integration and Differential Equations*](#references), by Philip Protter
+  - [*Brownian Motion*](#references), by Peter Mörters and Yuval Peres
+  - [*Brownian Motion and Stochastic Calculus*](#references), by Ioannis Karatzas and Steven Shreve
 
 # Advanced Topic Courses
 
 ## Fall 2024-MATH 801: Topics in Applied Mathematics(Dynamical Systems)
 - **Instructor**: [Prof. Gheorghe Craciun](https://people.math.wisc.edu/~craciun/)
 - **Content**: Study of Dynamical Systems and Applications, with special emphasis on mathematical models of reaction networks.  Introduction to population dynamics models that follow the law of mass-action. Study of mass-action systems is essentially equivalent to the study of polynomial dynamical systems on the positive orthant. Classes of mass-action systems (i.e., large classes of polynomial dynamical systems on the positive orthant) are known or conjectured to have remarkable qualitative properties: some have a globally attracting fixed point in the positive orthant (if the polynomials on the right-hand side have some special common solution), others have a globally attracting compact set within the positive orthant (if a graph associated to those polynomials has special reversibility properties). Key ideas and constructions that give rise to these results and conjectures. 
-- **Reading**:Nonlinear Dynamics And Chaos: With Applications To Physics, Biology, Chemistry And Engineering
+- **Reading**:
+  - [*Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering*](#references), by Steven H. Strogatz
+  - [*Differential Equations and Dynamical Systems*](#references), by Lawrence Perko
+  - [*Nonlinear Oscillations, Dynamical Systems, and Bifurcations of Vector Fields*](#references), by John Guckenheimer and Philip Holmes
+  - [*Foundations of Chemical Reaction Network Theory*](#references), by Martin Feinberg
 
 ## Fall 2024-MATH 821: Advanced Topics in Real Analysis(Nonlinear Wave Equations)
 - **Instructor**: [Prof. Mihaela Ifrim](https://people.math.wisc.edu/~ifrim/)
@@ -70,7 +84,11 @@ application in finance, filtering, and control.
 The vector field method refers to a set of physical space techniques (as opposed to those relying on, say, Fourier or spectral analysis) that seeks to capture the long time dispersive behavior of solutions in a robust fashion. As the name suggests, the method revolves around the use of well-chosen vector fields on the background space-time, which are often related to exact or approximate symmetries of the equation. It has proven to be a very powerful tool in the study of highly nonlinear hyperbolic PDEs, and continues to play a major role in recent breakthroughs.
  
 A secondary goal  of the course will be to present the low regularity theory results associated to some of the most interesting models in this class of problems.  Our plan is to start from the very basics, beginning with the linear wave equation on $$R^{1+d}$$, and build our way up. Some open problems will also be discussed. Some prior general knowledge of PDE's will be assumed.
-- **Reading**:Hyperbolic partial differential equations
+- **Reading**:
+  - [*Brief History of the Vector-Field Method*](#references), by Sergiu Klainerman
+  - [*Lectures on Non-linear Wave Equations*](#references), by Christopher D. Sogge
+  - [*Hyperbolic Partial Differential Equations*](#references), by Serge Alinhac
+  - [*Geometric Analysis of Hyperbolic Differential Equations: An Introduction*](#references), by Serge Alinhac
 
 ## Fall 2024-MATH 827: Fourier Analysis(Harmonic Analysis)
 - **Instructor**: [Prof. Andreas Seeger](https://people.math.wisc.edu/~aseeger/)
@@ -87,7 +105,11 @@ A secondary goal  of the course will be to present the low regularity theory res
     - **Weighted Norm Inequalities** (if there is interest): Exploration of inequalities that involve weighted norms, relevant in harmonic analysis and PDEs.
   - **Radial Fourier Multipliers**: Characterization of Fourier multipliers in high-dimensional spaces, with applications in harmonic analysis.
 
-- **Reading**:Nonlinear Dynamics And Chaos: With Applications To Physics, Biology, Chemistry And Engineering
+- **Reading**:
+  - [*Singular Integrals and Differentiability Properties of Functions*](#references), by Elias M. Stein
+  - [*Introduction to Fourier Analysis on Euclidean Spaces*](#references), by Elias M. Stein
+  - [*Fourier Analysis: An Introduction*](#references), by Elias M. Stein and Rami Shakarchi
+  - [*Fourier Analysis*](#references), by Javier Duoandikoetxea
 
 
 
