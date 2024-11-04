@@ -38,7 +38,7 @@ $$
 \lambda \cdot m(\{ \mathcal{N}f(x) > \lambda \}) \leq 6^n \| f \|_{L^1(\mathbb{R}^n)}, \quad \forall \lambda > 0.
 $$
 
-**Proof**. For any $$t > 0$$, if $$x \in B_{t} = B(y, r)$$, then $$B_{t} \subset B(x, |y - x| + r) \subset B(x, 2r)$$. Thus, we have the estimate:
+**Proof**. For any $$t > 0$$, if $$x \in B_{t} = B(y, r)$$, then $$B_{t} \subset B(x, \|y - x\| + r) \subset B(x, 2r)$$. Thus, we have the estimate:
 
 $$
 \int_{B_t} |f| \, dm \leq \int_{B(x, 2r)} |f| \, dm.
