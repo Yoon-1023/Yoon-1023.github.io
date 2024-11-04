@@ -16,7 +16,7 @@ solutions and integral transforms. Green’s functions and distributions. Simila
 of Fourier integrals. Laplace’s method, stationary phase. Ship waves. Perturbation methods.
 - **Reading**: [*Introduction to partial differential equations*](#references)
 
-<div style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
+<div id="fokas-link" style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
     <a href="/courses/fokas/" style="text-decoration: none; color: white; font-weight: bold;">Project: Fokas method for IBVPs of heat equation</a>
 </div>
 
@@ -49,7 +49,7 @@ meromorphic functions, conformal mappings, harmonic functions, approximation and
   - [*Functions of One Complex Variable II*](#references), by John B. Conway
   - [*Complex Analysis*](#references), by Elias M. Stein and Rami Shakarchi
 
-<div style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
+<div id="selected-link" style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
     <a href="/courses/selected/" style="text-decoration: none; color: white; font-weight: bold;">Project: Selected Problems in Complex Analysis</a>
 </div>
 
@@ -66,10 +66,10 @@ meromorphic functions, conformal mappings, harmonic functions, approximation and
   - [*Real Analysis: Modern Techniques and Their Applications*](#references), by Gerald B. Folland
   - [*Real and Complex Analysis*](#references), by Walter Rudin
 
-<div style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
+<div id="interpolation-link" style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
     <a href="/courses/interpolation/" style="text-decoration: none; color: white; font-weight: bold;">Some thoughts on Interpolations</a>
 </div>
-<div style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center; margin-left: 10px;">
+<div id="hardy_littlewood-link" style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center; margin-left: 10px;">
     <a href="/courses/hardy_littlewood/" style="text-decoration: none; color: white; font-weight: bold;">Some thoughts on Hardy-Littlewood inequalities</a>
 </div>
 
