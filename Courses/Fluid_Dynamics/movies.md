@@ -16,7 +16,7 @@ Below are some supplementary videos that illustrate core concepts from the cours
 
 ### Video 1: Introduction to Fluid Kinematics
 <video width="600" controls>
-  <source src="Courses/Fluid_Dynamics/vortex_animation.mp4" type="video/mp4">
+  <source src="/Courses/Fluid_Dynamics/vortex_animation.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -28,7 +28,7 @@ for incompressible flows.
 
 ### Video 2: The Navier-Stokes Equations
 <video width="600" controls>
-  <source src="Courses/Fluid_Dynamics/vortex_animation_1.mp4" type="video/mp4">
+  <source src="/Courses/Fluid_Dynamics/vortex_animation_1.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -39,7 +39,7 @@ $$
 
 ### Video 3: Vorticity Dynamics
 <video width="600" controls>
-  <source src="Courses/Fluid_Dynamics/vortex_animation_2.mp4" type="video/mp4">
+  <source src="/Courses/Fluid_Dynamics/vortex_animation_2.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -50,7 +50,7 @@ $$
 
 ### Video 4: Boundary Layer Theory
 <video width="600" controls>
-  <source src="Courses/Fluid_Dynamics/vortex_animation_3.mp4" type="video/mp4">
+  <source src="/Courses/Fluid_Dynamics/vortex_animation_3.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
