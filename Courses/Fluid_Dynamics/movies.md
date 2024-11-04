@@ -15,10 +15,12 @@ This page includes additional materials for **MATH 705: Mathematical Fluid Dynam
 Below are some supplementary videos that illustrate core concepts from the course. Click on each video to watch.
 
 ### Video 1: Introduction to Fluid Kinematics
-<video width="600" controls>
-  <source src="/Courses/Fluid_Dynamics/vortex_animation.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
+    <video width="800" controls>
+      <source src="/Courses/Fluid_Dynamics/vortex_animation.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+</div>
 
 **Description**: This video provides an overview of fluid kinematics, covering the basic concepts of flow velocity and streamlines. The governing equations are introduced, including the continuity equation:
 $$
@@ -27,10 +29,12 @@ $$
 for incompressible flows.
 
 ### Video 2: The Navier-Stokes Equations
-<video width="600" controls>
-  <source src="/Courses/Fluid_Dynamics/vortex_animation_1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
+    <video width="800" controls>
+      <source src="/Courses/Fluid_Dynamics/vortex_animation_1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+</div>
 
 **Description**: An introduction to the Navier-Stokes equations for viscous fluid flow. This video derives the equations and discusses their applications:
 $$
@@ -38,10 +42,12 @@ $$
 $$
 
 ### Video 3: Vorticity Dynamics
-<video width="600" controls>
-  <source src="/Courses/Fluid_Dynamics/vortex_animation_2.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
+    <video width="800" controls>
+      <source src="/Courses/Fluid_Dynamics/vortex_animation_2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+</div>
 
 **Description**: This video explores vorticity dynamics, including the evolution of vorticity in two-dimensional flows. We also discuss the vorticity transport equation:
 $$
@@ -49,10 +55,12 @@ $$
 $$
 
 ### Video 4: Boundary Layer Theory
-<video width="600" controls>
-  <source src="/Courses/Fluid_Dynamics/vortex_animation_3.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
+    <video width="800" controls>
+      <source src="/Courses/Fluid_Dynamics/vortex_animation_3.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+</div>
 
 **Description**: An overview of boundary layer theory, examining the formation and behavior of boundary layers in high Reynolds number flows.
 $$
