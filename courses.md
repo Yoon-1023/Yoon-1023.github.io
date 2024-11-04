@@ -49,6 +49,10 @@ meromorphic functions, conformal mappings, harmonic functions, approximation and
   - [*Functions of One Complex Variable II*](#references), by John B. Conway
   - [*Complex Analysis*](#references), by Elias M. Stein and Rami Shakarchi
 
+<div style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
+    <a href="/courses/selected/" style="text-decoration: none; color: white; font-weight: bold;">Selected Problems in Complex Analysis</a>
+</div>
+
 ## Spring 2024-MATH 725: Real Analysis II
 
 - **Instructor**: [Prof. Brian Street](https://people.math.wisc.edu/~bstreet/)
