@@ -141,7 +141,7 @@ $$
 where 
 
 $$
-C_{p, n} = \left( \frac{3^n 2^p p}{p - 1} \right)^{1/p}
+C_{p, n} = \left( \dfrac{3^n 2^p p}{p - 1} \right)^{1/p}
 $$.
 
 
