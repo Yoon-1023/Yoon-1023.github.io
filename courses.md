@@ -58,6 +58,10 @@ meromorphic functions, conformal mappings, harmonic functions, approximation and
   - [*Real Analysis: Modern Techniques and Their Applications*](#references), by Gerald B. Folland
   - [*Real and Complex Analysis*](#references), by Walter Rudin
 
+<div style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
+    <a href="/courses/interpolation/" style="text-decoration: none; color: white; font-weight: bold;">Some thoughts on Interpolations</a>
+</div>
+
 ## Fall 2024-MATH 735: Stochastic Analysis
 - **Instructor**: [Prof. Tatyana Shcherbina](https://math.wisc.edu/staff/shcherbyna-tatiana/)
 - **Content**: Foundations of continuous time stochastic processes, semimartingales and the semimartingale in-
