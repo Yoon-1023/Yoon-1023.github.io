@@ -14,7 +14,7 @@ This page includes numerical simulations for two-dimensional vortex dynamics in 
 
 Initially, we set $$20$$ vortices at $$z=an$$ with $$\Gamma=1$$, and another $$20$$ vortices at $$z=a(n+1/2)+ib$$ with $$\Gamma=-1$$. Then, we let the system evolve.
 
-### Video 1: $$a=b=1$, $$0\leqslant t\leqslant 400$$
+### Video 1: $$a=b=1$$, $$0\leqslant t\leqslant 400$$
 <div style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
     <video width="800" controls>
       <source src="/Courses/Fluid_Dynamics/vortex_animation.mp4" type="video/mp4">
