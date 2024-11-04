@@ -43,7 +43,7 @@ meromorphic functions, conformal mappings, harmonic functions, approximation and
 
 ## Spring 2024-MATH 725: Real Analysis II
 
-- **Instructor**: [Prof. Brain Street](https://people.math.wisc.edu/~bstreet/)
+- **Instructor**: [Prof. Brian Street](https://people.math.wisc.edu/~bstreet/)
 - **Content**:
   - **Metric Spaces**: Basic concepts, completion of metric spaces, fixed-point theorem.
   - **Banach Spaces**: Linear operators, open mapping theorem, closed graph theorem, Hahn-Banach theorem, Baire category theorem, dual spaces and adjoints of operators, compact operators.
