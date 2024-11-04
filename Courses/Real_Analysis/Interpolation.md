@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Some notes on Marcinkiewicz Interpolation"
+title: "Some thoughts on Marcinkiewicz Interpolation"
 permalink: /courses/interpolation/
 ---
 
