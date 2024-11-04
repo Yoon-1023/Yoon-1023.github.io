@@ -127,10 +127,10 @@ $$
 $$
 
 $$
-\leq \left( \alpha(n) 2^a \sum_{j=0}^{\infty} 2^{j(a - n)} \right) r^{n - a} \mathcal{M} f(x) := C_{n, a} r^{n - a} \mathcal{M} f(x), \quad C_{n, a} < \infty.
+\leq \left( \alpha(n) 2^a \sum_{j=0}^{\infty} 2^{j(a - n)} \right) r^{n - a} \mathcal{M} f(x) := C_{n, a} r^{n - a} \mathcal{M} f(x), \quad C_{n, a} < \infty,
 $$
 
-Consider $$\frac{1}{q} + \frac{1}{q'} = 1$$, then $$\frac{1}{p} + \frac{1}{q'} = \frac{a}{n}$$.
+where $$\alpha(n)$$ is the volume of a $$n$$-dimensional unit ball. Consider $$\frac{1}{q} + \frac{1}{q'} = 1$$, then $$\frac{1}{p} + \frac{1}{q'} = \frac{a}{n}$$.
 
 $$
 \left| \int_{\mathbb{R}^n \setminus B(x, r)} \frac{f(y)}{|y - x|^a} \, dy \right| \leq \left( \int_{\mathbb{R}^n \setminus B(x, r)} |f|^q \, dm \right)^{\frac{1}{q}} \left( \int_{\mathbb{R}^n \setminus B(x, r)} |y - x|^{-q' a} \, dy \right)^{\frac{1}{q'}}
@@ -147,7 +147,7 @@ $$
 Let $$C := \max \{ C_{n, a}, \tilde{C}_{n, a, q} \}$$. We have the following estimate for $$\|\mathcal{C} f(x)\|$$:
 
 $$
-|\mathcal{C} f(x)| = \left| \int_{\mathbb{R}^n} \frac{f(y)}{|x - y|^a} \, dy \right| \leq C \left( r^{n - a} \mathcal{M} f(x) + r^{-\frac{n}{p}} \| f \|_{L^q(\mathbb{R}^n)} \right).  (3.1)
+|\mathcal{C} f(x)| = \left| \int_{\mathbb{R}^n} \frac{f(y)}{|x - y|^a} \, dy \right| \leq C \left( r^{n - a} \mathcal{M} f(x) + r^{-\frac{n}{p}} \| f \|_{L^q(\mathbb{R}^n)} \right).  
 $$
 
 By the Strong Hardy-Littlewood maximal inequality:
@@ -176,7 +176,7 @@ r = \left( \| f \|_{L^q(\mathbb{R}^n)} \right)^{\frac{q}{n}} \left( \mathcal{M} 
 $$
 
 
-Thus, inequality (3.1) becomes
+Thus, the above estimate for $$\|\mathcal{C} f(x)\|$$ becomes
 
 $$
 |\mathcal{C} f(x)|^p \leq (2C)^p (\mathcal{M} f(x))^q (\| f \|_{L^q(\mathbb{R}^n)})^{p - q}.
