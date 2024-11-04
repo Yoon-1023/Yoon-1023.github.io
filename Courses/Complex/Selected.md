@@ -4,6 +4,8 @@ title: "Selected Problems in Complex Analysis"
 permalink: /courses/selected/
 ---
 
+<a href="/courses/" style="display: inline-block; margin: 10px 0; padding: 8px 16px; background-color: #4CAF50; color: white; border-radius: 4px; text-decoration: none; font-weight: bold;">Go Back</a>
+
 **Supervisor**: [Prof. Alexei Poltoratski](https://people.math.wisc.edu/~poltoratski/), Department of Mathematics, UW-Madison
 
 This project explores a range of challenging problems in Complex Analysis, including applications and notable theorems. Below, you’ll find the exact descriptions of these problems and a link to the full project document.
