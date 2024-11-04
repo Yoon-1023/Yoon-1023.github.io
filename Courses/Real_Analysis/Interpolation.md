@@ -4,6 +4,16 @@ title: "Some thoughts on Marcinkiewicz Interpolation"
 permalink: /courses/interpolation/
 ---
 
+<script type="text/x-mathjax-config">
+MathJax = {
+  tex: {
+    packages: ['base', 'ams', 'amscd', 'color', 'newcommand', 'bbox'],
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
 <script type="text/javascript" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
