@@ -4,17 +4,17 @@ title: "Movies of Vortex Dynamics"
 permalink: /vortex_dynamics/
 ---
 
-# MATH 705: Supplementary Materials
+# Vortex-dynamics
 
-This page includes additional materials for **MATH 705: Mathematical Fluid Dynamics**.
+This page includes numerical simulations for two-dimensional vortex dynamics in two-dimensional potential flow.
 
 <button onclick="history.back()" style="margin: 10px 0; padding: 8px 16px; background-color: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer;">Go Back</button>
 
-## Videos
+## Instability of the Von Karman vortex Sheet
 
-Below are some supplementary videos that illustrate core concepts from the course. Click on each video to watch.
+Initially, we set $$20$$ vortices at $$z=an$$ with $$\Gamma=1$$, and another $$20$$ vortices at $$z=a(n+1/2)+ib$$ with $$\Gamma=-1$$. Then, we let the system evolve.
 
-### Video 1: Introduction to Fluid Kinematics
+### Video 1: $$a=b=1$, $$0\leqslant t\leqslant 400$$
 <div style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
     <video width="800" controls>
       <source src="/Courses/Fluid_Dynamics/vortex_animation.mp4" type="video/mp4">
@@ -22,13 +22,7 @@ Below are some supplementary videos that illustrate core concepts from the cours
     </video>
 </div>
 
-**Description**: This video provides an overview of fluid kinematics, covering the basic concepts of flow velocity and streamlines. The governing equations are introduced, including the continuity equation:
-$$
-\nabla \cdot \mathbf{u} = 0
-$$
-for incompressible flows.
-
-### Video 2: The Navier-Stokes Equations
+## Video 2: The Navier-Stokes Equations
 <div style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
     <video width="800" controls>
       <source src="/Courses/Fluid_Dynamics/vortex_animation_1.mp4" type="video/mp4">
@@ -41,7 +35,7 @@ $$
 \rho \left( \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} \right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \mathbf{f}.
 $$
 
-### Video 3: Vorticity Dynamics
+## Video 3: Vorticity Dynamics
 <div style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
     <video width="800" controls>
       <source src="/Courses/Fluid_Dynamics/vortex_animation_2.mp4" type="video/mp4">
@@ -54,7 +48,7 @@ $$
 \frac{D \omega}{Dt} = (\omega \cdot \nabla) \mathbf{u} + \nu \nabla^2 \omega.
 $$
 
-### Video 4: Boundary Layer Theory
+## Video 4: Boundary Layer Theory
 <div style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
     <video width="800" controls>
       <source src="/Courses/Fluid_Dynamics/vortex_animation_3.mp4" type="video/mp4">
