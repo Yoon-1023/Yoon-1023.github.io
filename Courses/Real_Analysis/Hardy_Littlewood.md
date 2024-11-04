@@ -4,8 +4,6 @@ title: "Hardy-Littlewood inequalities"
 permalink: /courses/hardy_littlewood/
 ---
 
-<a href="/courses/" style="display: inline-block; margin: 10px 0; padding: 8px 16px; background-color: #4CAF50; color: white; border-radius: 4px; text-decoration: none; font-weight: bold;">Go Back</a>
-
 <script type="text/x-mathjax-config">
 MathJax = {
   tex: {
@@ -206,3 +204,5 @@ Let $$\delta \rightarrow \min\{ q, 1 - q \}$$ to conclude:
 $$
 \| \mathcal{M} f(x) \|^q_{L^q(E)} \leq \frac{2q \cdot 3^{nq}}{\min\{ q, 1 - q \}} m(E)^{1 - q} \| f \|^q_{L^1(\mathbb{R}^n)}.
 $$
+
+<a href="/courses/" style="display: inline-block; margin: 10px 0; padding: 8px 16px; background-color: #4CAF50; color: white; border-radius: 4px; text-decoration: none; font-weight: bold;">Go Back</a>
