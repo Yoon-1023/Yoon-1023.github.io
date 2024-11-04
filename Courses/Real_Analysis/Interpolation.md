@@ -4,8 +4,6 @@ title: "Some thoughts on Marcinkiewicz Interpolation"
 permalink: /courses/interpolation/
 ---
 
-<a href="/courses/" style="display: inline-block; margin: 10px 0; padding: 8px 16px; background-color: #4CAF50; color: white; border-radius: 4px; text-decoration: none; font-weight: bold;">Go Back</a>
-
 <script type="text/x-mathjax-config">
 MathJax = {
   tex: {
@@ -199,3 +197,6 @@ where
 $$
 C_{n, a, q} = 2 \max \left\{ \alpha(n) 2^a \sum_{j=0}^{\infty} 2^{j(a - n)}, \left( \frac{\omega_n}{q' a - n} \right)^{\frac{1}{q'}} \right\} \cdot \left( \frac{3^n 2^p p}{p - 1} \right)^{\frac{q}{p^2}}.
 $$
+
+
+<a href="/courses/" style="display: inline-block; margin: 10px 0; padding: 8px 16px; background-color: #4CAF50; color: white; border-radius: 4px; text-decoration: none; font-weight: bold;">Go Back</a>
