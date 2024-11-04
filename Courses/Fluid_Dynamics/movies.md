@@ -6,7 +6,7 @@ permalink: /courses/vortex_dynamics/
 
 # Vortex-dynamics
 
-This page includes numerical simulations for two-dimensional vortex dynamics in two-dimensional potential flow.
+This page includes my numerical simulations for vortex dynamics in two-dimensional potential flow.
 
 ## Instability of the Von Karman vortex Sheet
 
