@@ -1,12 +1,8 @@
 ---
 layout: default
-title: "MATH 705 - Supplementary Materials"
-permalink: /math705_materials/
+title: "Movies of Vortex Dynamics"
+permalink: /vortex_dynamics/
 ---
-
-<script type="text/javascript" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
 
 # MATH 705: Supplementary Materials
 
