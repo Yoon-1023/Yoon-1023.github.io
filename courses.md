@@ -72,7 +72,7 @@ application in finance, filtering, and control.
 
 # Advanced Topic Courses
 
-## Fall 2024-MATH 801: Topics in Applied Mathematics(Dynamical Systems)
+## Fall 2024-MATH 801: Topics in Applied Mathematics (Dynamical Systems)
 - **Instructor**: [Prof. Gheorghe Craciun](https://people.math.wisc.edu/~craciun/)
 - **Content**: Study of Dynamical Systems and Applications, with special emphasis on mathematical models of reaction networks.  Introduction to population dynamics models that follow the law of mass-action. Study of mass-action systems is essentially equivalent to the study of polynomial dynamical systems on the positive orthant. Classes of mass-action systems (i.e., large classes of polynomial dynamical systems on the positive orthant) are known or conjectured to have remarkable qualitative properties: some have a globally attracting fixed point in the positive orthant (if the polynomials on the right-hand side have some special common solution), others have a globally attracting compact set within the positive orthant (if a graph associated to those polynomials has special reversibility properties). Key ideas and constructions that give rise to these results and conjectures. 
 - **Reading**:
@@ -81,7 +81,7 @@ application in finance, filtering, and control.
   - [*Nonlinear Oscillations, Dynamical Systems, and Bifurcations of Vector Fields*](#references), by John Guckenheimer and Philip Holmes
   - [*Foundations of Chemical Reaction Network Theory*](#references), by Martin Feinberg
 
-## Fall 2024-MATH 821: Advanced Topics in Real Analysis(Nonlinear Wave Equations)
+## Fall 2024-MATH 821: Advanced Topics in Real Analysis (Nonlinear Wave Equations)
 - **Instructor**: [Prof. Mihaela Ifrim](https://people.math.wisc.edu/~ifrim/)
 - **Content**:
   - **Course Objective**: This course provides an introduction to nonlinear hyperbolic partial differential equations (PDEs), with a particular focus on nonlinear wave equations. A central theme is the "vector field method," a powerful tool used to understand the long-time behavior of solutions. Applications of this method will be explored, including a proof of the nonlinear global stability of Maxwell-Dirac systems in Minkowski space, as well as other models, some of which are relevant to general relativity.
@@ -95,7 +95,7 @@ application in finance, filtering, and control.
   - [*Hyperbolic Partial Differential Equations*](#references), by Serge Alinhac
   - [*Geometric Analysis of Hyperbolic Differential Equations: An Introduction*](#references), by Serge Alinhac
 
-## Fall 2024-MATH 827: Fourier Analysis(Harmonic Analysis)
+## Fall 2024-MATH 827: Fourier Analysis (Harmonic Analysis)
 - **Instructor**: [Prof. Andreas Seeger](https://people.math.wisc.edu/~aseeger/)
 - **Content**:
   - **Translation-Invariant and Non-Translation-Invariant Operators**: An introduction to different classes of operators, with a focus on their invariance properties.
