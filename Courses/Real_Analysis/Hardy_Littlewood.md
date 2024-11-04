@@ -138,7 +138,11 @@ $$
 \| \mathcal{M}f \|_{L^p(\mathbb{R}^n)} \leq C_{p, n} \| f \|_{L^{p}(\mathbb{R}^n)},
 $$
 
-where $$C_{p, n} = \left( \frac{3^n 2^p p}{p - 1} \right)^{1/p}$$.
+where 
+
+$$
+C_{p, n} = \left( \frac{3^n 2^p p}{p - 1} \right)^{1/p}
+$$.
 
 
 
