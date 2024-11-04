@@ -8,7 +8,7 @@ permalink: /vortex_dynamics/
 
 This page includes numerical simulations for two-dimensional vortex dynamics in two-dimensional potential flow.
 
-<button onclick="history.back()" style="margin: 10px 0; padding: 8px 16px; background-color: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer;">Go Back</button>
+<a href="/courses/" style="display: inline-block; margin: 10px 0; padding: 8px 16px; background-color: #4CAF50; color: white; border-radius: 4px; text-decoration: none; font-weight: bold;">Go Back</a>
 
 ## Instability of the Von Karman vortex Sheet
 
