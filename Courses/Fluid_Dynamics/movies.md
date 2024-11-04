@@ -8,6 +8,8 @@ permalink: /vortex_dynamics/
 
 This page includes additional materials for **MATH 705: Mathematical Fluid Dynamics**.
 
+<button onclick="history.back()" style="margin: 10px 0; padding: 8px 16px; background-color: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer;">Go Back</button>
+
 ## Videos
 
 Below are some supplementary videos that illustrate core concepts from the course. Click on each video to watch.
