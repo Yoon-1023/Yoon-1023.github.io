@@ -16,6 +16,10 @@ solutions and integral transforms. Green’s functions and distributions. Simila
 of Fourier integrals. Laplace’s method, stationary phase. Ship waves. Perturbation methods.
 - **Reading**: [*Introduction to partial differential equations*](#references)
 
+<div style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
+    <a href="/courses/fokas/" style="text-decoration: none; color: white; font-weight: bold;">Fokas method for IBVPs of heat equation</a>
+</div>
+
 ## Spring 2024-MATH 705: Mathematical Fluid Dynamics
 
 - **Instructor**: [Prof. Saverio Spagnolie](https://people.math.wisc.edu/~spagnolie/)
