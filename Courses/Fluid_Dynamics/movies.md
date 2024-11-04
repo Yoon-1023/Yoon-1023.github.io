@@ -38,7 +38,7 @@ Initially, we set $$20$$ vortices at $$z=an$$ with $$\Gamma=1$$, and another $$2
     </video>
 </div>
 
-## Discrete approximation of the Kelvin-Helmholtz instability}
+## Discrete approximation of the Kelvin-Helmholtz instability
 
 We initialize the system by placing $$N = 100$$ vortices of equal strength ($$\Gamma=1$$) at the points $$z_n = n+i/10\sin(10\pi n/N)$$.
 
