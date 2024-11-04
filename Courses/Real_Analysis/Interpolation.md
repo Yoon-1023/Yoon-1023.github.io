@@ -54,7 +54,7 @@ $$
 = \left( \int_{\mu}^{\infty} \omega_n t^{n - 1 - \alpha q} \, dt \right)^{\frac{1}{q}} = \left( \frac{\omega_n}{\alpha q - n} \right)^{\frac{1}{q}} \mu^{-\frac{n}{r}} := C_1 \mu^{-\frac{n}{r}}
 $$
 
-where $$\omega_n = \int_{\partial B(0, 1)} dS$$ denotes the area of $$\partial B(0, 1)$$. Let $$C_1 \mu^{-\frac{n}{r}} = \lambda$$, i.e., $$\mu = C_1^{\frac{r}{n}} \lambda^{-\frac{r}{n}}$$. Hence, $$\| K_1 * f \|_{L^{\infty}} > \lambda$$, and $$m(\{ |K_1 * f| > \lambda \}) = 0$$. 
+where $$\omega_n = \int_{\partial B(0, 1)} dS$$ denotes the area of $$\partial B(0, 1)$$. Let $$C_1 \mu^{-\frac{n}{r}} = \lambda$$, i.e., $$\mu = C_1^{\frac{r}{n}} \lambda^{-\frac{r}{n}}$$. Hence, $$\| K_1 * f \|_{L^{\infty}} > \lambda$$, and $$m(\{ \|K_1 * f\| > \lambda \}) = 0$$. 
 
 Besides,
 
@@ -86,17 +86,23 @@ It follows from the Marcinkiewicz Interpolation Theorem that $$T_\alpha$$ is str
 
 ## A Direct Proof using Dyadic Decomposition
 
-Suppose $$f \in L^q(\mathbb{R}^n)$$, $$0 < a < n$$, $$p > q > 1$$, $$\frac{1}{p} - \frac{1}{q} + 1 = \frac{a}{n}$$, and define $$\mathcal{C} f(x) := f * (id)^{-a} = \int_{\mathbb{R}^n} \frac{f(y)}{|x - y|^a} \, dy$$. Show that there exists $$C_{n, a, q} > 0$$ such that 
+Suppose $$f \in L^q(\mathbb{R}^n)$$, $$0 < a < n$$, $$p > q > 1$$, $$\frac{1}{p} - \frac{1}{q} + 1 = \frac{a}{n}$$, and define
 
 $$
-\| \mathcal{C} f \|_{L^p(\mathbb{R}^n)} \leq C_{n, a, q} \| f \|_{L^q(\mathbb{R}^n)}.
+\mathcal{C}f(x) := f * (id)^{-a} = \int_{\mathbb{R}^n} \frac{f(y)}{|x - y|^a} \, dy.
 $$
 
-(Note: $$q$$ is the same as $$r$$ from the above section.)
+Show that there exists $$C_{n, a, q} > 0$$ such that
+
+$$
+\| \mathcal{C}f \|_{L^p(\mathbb{R}^n)} \leq C_{n, a, q} \| f \|_{L^q(\mathbb{R}^n)}.
+$$
+
+(Note: $$q$$ is the same as $$r$$ from the previous section.)
 
 ### Proof
 
-Without loss of generality, assume $$m(\{ |f(x)| > 0 \}) > 0$$. For any $$x \in \mathbb{R}^n$$ and $$r > 0$$,
+Without loss of generality, assume $$m(\{ |f(x)| > 0 \}) > 0$$. For any $$x \in \mathbb{R}^n$$ and $$r > 0$$:
 
 $$
 \left| \int_{B(x, r)} \frac{f(y)}{|y - x|^a} \, dy \right| \leq \int_{B(x, r)} \frac{|f(y)|}{|y - x|^a} \, dy = \sum_{j=0}^{\infty} \int_{B(x, \frac{r}{2^j}) \setminus B(x, \frac{r}{2^{j+1}})} \frac{|f(y)|}{|y - x|^a} \, dy
@@ -128,17 +134,23 @@ $$
 = \| f \|_{L^q(\mathbb{R}^n)} \left( \frac{\omega_n}{q' a - n} \right)^{\frac{1}{q'}} \cdot r^{\frac{n}{q'} - a} := \tilde{C}_{n, a, q} \cdot r^{-\frac{n}{p}} \| f \|_{L^q(\mathbb{R}^n)}.
 $$
 
-Let $$C := \max\{ C_{n, a}, \tilde{C}_{n, a, q} \}$$. We have the following estimate for $$|\mathcal{C} f(x)|$$:
+Let $$C := \max \{ C_{n, a}, \tilde{C}_{n, a, q} \}$$. We have the following estimate for $$|\mathcal{C} f(x)|$$:
 
 $$
 |\mathcal{C} f(x)| = \left| \int_{\mathbb{R}^n} \frac{f(y)}{|x - y|^a} \, dy \right| \leq C \left( r^{n - a} \mathcal{M} f(x) + r^{-\frac{n}{p}} \| f \|_{L^q(\mathbb{R}^n)} \right).
 $$
 
-By the Strong Hardy-Littlewood maximal inequality: $$\| \mathcal{M} f \|_{L^q(\mathbb{R}^n)} \leq C_{q, n} \| f \|_{L^q(\mathbb{R}^n)}$$, where $$C_{q, n} = \left( \frac{3^n 2^p p}{p - 1} \right)^{1/p}$$. Besides, by our assumption, $$m(\{ |f(x)| > 0 \}) > 0 \Rightarrow \mathcal{M} f(x) > 0$$. Let $$r^{n - a} \mathcal{M} f(x) = r^{-\frac{n}{p}} \| f \|_{L^q(\mathbb{R}^n)}$$.
+By the Strong Hardy-Littlewood maximal inequality: $$\| \mathcal{M} f \|_{L^q(\mathbb{R}^n)} \leq C_{q, n} \| f \|_{L^q(\mathbb{R}^n)}$$, where $$C_{p, n} = \left( \frac{3^n 2^p p}{p - 1} \right)^{\frac{1}{p}}$$. Besides, by our assumption, $$m(\{ |f(x)| > 0 \}) > 0 \Rightarrow \mathcal{M} f(x) > 0$$. Let $$r^{n - a} \mathcal{M} f(x) = r^{-\frac{n}{p}} \| f \|_{L^q(\mathbb{R}^n)}$$.
 
 Then $$r = (\| f \|_{L^q(\mathbb{R}^n)})^{\frac{q}{n}} (\mathcal{M} f(x))^{-\frac{q}{n}}$$.
 
-Thus, equation \eqref{3.1} yields that $$|\mathcal{C} f(x)|^p \leq (2C)^p (\mathcal{M} f(x))^q (\| f \|_{L^q(\mathbb{R}^n)})^{p - q}$$. Then integrating on both sides:
+Thus, equation \eqref{3.1} yields that
+
+$$
+|\mathcal{C} f(x)|^p \leq (2C)^p (\mathcal{M} f(x))^q (\| f \|_{L^q(\mathbb{R}^n)})^{p - q}.
+$$
+
+Then integrating on both sides:
 
 $$
 \| \mathcal{C} f \|_{L^p(\mathbb{R}^n)} = \left( \int_{\mathbb{R}^n} |\mathcal{C} f(x)|^p \, dx \right)^{\frac{1}{p}} \leq 2C (\| f \|_{L^q(\mathbb{R}^n)})^{1 - \frac{q}{p}} \left( \int_{\mathbb{R}^n} (\mathcal{M} f(x))^q \, dx \right)^{\frac{1}{p}}
@@ -148,7 +160,7 @@ $$
 \leq 2C (\| f \|_{L^q(\mathbb{R}^n)})^{1 - \frac{q}{p}} (C_{q, n})^{\frac{q}{p}} \cdot \| f \|_{L^q(\mathbb{R}^n)}^{\frac{q}{p}} = 2C \cdot C^{\frac{q}{p}}_{q, n} \cdot \| f \|_{L^q(\mathbb{R}^n)} := C_{n, a, q} \cdot \| f \|_{L^q(\mathbb{R}^n)}.
 $$
 
-where
+where 
 
 $$
 C_{n, a, q} = 2 \max \left\{ \alpha(n) 2^a \sum_{j=0}^{\infty} 2^{j(a - n)}, \left( \frac{\omega_n}{q' a - n} \right)^{\frac{1}{q'}} \right\} \cdot \left( \frac{3^n 2^p p}{p - 1} \right)^{\frac{q}{p^2}}.
