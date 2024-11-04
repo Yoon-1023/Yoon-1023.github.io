@@ -79,11 +79,12 @@ application in finance, filtering, and control.
 
 ## Fall 2024-MATH 821: Advanced Topics in Real Analysis(Nonlinear Wave Equations)
 - **Instructor**: [Prof. Mihaela Ifrim](https://people.math.wisc.edu/~ifrim/)
-- **Content**:  The objective of this course is to provide an introduction to nonlinear hyperbolic PDEs, in particular nonlinear wave equations, with an emphasis on the "vector field method" as a key tool for understanding the long-time behavior of the solutions. We will illustrate this method with several applications, including a proof of the nonlinear global stability of Maxwell-Dirac systems in Minkowski space, as well as other interesting models, some of which arise in general relativity. 
- 
--The vector field method refers to a set of physical space techniques (as opposed to those relying on, say, Fourier or spectral analysis) that seeks to capture the long time dispersive behavior of solutions in a robust fashion. As the name suggests, the method revolves around the use of well-chosen vector fields on the background space-time, which are often related to exact or approximate symmetries of the equation. It has proven to be a very powerful tool in the study of highly nonlinear hyperbolic PDEs, and continues to play a major role in recent breakthroughs.
- 
--A secondary goal  of the course will be to present the low regularity theory results associated to some of the most interesting models in this class of problems.  Our plan is to start from the very basics, beginning with the linear wave equation on $$R^{1+d}$$, and build our way up. Some open problems will also be discussed. Some prior general knowledge of PDE's will be assumed.
+- **Content**:
+  - **Course Objective**: This course provides an introduction to nonlinear hyperbolic partial differential equations (PDEs), with a particular focus on nonlinear wave equations. A central theme is the "vector field method," a powerful tool used to understand the long-time behavior of solutions. Applications of this method will be explored, including a proof of the nonlinear global stability of Maxwell-Dirac systems in Minkowski space, as well as other models, some of which are relevant to general relativity.
+
+  - **The Vector Field Method**: This method consists of physical space techniques (in contrast to Fourier or spectral analysis) designed to capture the long-time dispersive behavior of solutions. The method revolves around the use of strategically chosen vector fields on the background space-time, often associated with exact or approximate symmetries of the equation. This approach has become fundamental in the study of highly nonlinear hyperbolic PDEs and has driven recent advances in the field.
+
+  - **Secondary Objectives**: A secondary aim of this course is to introduce low regularity theory results associated with notable models in nonlinear hyperbolic PDEs. Beginning with the basics, including the linear wave equation on $$\mathbb{R}^{1+d}$$, we will gradually build toward more advanced topics. Open problems in this area will also be discussed, providing a look at ongoing research. A general understanding of PDEs is assumed for this course.
 - **Reading**:
   - [*Brief History of the Vector-Field Method*](#references), by Sergiu Klainerman
   - [*Lectures on Non-linear Wave Equations*](#references), by Christopher D. Sogge
