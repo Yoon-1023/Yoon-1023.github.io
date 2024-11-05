@@ -24,7 +24,7 @@ permalink: /courses/
 .course-reading {
     margin-top: 10px;
 }
-/* Reusable button style for details */
+/* Reusable button style for details with max-width */
 .details-button {
     display: inline-block;
     padding: 8px 16px;
@@ -36,6 +36,10 @@ permalink: /courses/
     text-decoration: none;
     font-weight: bold;
     color: white;
+    max-width: 250px; /* Limit width */
+    white-space: nowrap; /* Prevent text wrap */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Add ellipsis for overflow text */
 }
 </style>
 
