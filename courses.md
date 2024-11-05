@@ -35,7 +35,7 @@ servation laws, advection, diffusion. First order PDEs, characteristics, shocks.
 Hamilton-Jacobi equations. Higher order PDEs: classification, Fourier analysis, well-posedness. Series
 solutions and integral transforms. Green’s functions and distributions. Similarity solutions. Asymptotics
 of Fourier integrals. Laplace’s method, stationary phase. Ship waves. Perturbation methods.</p>
-        <p class="course-reading"><strong>Reading:</strong> [*Introduction to Partial Differential Equations*](#olver)</p>
+        <p class="course-reading"><strong>Reading:</strong> <a href="#olver">Introduction to Partial Differential Equations</a></p>
     </div>
     <div style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
         <a href="/courses/fokas/" style="text-decoration: none; color: white; font-weight: bold;">Project: Fokas method for IBVPs of heat equation</a>
@@ -53,12 +53,12 @@ Discussions range from classical, centuries-old techniques to open questions of 
 </p>
         <p class="course-reading"><strong>Reading:</strong></p>
         <ul>
-    <li> <a href="#acheson">*Elementary Fluid Dynamics*</a>, by David J. Acheson</li>
-    <li> <a href="#batchelor">*An Introduction to Fluid Dynamics*</a>, by George Keith Batchelor</li>
-    <li> <a href="#landau-lifshitz">*Fluid Mechanics: Volume 6*</a>, by Lev D. Landau and Evgenii M. Lifshitz</li>
-    <li> <a href="#currie">*Fundamental Mechanics of Fluids*</a>, by Iain G. Currie</li>
-    <li> <a href="#saffman">*Vortex Dynamics*</a>, by Philip G. Saffman</li>
-    <li> <a href="#graham">*Microhydrodynamics, Brownian Motion, and Complex Fluids*</a>, by Michael D. Graham</li>
+    <li> <a href="#acheson">Elementary Fluid Dynamics</a>, by David J. Acheson</li>
+    <li> <a href="#batchelor">An Introduction to Fluid Dynamics</a>, by George Keith Batchelor</li>
+    <li> <a href="#landau-lifshitz">Fluid Mechanics: Volume *</a>, by Lev D. Landau and Evgenii M. Lifshitz</li>
+    <li> <a href="#currie">Fundamental Mechanics of Fluids</a>, by Iain G. Currie</li>
+    <li> <a href="#saffman">Vortex Dynamics</a>, by Philip G. Saffman</li>
+    <li> <a href="#graham">Microhydrodynamics, Brownian Motion, and Complex Fluids</a>, by Michael D. Graham</li>
 </ul>
     </div>
     <div style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
@@ -74,9 +74,9 @@ Discussions range from classical, centuries-old techniques to open questions of 
 meromorphic functions, conformal mappings, harmonic functions, approximation and the nonhomogeneous d-bar equation.</p>
         <p class="course-reading"><strong>Reading:</strong></p>
         <ul>
-    <li> <a href="#greene-krantz">*Function Theory of One Complex Variable*</a>, by Robert E. Greene and Steven G. Krantz</li>
-    <li> <a href="#conway">*Functions of One Complex Variable II*</a>, by John B. Conway</li>
-    <li> <a href="#stein-shakarchi-complex">*Complex Analysis*</a>, by Elias M. Stein and Rami Shakarchi</li>
+    <li> <a href="#greene-krantz">Function Theory of One Complex Variable</a>, by Robert E. Greene and Steven G. Krantz</li>
+    <li> <a href="#conway">Functions of One Complex Variable II</a>, by John B. Conway</li>
+    <li> <a href="#stein-shakarchi-complex">Complex Analysis</a>, by Elias M. Stein and Rami Shakarchi</li>
 </ul>
     </div>
     <div style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
@@ -98,8 +98,8 @@ meromorphic functions, conformal mappings, harmonic functions, approximation and
         </ul>
         <p><strong>Reading:</strong></p>
         <ul>
-    <li> <a href="#folland">*Real Analysis: Modern Techniques and Their Applications*</a>, by Gerald B. Folland</li>
-    <li> <a href="#rudin">*Real and Complex Analysis*</a>, by Walter Rudin</li>
+    <li> <a href="#folland">Real Analysis: Modern Techniques and Their Applications</a>, by Gerald B. Folland</li>
+    <li> <a href="#rudin">Real and Complex Analysis</a>, by Walter Rudin</li>
 </ul>
         <div id="hardy_littlewood-link" style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center; margin-right: 10px;">
             <a href="/courses/hardy_littlewood/" style="text-decoration: none; color: white; font-weight: bold;">Some thoughts on Hardy-Littlewood inequalities</a>
@@ -118,11 +118,11 @@ meromorphic functions, conformal mappings, harmonic functions, approximation and
 application in finance, filtering, and control.</p>
         <p class="course-reading"><strong>Reading:</strong></p>
         <ul>
-    <li> <a href="#arguin">*A First Course in Stochastic Calculus*</a>, by Louis-Pierre Arguin</li>
-    <li> <a href="#oksen">*Stochastic Differential Equations: An Introduction with Applications*</a>, by Bernt Øksendal</li>
-    <li> <a href="#protter">*Stochastic Integration and Differential Equations*</a>, by Philip Protter</li>
-    <li> <a href="#morters">*Brownian Motion*</a>, by Peter Mörters and Yuval Peres</li>
-    <li> <a href="#karatzas">*Brownian Motion and Stochastic Calculus*</a>, by Ioannis Karatzas and Steven Shreve</li>
+    <li> <a href="#arguin">A First Course in Stochastic Calculus</a>, by Louis-Pierre Arguin</li>
+    <li> <a href="#oksen">Stochastic Differential Equations: An Introduction with Applications</a>, by Bernt Øksendal</li>
+    <li> <a href="#protter">Stochastic Integration and Differential Equations</a>, by Philip Protter</li>
+    <li> <a href="#morters">Brownian Motion</a>, by Peter Mörters and Yuval Peres</li>
+    <li> <a href="#karatzas">Brownian Motion and Stochastic Calculus</a>, by Ioannis Karatzas and Steven Shreve</li>
 </ul>
     </div>
 </div>
@@ -136,10 +136,10 @@ application in finance, filtering, and control.</p>
         <p><strong>Content:</strong> Study of Dynamical Systems and Applications, with special emphasis on mathematical models of reaction networks.  Introduction to population dynamics models that follow the law of mass-action. Study of mass-action systems is essentially equivalent to the study of polynomial dynamical systems on the positive orthant. Classes of mass-action systems (i.e., large classes of polynomial dynamical systems on the positive orthant) are known or conjectured to have remarkable qualitative properties: some have a globally attracting fixed point in the positive orthant (if the polynomials on the right-hand side have some special common solution), others have a globally attracting compact set within the positive orthant (if a graph associated to those polynomials has special reversibility properties). Key ideas and constructions that give rise to these results and conjectures. </p>
         <p class="course-reading"><strong>Reading:</strong></p>
         <ul>
-    <li> <a href="#strogatz">*Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering*</a>, by Steven H. Strogatz</li>
-    <li> <a href="#perko">*Differential Equations and Dynamical Systems*</a>, by Lawrence Perko</li>
-    <li> <a href="#guckenheimer">*Nonlinear Oscillations, Dynamical Systems, and Bifurcations of Vector Fields*</a>, by John Guckenheimer and Philip Holmes</li>
-    <li> <a href="#feinberg">*Foundations of Chemical Reaction Network Theory*</a>, by Martin Feinberg</li>
+    <li> <a href="#strogatz">Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering</a>, by Steven H. Strogatz</li>
+    <li> <a href="#perko">Differential Equations and Dynamical Systems</a>, by Lawrence Perko</li>
+    <li> <a href="#guckenheimer">Nonlinear Oscillations, Dynamical Systems, and Bifurcations of Vector Fields</a>, by John Guckenheimer and Philip Holmes</li>
+    <li> <a href="#feinberg">Foundations of Chemical Reaction Network Theory</a>, by Martin Feinberg</li>
 </ul>
     </div>
 </div>
@@ -159,10 +159,10 @@ application in finance, filtering, and control.</p>
         
         <p><strong>Reading:</strong></p>
         <ul>
-    <li> <a href="#klainerman">*Brief History of the Vector-Field Method*</a>, by Sergiu Klainerman</li>
-    <li> <a href="#sogge">*Lectures on Non-linear Wave Equations*</a>, by Christopher D. Sogge</li>
-    <li> <a href="#alinhac-hyperbolic">*Hyperbolic Partial Differential Equations*</a>, by Serge Alinhac</li>
-    <li> <a href="#alinhac-geometric">*Geometric Analysis of Hyperbolic Differential Equations: An Introduction*</a>, by Serge Alinhac</li>
+    <li> <a href="#klainerman">Brief History of the Vector-Field Method</a>, by Sergiu Klainerman</li>
+    <li> <a href="#sogge">Lectures on Non-linear Wave Equations</a>, by Christopher D. Sogge</li>
+    <li> <a href="#alinhac-hyperbolic">Hyperbolic Partial Differential Equations</a>, by Serge Alinhac</li>
+    <li> <a href="#alinhac-geometric">Geometric Analysis of Hyperbolic Differential Equations: An Introduction</a>, by Serge Alinhac</li>
 </ul>
     </div>
 </div>
@@ -199,10 +199,10 @@ application in finance, filtering, and control.</p>
         
         <p><strong>Reading:</strong></p>
         <ul>
-    <li> <a href="#stein-singular">*Singular Integrals and Differentiability Properties of Functions*</a>, by Elias M. Stein</li>
-    <li> <a href="#stein-euclidean">*Introduction to Fourier Analysis on Euclidean Spaces*</a>, by Elias M. Stein</li>
-    <li> <a href="#stein-fourier">*Fourier Analysis: An Introduction*</a>, by Elias M. Stein and Rami Shakarchi</li>
-    <li> <a href="#duoandikoetxea">*Fourier Analysis*</a>, by Javier Duoandikoetxea</li>
+    <li> <a href="#stein-singular">Singular Integrals and Differentiability Properties of Functions</a>, by Elias M. Stein</li>
+    <li> <a href="#stein-euclidean">Introduction to Fourier Analysis on Euclidean Spaces</a>, by Elias M. Stein</li>
+    <li> <a href="#stein-fourier">Fourier Analysis: An Introduction</a>, by Elias M. Stein and Rami Shakarchi</li>
+    <li> <a href="#duoandikoetxea">Fourier Analysis</a>, by Javier Duoandikoetxea</li>
 </ul>
     </div>
 </div>
