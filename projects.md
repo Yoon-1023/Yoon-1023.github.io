@@ -72,7 +72,7 @@ permalink: /projects/
     </div>
     
     <div class="project-image">
-        <img src="/Complex/figures/Swiss%20cheese.jpeg" alt="Swiss Cheese" style="width: 100%; height: auto; border-radius: 8px;">
+        <img src="/Complex/figures/Swiss%20cheese.jpeg" alt="Swiss Cheese" style="width: 80%; height: auto; border-radius: 8px;">
         <p>Source: <a href="https://explainingmaths.wordpress.com/2022/03/08/alice-roth-and-swiss-cheeses/">Explaining Maths</a></p>
     </div>
 </div>
