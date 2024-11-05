@@ -24,22 +24,19 @@ permalink: /courses/
 .course-reading {
     margin-top: 10px;
 }
-/* Reusable button style for details with max-width */
+/* Reusable button style that adapts to content length */
 .details-button {
     display: inline-block;
     padding: 8px 16px;
     background-color: #ff6868;
     border-radius: 12px;
     text-align: center;
-    margin-top: 10px;
-    margin-right: 10px;
     text-decoration: none;
     font-weight: bold;
     color: white;
-    max-width: 500px; /* Limit width */
-    white-space: nowrap; /* Prevent text wrap */
-    overflow: hidden;
-    text-overflow: ellipsis; /* Add ellipsis for overflow text */
+    width: fit-content; /* Adapts to content length */
+    margin-top: 10px;
+    margin-right: 10px;
 }
 </style>
 
