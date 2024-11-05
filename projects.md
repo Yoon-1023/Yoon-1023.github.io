@@ -32,7 +32,7 @@ permalink: /projects/
 <div class="project-box">
     <div class="project-text">
         <h3>Fokas Method for Boundary Value Problems</h3>
-        <p><strong>Supervisor:</strong> <a href="https://people.math.wisc.edu/~spagnolie/">Prof. Saverio Spagnolie</a></p>
+        <p><strong>Supervisor:</strong> <a href="https://people.math.wisc.edu/~thiffeault/">Prof. Jean-Luc Thiffeault</a>, Chair, Department of Mathematics, UW-Madison</p>
         <p><strong>Abstract:</strong> This project investigates the application of the Fokas method, or the Unified Transform Method, to Initial Boundary Value Problems in heat equations. In the first example, defined on the half-line with general Robin boundary conditions and initial conditions, I derived a solution in Ehrenpreis's form, examined the solution's properties, and provided a remark contrasting the image method with the Fokas method. In the second example, using Dirichlet boundary conditions on a finite interval, I derived a similar form of solution and utilized the Half-Residue theorem to recover the typical series solution.</p>
     </div>
     <div class="project-image">
@@ -43,7 +43,7 @@ permalink: /projects/
 <div class="project-box">
     <div class="project-text">
         <h3>Selected Problems in Complex Analysis</h3>
-        <p><strong>Supervisor:</strong> <a href="https://people.math.wisc.edu/~thiffeault/">Prof. Jean-Luc Thiffeault</a></p>
+        <p><strong>Supervisor:</strong> <a href="https://people.math.wisc.edu/~poltoratski/">Prof. Alexei Poltoratski</a>, Department of Mathematics, UW-Madison</p>
         <p><strong>Abstract:</strong> This project involves solving a series of complex analysis problems that delve into advanced topics to deepen understanding. Covered areas include modulus estimates for subcollections of complex numbers, injective extensions of holomorphic functions, and zeros analysis of transcendental equations. Additionally, the project applies Gauss-Lucas theorem to convex hulls, explores subharmonicity and Laplacians in strict harmonicity problems, and investigates "Swiss Cheese" sets related to Mergelyan’s theorem, illustrating limits of polynomial approximation on non-dense subsets in the complex plane.</p>
     </div>
     <div class="project-image">
