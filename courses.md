@@ -6,132 +6,153 @@ permalink: /courses/
 
 # Graduate Courses
 
-## Spring 2024-MATH 704: Methods of Applied Math II
+<style>
+/* Style for course boxes */
+.course-box {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+.course-content {
+    margin-bottom: 15px;
+}
+.course-reading {
+    margin-top: 10px;
+}
+</style>
 
-- **Instructor**: [Prof. Jean-Luc Thiffeault](https://people.math.wisc.edu/~thiffeault/)
-- **Content**: Derivation, nature and solution of canonical partial differential equations of applied mathematics. Con-
-servation laws, advection, diffusion. First order PDEs, characteristics, shocks. Traffic flow, eikonal and
-Hamilton-Jacobi equations. Higher order PDEs: classification, Fourier analysis, well-posedness. Series
-solutions and integral transforms. Green’s functions and distributions. Similarity solutions. Asymptotics
-of Fourier integrals. Laplace’s method, stationary phase. Ship waves. Perturbation methods.
-- **Reading**: [*Introduction to partial differential equations*](#references)
-
-<div id="fokas-link" style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
-    <a href="/courses/fokas/" style="text-decoration: none; color: white; font-weight: bold;">Project: Fokas method for IBVPs of heat equation</a>
+<div class="course-box">
+    <div class="course-content">
+        <h3>Spring 2024-MATH 704: Methods of Applied Math II</h3>
+        <p><strong>Instructor:</strong> <a href="https://people.math.wisc.edu/~thiffeault/">Prof. Jean-Luc Thiffeault</a></p>
+        <p><strong>Content:</strong> Derivation, nature, and solution of canonical partial differential equations of applied mathematics, conservation laws, advection, diffusion, and more.</p>
+        <p class="course-reading"><strong>Reading:</strong> [*Introduction to Partial Differential Equations*](#references)</p>
+    </div>
+    <div style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
+        <a href="/courses/fokas/" style="text-decoration: none; color: white; font-weight: bold;">Project: Fokas method for IBVPs of heat equation</a>
+    </div>
 </div>
 
-## Spring 2024-MATH 705: Mathematical Fluid Dynamics
-
-- **Instructor**: [Prof. Saverio Spagnolie](https://people.math.wisc.edu/~spagnolie/)
-- **Content**: This course explores the dynamics of fluids from a rigorous mathematical perspective. Topics
-include the kinematics of fluids, the Navier-Stokes equations, potential 
-flows, vorticity dynamics, viscosity-dominated (Stokes) flows, lubrication theory, classical airfoil theory, boundary layers, and water waves.
-Discussions range from classical, centuries-old techniques to open questions of active research and just recently observed phenomena.
-- **Reading**:
-  - [*Elementary Fluid Dynamics*](#references), by David J. Acheson
-  - [*An Introduction to Fluid Dynamics*](#references), by George Keith Batchelor
-  - [*Fluid Mechanics: Volume 6*](#references), by Lev D. Landau and Evgenii M. Lifshitz
-  - [*Fundamental Mechanics of Fluids*](#references), by Iain G. Currie
-  - [*Vortex Dynamics*](#references), by Philip G. Saffman
-  - [*Microhydrodynamics, Brownian Motion, and Complex Fluids*](#references), by Michael D. Graham
-
-<div id="vortex-dynamics-link" style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
-    <a href="/courses/vortex_dynamics/" style="text-decoration: none; color: white; font-weight: bold;">Movies of vortex dynamics in two-dimensional potential flow</a>
+<div class="course-box">
+    <div class="course-content">
+        <h3>Spring 2024-MATH 705: Mathematical Fluid Dynamics</h3>
+        <p><strong>Instructor:</strong> <a href="https://people.math.wisc.edu/~spagnolie/">Prof. Saverio Spagnolie</a></p>
+        <p><strong>Content:</strong> Exploration of fluid dynamics with a rigorous mathematical perspective. Topics include kinematics, Navier-Stokes, vorticity dynamics, and more.</p>
+        <p class="course-reading"><strong>Reading:</strong></p>
+        <ul>
+            <li> [*Elementary Fluid Dynamics*](#references), by David J. Acheson</li>
+            <li> [*An Introduction to Fluid Dynamics*](#references), by George Keith Batchelor</li>
+            <li> [*Fluid Mechanics: Volume 6*](#references), by Lev D. Landau and Evgenii M. Lifshitz</li>
+            <li> [*Fundamental Mechanics of Fluids*](#references), by Iain G. Currie</li>
+            <li> [*Vortex Dynamics*](#references), by Philip G. Saffman</li>
+            <li> [*Microhydrodynamics, Brownian Motion, and Complex Fluids*](#references), by Michael D. Graham</li>
+        </ul>
+    </div>
+    <div style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
+        <a href="/courses/vortex_dynamics/" style="text-decoration: none; color: white; font-weight: bold;">Movies of vortex dynamics in two-dimensional potential flow</a>
+    </div>
 </div>
 
-## Spring 2024-MATH 722: Complex Analysis
-
-- **Instructor**: [Prof. Alexei Poltoratski](https://people.math.wisc.edu/~poltoratski/)
-- **Content**: The basic theory of functions of one complex variable including Cauchy formula, singularities and residues,
-meromorphic functions, conformal mappings, harmonic functions, approximation and the nonhomogeneous d-bar equation.
-- **Reading**:
-  - [*Function Theory of One Complex Variable*](#references), by Robert E. Greene and Steven G. Krantz
-  - [*Functions of One Complex Variable II*](#references), by John B. Conway
-  - [*Complex Analysis*](#references), by Elias M. Stein and Rami Shakarchi
-
-<div id="selected-link" style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
-    <a href="/courses/selected/" style="text-decoration: none; color: white; font-weight: bold;">Project: Selected Problems in Complex Analysis</a>
+<div class="course-box">
+    <div class="course-content">
+        <h3>Spring 2024-MATH 722: Complex Analysis</h3>
+        <p><strong>Instructor:</strong> <a href="https://people.math.wisc.edu/~poltoratski/">Prof. Alexei Poltoratski</a></p>
+        <p><strong>Content:</strong> Covers core concepts in complex analysis, including the Cauchy formula, singularities, residues, conformal mappings, and more.</p>
+        <p class="course-reading"><strong>Reading:</strong></p>
+        <ul>
+            <li> [*Function Theory of One Complex Variable*](#references), by Robert E. Greene and Steven G. Krantz</li>
+            <li> [*Functions of One Complex Variable II*](#references), by John B. Conway</li>
+            <li> [*Complex Analysis*](#references), by Elias M. Stein and Rami Shakarchi</li>
+        </ul>
+    </div>
+    <div style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
+        <a href="/courses/selected/" style="text-decoration: none; color: white; font-weight: bold;">Project: Selected Problems in Complex Analysis</a>
+    </div>
 </div>
 
-## Spring 2024-MATH 725: Real Analysis II
-
-- **Instructor**: [Prof. Brian Street](https://people.math.wisc.edu/~bstreet/)
-- **Content**:
-  - **Metric Spaces**: Basic concepts, completion of metric spaces, fixed-point theorem.
-  - **Banach Spaces**: Linear operators, open mapping theorem, closed graph theorem, Hahn-Banach theorem, Baire category theorem, dual spaces and adjoints of operators, compact operators.
-  - **Topological Vector Spaces**: Seminorm, Fréchet spaces, weak convergence, and weak* convergence.
-  - **Hilbert Spaces**: Riesz representation theorem, orthogonality, duality and adjoints, introduction to Fourier analysis.
-  - **Distribution Theory**: Distributions, tempered and periodic distributions, Paley–Wiener theory, Sobolev spaces.
-- **Reading**:
-  - [*Real Analysis: Modern Techniques and Their Applications*](#references), by Gerald B. Folland
-  - [*Real and Complex Analysis*](#references), by Walter Rudin
-
-
-<div id="hardy_littlewood-link" style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center; margin-left: 10px;">
-    <a href="/courses/hardy_littlewood/" style="text-decoration: none; color: white; font-weight: bold;">Some thoughts on Hardy-Littlewood inequalities</a>
-</div>
-<div id="interpolation-link" style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
-    <a href="/courses/interpolation/" style="text-decoration: none; color: white; font-weight: bold;">Some thoughts on Interpolations</a>
+<div class="course-box">
+    <div class="course-content">
+        <h3>Spring 2024-MATH 725: Real Analysis II</h3>
+        <p><strong>Instructor:</strong> <a href="https://people.math.wisc.edu/~bstreet/">Prof. Brian Street</a></p>
+        <p><strong>Content:</strong> In-depth study of real analysis topics, including metric spaces, Banach spaces, topological vector spaces, Hilbert spaces, and more.</p>
+        <p class="course-reading"><strong>Reading:</strong></p>
+        <ul>
+            <li> [*Real Analysis: Modern Techniques and Their Applications*](#references), by Gerald B. Folland</li>
+            <li> [*Real and Complex Analysis*](#references), by Walter Rudin</li>
+        </ul>
+    </div>
+    <div style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
+        <a href="/courses/hardy_littlewood/" style="text-decoration: none; color: white; font-weight: bold;">Some thoughts on Hardy-Littlewood inequalities</a>
+    </div>
 </div>
 
-## Fall 2024-MATH 735: Stochastic Analysis
-- **Instructor**: [Prof. Tatyana Shcherbina](https://math.wisc.edu/staff/shcherbyna-tatiana/)
-- **Content**: Foundations of continuous time stochastic processes, semimartingales and the semimartingale in-
-tegral, Ito’s formula, stochastic differential equations, stochastic equations for Markov processes,
-application in finance, filtering, and control.
-- **Reading**:
-  - [*A First Course in Stochastic Calculus*](#references), by Louis-Pierre Arguin
-  - [*Stochastic Differential Equations: An Introduction with Applications*](#references), by Bernt Øksendal
-  - [*Stochastic Integration and Differential Equations*](#references), by Philip Protter
-  - [*Brownian Motion*](#references), by Peter Mörters and Yuval Peres
-  - [*Brownian Motion and Stochastic Calculus*](#references), by Ioannis Karatzas and Steven Shreve
+<div class="course-box">
+    <div class="course-content">
+        <h3>Fall 2024-MATH 735: Stochastic Analysis</h3>
+        <p><strong>Instructor:</strong> <a href="https://math.wisc.edu/staff/shcherbyna-tatiana/">Prof. Tatyana Shcherbina</a></p>
+        <p><strong>Content:</strong> Foundations of continuous-time stochastic processes, including semimartingales, the semimartingale integral, Ito’s formula, stochastic differential equations, applications in finance, filtering, and control.</p>
+        <p class="course-reading"><strong>Reading:</strong></p>
+        <ul>
+            <li> [*A First Course in Stochastic Calculus*](#references), by Louis-Pierre Arguin</li>
+            <li> [*Stochastic Differential Equations: An Introduction with Applications*](#references), by Bernt Øksendal</li>
+            <li> [*Stochastic Integration and Differential Equations*](#references), by Philip Protter</li>
+            <li> [*Brownian Motion*](#references), by Peter Mörters and Yuval Peres</li>
+            <li> [*Brownian Motion and Stochastic Calculus*](#references), by Ioannis Karatzas and Steven Shreve</li>
+        </ul>
+    </div>
+</div>
 
-# Advanced Topic Courses
+## Advanced Topic Courses
 
-## Fall 2024-MATH 801: Topics in Applied Mathematics (Dynamical Systems)
-- **Instructor**: [Prof. Gheorghe Craciun](https://people.math.wisc.edu/~craciun/)
-- **Content**: Study of Dynamical Systems and Applications, with special emphasis on mathematical models of reaction networks.  Introduction to population dynamics models that follow the law of mass-action. Study of mass-action systems is essentially equivalent to the study of polynomial dynamical systems on the positive orthant. Classes of mass-action systems (i.e., large classes of polynomial dynamical systems on the positive orthant) are known or conjectured to have remarkable qualitative properties: some have a globally attracting fixed point in the positive orthant (if the polynomials on the right-hand side have some special common solution), others have a globally attracting compact set within the positive orthant (if a graph associated to those polynomials has special reversibility properties). Key ideas and constructions that give rise to these results and conjectures. 
-- **Reading**:
-  - [*Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering*](#references), by Steven H. Strogatz
-  - [*Differential Equations and Dynamical Systems*](#references), by Lawrence Perko
-  - [*Nonlinear Oscillations, Dynamical Systems, and Bifurcations of Vector Fields*](#references), by John Guckenheimer and Philip Holmes
-  - [*Foundations of Chemical Reaction Network Theory*](#references), by Martin Feinberg
+<div class="course-box">
+    <div class="course-content">
+        <h3>Fall 2024-MATH 801: Topics in Applied Mathematics (Dynamical Systems)</h3>
+        <p><strong>Instructor:</strong> <a href="https://people.math.wisc.edu/~craciun/">Prof. Gheorghe Craciun</a></p>
+        <p><strong>Content:</strong> An exploration of dynamical systems and their applications, with a focus on reaction networks and population dynamics under mass-action laws, covering polynomial dynamical systems, attractors, and reversibility properties.</p>
+        <p class="course-reading"><strong>Reading:</strong></p>
+        <ul>
+            <li> [*Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering*](#references), by Steven H. Strogatz</li>
+            <li> [*Differential Equations and Dynamical Systems*](#references), by Lawrence Perko</li>
+            <li> [*Nonlinear Oscillations, Dynamical Systems, and Bifurcations of Vector Fields*](#references), by John Guckenheimer and Philip Holmes</li>
+            <li> [*Foundations of Chemical Reaction Network Theory*](#references), by Martin Feinberg</li>
+        </ul>
+    </div>
+</div>
 
-## Fall 2024-MATH 821: Advanced Topics in Real Analysis (Nonlinear Wave Equations)
-- **Instructor**: [Prof. Mihaela Ifrim](https://people.math.wisc.edu/~ifrim/)
-- **Content**:
-  - **Course Objective**: This course provides an introduction to nonlinear hyperbolic partial differential equations (PDEs), with a particular focus on nonlinear wave equations. A central theme is the "vector field method," a powerful tool used to understand the long-time behavior of solutions. Applications of this method will be explored, including a proof of the nonlinear global stability of Maxwell-Dirac systems in Minkowski space, as well as other models, some of which are relevant to general relativity.
+<div class="course-box">
+    <div class="course-content">
+        <h3>Fall 2024-MATH 821: Advanced Topics in Real Analysis (Nonlinear Wave Equations)</h3>
+        <p><strong>Instructor:</strong> <a href="https://people.math.wisc.edu/~ifrim/">Prof. Mihaela Ifrim</a></p>
+        <p><strong>Content:</strong> An introduction to nonlinear hyperbolic PDEs, focusing on the "vector field method" for analyzing long-term solution behavior. Applications include the Maxwell-Dirac systems' stability in Minkowski space, among other models relevant to general relativity.</p>
+        <p class="course-reading"><strong>Reading:</strong></p>
+        <ul>
+            <li> [*Brief History of the Vector-Field Method*](#references), by Sergiu Klainerman</li>
+            <li> [*Lectures on Non-linear Wave Equations*](#references), by Christopher D. Sogge</li>
+            <li> [*Hyperbolic Partial Differential Equations*](#references), by Serge Alinhac</li>
+            <li> [*Geometric Analysis of Hyperbolic Differential Equations: An Introduction*](#references), by Serge Alinhac</li>
+        </ul>
+    </div>
+</div>
 
-  - **The Vector Field Method**: This method consists of physical space techniques (in contrast to Fourier or spectral analysis) designed to capture the long-time dispersive behavior of solutions. The method revolves around the use of strategically chosen vector fields on the background space-time, often associated with exact or approximate symmetries of the equation. This approach has become fundamental in the study of highly nonlinear hyperbolic PDEs and has driven recent advances in the field.
-
-  - **Secondary Objectives**: A secondary aim of this course is to introduce low regularity theory results associated with notable models in nonlinear hyperbolic PDEs. Beginning with the basics, including the linear wave equation on $$\mathbb{R}^{1+d}$$, we will gradually build toward more advanced topics. Open problems in this area will also be discussed, providing a look at ongoing research. A general understanding of PDEs is assumed for this course.
-- **Reading**:
-  - [*Brief History of the Vector-Field Method*](#references), by Sergiu Klainerman
-  - [*Lectures on Non-linear Wave Equations*](#references), by Christopher D. Sogge
-  - [*Hyperbolic Partial Differential Equations*](#references), by Serge Alinhac
-  - [*Geometric Analysis of Hyperbolic Differential Equations: An Introduction*](#references), by Serge Alinhac
-
-## Fall 2024-MATH 827: Fourier Analysis (Harmonic Analysis)
-- **Instructor**: [Prof. Andreas Seeger](https://people.math.wisc.edu/~aseeger/)
-- **Content**:
-  - **Translation-Invariant and Non-Translation-Invariant Operators**: An introduction to different classes of operators, with a focus on their invariance properties.
-  - **Singular Integrals**: Theory and applications of integrals with singularities.
-  - **Hardy Spaces ($$H^1$$) and $$BMO$$ (Bounded Mean Oscillation)**: Exploration of function spaces that generalize $$ L^p $$ spaces, with applications in harmonic analysis.
-  - **Orthogonality and Almost Orthogonality**: Concepts of orthogonality in functional spaces and their relaxed forms.
-  - **Pseudo-Differential Operators**: Introduction to operators that generalize differential operators, widely used in partial differential equations.
-  - **Fourier Integral and Oscillatory Operators**: Study of classes of operators involving Fourier integrals and oscillatory integrals, important in the analysis of wave propagation.
-  - **David and Journé's Theorem**: Detailed examination of this theorem and its applications in harmonic analysis.
-  - **Additional Topics**:
-    - **Carlson's Theorem on Fourier Integrals and Fourier Series** (if time permits): Insight into Carlson's work on convergence and approximation in Fourier analysis.
-    - **Weighted Norm Inequalities** (if there is interest): Exploration of inequalities that involve weighted norms, relevant in harmonic analysis and PDEs.
-  - **Radial Fourier Multipliers**: Characterization of Fourier multipliers in high-dimensional spaces, with applications in harmonic analysis.
-
-- **Reading**:
-  - [*Singular Integrals and Differentiability Properties of Functions*](#references), by Elias M. Stein
-  - [*Introduction to Fourier Analysis on Euclidean Spaces*](#references), by Elias M. Stein
-  - [*Fourier Analysis: An Introduction*](#references), by Elias M. Stein and Rami Shakarchi
-  - [*Fourier Analysis*](#references), by Javier Duoandikoetxea
-
+<div class="course-box">
+    <div class="course-content">
+        <h3>Fall 2024-MATH 827: Fourier Analysis (Harmonic Analysis)</h3>
+        <p><strong>Instructor:</strong> <a href="https://people.math.wisc.edu/~aseeger/">Prof. Andreas Seeger</a></p>
+        <p><strong>Content:</strong> In-depth study of harmonic analysis topics, including translation-invariant operators, singular integrals, Hardy spaces, pseudo-differential operators, Fourier integrals, and radial Fourier multipliers.</p>
+        <p class="course-reading"><strong>Reading:</strong></p>
+        <ul>
+            <li> [*Singular Integrals and Differentiability Properties of Functions*](#references), by Elias M. Stein</li>
+            <li> [*Introduction to Fourier Analysis on Euclidean Spaces*](#references), by Elias M. Stein</li>
+            <li> [*Fourier Analysis: An Introduction*](#references), by Elias M. Stein and Rami Shakarchi</li>
+            <li> [*Fourier Analysis*](#references), by Javier Duoandikoetxea</li>
+        </ul>
+    </div>
+</div>
 
 
 
