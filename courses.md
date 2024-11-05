@@ -114,8 +114,7 @@ meromorphic functions, conformal mappings, harmonic functions, approximation and
     <div class="course-content">
         <h3>Fall 2024-MATH 735: Stochastic Analysis</h3>
         <p><strong>Instructor:</strong> <a href="https://math.wisc.edu/staff/shcherbyna-tatiana/">Prof. Tatyana Shcherbina</a></p>
-        <p><strong>Content:</strong> Foundations of continuous time stochastic processes, semimartingales and the semimartingale in-
-tegral, Ito’s formula, stochastic differential equations, stochastic equations for Markov processes,
+        <p><strong>Content:</strong> Foundations of continuous time stochastic processes, semimartingales and the semimartingale integral, Ito’s formula, stochastic differential equations, stochastic equations for Markov processes,
 application in finance, filtering, and control.</p>
         <p class="course-reading"><strong>Reading:</strong></p>
         <ul>
@@ -149,8 +148,16 @@ application in finance, filtering, and control.</p>
     <div class="course-content">
         <h3>Fall 2024-MATH 821: Advanced Topics in Real Analysis (Nonlinear Wave Equations)</h3>
         <p><strong>Instructor:</strong> <a href="https://people.math.wisc.edu/~ifrim/">Prof. Mihaela Ifrim</a></p>
-        <p><strong>Content:</strong> An introduction to nonlinear hyperbolic PDEs, focusing on the "vector field method" for analyzing long-term solution behavior. Applications include the Maxwell-Dirac systems' stability in Minkowski space, among other models relevant to general relativity.</p>
-        <p class="course-reading"><strong>Reading:</strong></p>
+        <p><strong>Content:</strong></p>
+        <ul>
+            <li><strong>Course Objective:</strong> This course provides an introduction to nonlinear hyperbolic partial differential equations (PDEs), with a particular focus on nonlinear wave equations. A central theme is the "vector field method," a powerful tool used to understand the long-time behavior of solutions. Applications of this method will be explored, including a proof of the nonlinear global stability of Maxwell-Dirac systems in Minkowski space, as well as other models, some of which are relevant to general relativity.</li>
+            
+            <li><strong>The Vector Field Method:</strong> This method consists of physical space techniques (in contrast to Fourier or spectral analysis) designed to capture the long-time dispersive behavior of solutions. The method revolves around the use of strategically chosen vector fields on the background space-time, often associated with exact or approximate symmetries of the equation. This approach has become fundamental in the study of highly nonlinear hyperbolic PDEs and has driven recent advances in the field.</li>
+            
+            <li><strong>Secondary Objectives:</strong> A secondary aim of this course is to introduce low regularity theory results associated with notable models in nonlinear hyperbolic PDEs. Beginning with the basics, including the linear wave equation on $$\mathbb{R}^{1+d}$$, we will gradually build toward more advanced topics. Open problems in this area will also be discussed, providing a look at ongoing research. A general understanding of PDEs is assumed for this course.</li>
+        </ul>
+        
+        <p><strong>Reading:</strong></p>
         <ul>
             <li> [*Brief History of the Vector-Field Method*](#references), by Sergiu Klainerman</li>
             <li> [*Lectures on Non-linear Wave Equations*](#references), by Christopher D. Sogge</li>
@@ -164,8 +171,33 @@ application in finance, filtering, and control.</p>
     <div class="course-content">
         <h3>Fall 2024-MATH 827: Fourier Analysis (Harmonic Analysis)</h3>
         <p><strong>Instructor:</strong> <a href="https://people.math.wisc.edu/~aseeger/">Prof. Andreas Seeger</a></p>
-        <p><strong>Content:</strong> In-depth study of harmonic analysis topics, including translation-invariant operators, singular integrals, Hardy spaces, pseudo-differential operators, Fourier integrals, and radial Fourier multipliers.</p>
-        <p class="course-reading"><strong>Reading:</strong></p>
+        <p><strong>Content:</strong></p>
+        <ul>
+            <li><strong>Translation-Invariant and Non-Translation-Invariant Operators:</strong> An introduction to different classes of operators, with a focus on their invariance properties.</li>
+            
+            <li><strong>Singular Integrals:</strong> Theory and applications of integrals with singularities.</li>
+            
+            <li><strong>Hardy Spaces ($$H^1$$) and $$BMO$$ (Bounded Mean Oscillation):</strong> Exploration of function spaces that generalize $$ L^p $$ spaces, with applications in harmonic analysis.</li>
+            
+            <li><strong>Orthogonality and Almost Orthogonality:</strong> Concepts of orthogonality in functional spaces and their relaxed forms.</li>
+            
+            <li><strong>Pseudo-Differential Operators:</strong> Introduction to operators that generalize differential operators, widely used in partial differential equations.</li>
+            
+            <li><strong>Fourier Integral and Oscillatory Operators:</strong> Study of classes of operators involving Fourier integrals and oscillatory integrals, important in the analysis of wave propagation.</li>
+            
+            <li><strong>David and Journé's Theorem:</strong> Detailed examination of this theorem and its applications in harmonic analysis.</li>
+            
+            <li><strong>Additional Topics:</strong></li>
+            <ul>
+                <li><strong>Carlson's Theorem on Fourier Integrals and Fourier Series</strong> (if time permits): Insight into Carlson's work on convergence and approximation in Fourier analysis.</li>
+                
+                <li><strong>Weighted Norm Inequalities</strong> (if there is interest): Exploration of inequalities that involve weighted norms, relevant in harmonic analysis and PDEs.</li>
+            </ul>
+            
+            <li><strong>Radial Fourier Multipliers:</strong> Characterization of Fourier multipliers in high-dimensional spaces, with applications in harmonic analysis.</li>
+        </ul>
+        
+        <p><strong>Reading:</strong></p>
         <ul>
             <li> [*Singular Integrals and Differentiability Properties of Functions*](#references), by Elias M. Stein</li>
             <li> [*Introduction to Fourier Analysis on Euclidean Spaces*](#references), by Elias M. Stein</li>
