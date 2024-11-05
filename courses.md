@@ -30,7 +30,11 @@ permalink: /courses/
     <div class="course-content">
         <h3>Spring 2024-MATH 704: Methods of Applied Math II</h3>
         <p><strong>Instructor:</strong> <a href="https://people.math.wisc.edu/~thiffeault/">Prof. Jean-Luc Thiffeault</a></p>
-        <p><strong>Content:</strong> Derivation, nature, and solution of canonical partial differential equations of applied mathematics, conservation laws, advection, diffusion, and more.</p>
+        <p><strong>Content:</strong> Derivation, nature and solution of canonical partial differential equations of applied mathematics. Con-
+servation laws, advection, diffusion. First order PDEs, characteristics, shocks. Traffic flow, eikonal and
+Hamilton-Jacobi equations. Higher order PDEs: classification, Fourier analysis, well-posedness. Series
+solutions and integral transforms. Green’s functions and distributions. Similarity solutions. Asymptotics
+of Fourier integrals. Laplace’s method, stationary phase. Ship waves. Perturbation methods.</p>
         <p class="course-reading"><strong>Reading:</strong> [*Introduction to Partial Differential Equations*](#references)</p>
     </div>
     <div style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
@@ -42,7 +46,11 @@ permalink: /courses/
     <div class="course-content">
         <h3>Spring 2024-MATH 705: Mathematical Fluid Dynamics</h3>
         <p><strong>Instructor:</strong> <a href="https://people.math.wisc.edu/~spagnolie/">Prof. Saverio Spagnolie</a></p>
-        <p><strong>Content:</strong> Exploration of fluid dynamics with a rigorous mathematical perspective. Topics include kinematics, Navier-Stokes, vorticity dynamics, and more.</p>
+        <p><strong>Content:</strong> This course explores the dynamics of fluids from a rigorous mathematical perspective. Topics
+include the kinematics of fluids, the Navier-Stokes equations, potential 
+flows, vorticity dynamics, viscosity-dominated (Stokes) flows, lubrication theory, classical airfoil theory, boundary layers, and water waves.
+Discussions range from classical, centuries-old techniques to open questions of active research and just recently observed phenomena.
+</p>
         <p class="course-reading"><strong>Reading:</strong></p>
         <ul>
             <li> [*Elementary Fluid Dynamics*](#references), by David J. Acheson</li>
@@ -62,7 +70,8 @@ permalink: /courses/
     <div class="course-content">
         <h3>Spring 2024-MATH 722: Complex Analysis</h3>
         <p><strong>Instructor:</strong> <a href="https://people.math.wisc.edu/~poltoratski/">Prof. Alexei Poltoratski</a></p>
-        <p><strong>Content:</strong> Covers core concepts in complex analysis, including the Cauchy formula, singularities, residues, conformal mappings, and more.</p>
+        <p><strong>Content:</strong> The basic theory of functions of one complex variable including Cauchy formula, singularities and residues,
+meromorphic functions, conformal mappings, harmonic functions, approximation and the nonhomogeneous d-bar equation.</p>
         <p class="course-reading"><strong>Reading:</strong></p>
         <ul>
             <li> [*Function Theory of One Complex Variable*](#references), by Robert E. Greene and Steven G. Krantz</li>
@@ -79,15 +88,25 @@ permalink: /courses/
     <div class="course-content">
         <h3>Spring 2024-MATH 725: Real Analysis II</h3>
         <p><strong>Instructor:</strong> <a href="https://people.math.wisc.edu/~bstreet/">Prof. Brian Street</a></p>
-        <p><strong>Content:</strong> In-depth study of real analysis topics, including metric spaces, Banach spaces, topological vector spaces, Hilbert spaces, and more.</p>
-        <p class="course-reading"><strong>Reading:</strong></p>
+        <p><strong>Content:</strong></p>
+        <ul>
+            <li><strong>Metric Spaces:</strong> Basic concepts, completion of metric spaces, fixed-point theorem.</li>
+            <li><strong>Banach Spaces:</strong> Linear operators, open mapping theorem, closed graph theorem, Hahn-Banach theorem, Baire category theorem, dual spaces and adjoints of operators, compact operators.</li>
+            <li><strong>Topological Vector Spaces:</strong> Seminorm, Fréchet spaces, weak convergence, and weak* convergence.</li>
+            <li><strong>Hilbert Spaces:</strong> Riesz representation theorem, orthogonality, duality and adjoints, introduction to Fourier analysis.</li>
+            <li><strong>Distribution Theory:</strong> Distributions, tempered and periodic distributions, Paley–Wiener theory, Sobolev spaces.</li>
+        </ul>
+        <p><strong>Reading:</strong></p>
         <ul>
             <li> [*Real Analysis: Modern Techniques and Their Applications*](#references), by Gerald B. Folland</li>
             <li> [*Real and Complex Analysis*](#references), by Walter Rudin</li>
         </ul>
-    </div>
-    <div style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
-        <a href="/courses/hardy_littlewood/" style="text-decoration: none; color: white; font-weight: bold;">Some thoughts on Hardy-Littlewood inequalities</a>
+        <div id="hardy_littlewood-link" style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center; margin-right: 10px;">
+            <a href="/courses/hardy_littlewood/" style="text-decoration: none; color: white; font-weight: bold;">Some thoughts on Hardy-Littlewood inequalities</a>
+        </div>
+        <div id="interpolation-link" style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
+            <a href="/courses/interpolation/" style="text-decoration: none; color: white; font-weight: bold;">Some thoughts on Interpolations</a>
+        </div>
     </div>
 </div>
 
@@ -95,7 +114,9 @@ permalink: /courses/
     <div class="course-content">
         <h3>Fall 2024-MATH 735: Stochastic Analysis</h3>
         <p><strong>Instructor:</strong> <a href="https://math.wisc.edu/staff/shcherbyna-tatiana/">Prof. Tatyana Shcherbina</a></p>
-        <p><strong>Content:</strong> Foundations of continuous-time stochastic processes, including semimartingales, the semimartingale integral, Ito’s formula, stochastic differential equations, applications in finance, filtering, and control.</p>
+        <p><strong>Content:</strong> Foundations of continuous time stochastic processes, semimartingales and the semimartingale in-
+tegral, Ito’s formula, stochastic differential equations, stochastic equations for Markov processes,
+application in finance, filtering, and control.</p>
         <p class="course-reading"><strong>Reading:</strong></p>
         <ul>
             <li> [*A First Course in Stochastic Calculus*](#references), by Louis-Pierre Arguin</li>
@@ -113,7 +134,7 @@ permalink: /courses/
     <div class="course-content">
         <h3>Fall 2024-MATH 801: Topics in Applied Mathematics (Dynamical Systems)</h3>
         <p><strong>Instructor:</strong> <a href="https://people.math.wisc.edu/~craciun/">Prof. Gheorghe Craciun</a></p>
-        <p><strong>Content:</strong> An exploration of dynamical systems and their applications, with a focus on reaction networks and population dynamics under mass-action laws, covering polynomial dynamical systems, attractors, and reversibility properties.</p>
+        <p><strong>Content:</strong> Study of Dynamical Systems and Applications, with special emphasis on mathematical models of reaction networks.  Introduction to population dynamics models that follow the law of mass-action. Study of mass-action systems is essentially equivalent to the study of polynomial dynamical systems on the positive orthant. Classes of mass-action systems (i.e., large classes of polynomial dynamical systems on the positive orthant) are known or conjectured to have remarkable qualitative properties: some have a globally attracting fixed point in the positive orthant (if the polynomials on the right-hand side have some special common solution), others have a globally attracting compact set within the positive orthant (if a graph associated to those polynomials has special reversibility properties). Key ideas and constructions that give rise to these results and conjectures. </p>
         <p class="course-reading"><strong>Reading:</strong></p>
         <ul>
             <li> [*Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering*](#references), by Steven H. Strogatz</li>
