@@ -73,9 +73,8 @@ Discussions range from classical, centuries-old techniques to open questions of 
     <li> <a href="#graham">Microhydrodynamics, Brownian Motion, and Complex Fluids</a>, by Michael D. Graham</li>
 </ul>
     </div>
-    <div style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
-    <a href="/courses/vortex_dynamics/" style="text-decoration: none; color: white; font-weight: bold;">Movies of vortex dynamics in two-dimensional potential flow</a>
-</div>
+    <!-- Button using the reusable class -->
+    <a href="/courses/vortex_dynamics/" class="details-button">Movies of vortex dynamics in two-dimensional potential flow</a>
 </div>
 
 <div class="course-box">
@@ -91,9 +90,8 @@ meromorphic functions, conformal mappings, harmonic functions, approximation and
     <li> <a href="#stein-shakarchi-complex">Complex Analysis</a>, by Elias M. Stein and Rami Shakarchi</li>
 </ul>
     </div>
-    <div style="display: inline; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
-    <a href="/courses/selected/" style="text-decoration: none; color: white; font-weight: bold;">Project: Selected Problems in Complex Analysis</a>
-</div>
+    <!-- Button using the reusable class -->
+    <a href="/courses/selected/" class="details-button">Project: Selected Problems in Complex Analysis</a>
 </div>
 
 <div class="course-box">
