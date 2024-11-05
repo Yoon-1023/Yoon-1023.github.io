@@ -205,4 +205,6 @@ $$
 \| \mathcal{M} f(x) \|^q_{L^q(E)} \leq \frac{2q \cdot 3^{nq}}{\min\{ q, 1 - q \}} m(E)^{1 - q} \| f \|^q_{L^1(\mathbb{R}^n)}.
 $$
 
-<a href="/courses/#hardy_littlewood-link" style="display: inline-block; margin: 10px 0; padding: 8px 16px; background-color: #4CAF50; color: white; border-radius: 4px; text-decoration: none; font-weight: bold;">Go Back</a>
+<a href="javascript:history.back()" style="display: inline-block; margin: 10px 0; padding: 8px 16px; background-color: #4CAF50; color: white; border-radius: 4px; text-decoration: none; font-weight: bold;">
+    Go Back
+</a>
