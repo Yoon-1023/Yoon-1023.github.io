@@ -37,7 +37,7 @@ solutions and integral transforms. Green’s functions and distributions. Simila
 of Fourier integrals. Laplace’s method, stationary phase. Ship waves. Perturbation methods.</p>
         <p class="course-reading"><strong>Reading:</strong> <a href="#olver">Introduction to Partial Differential Equations</a></p>
     </div>
-    <div style="display: inline-block; padding: 2px 6px; background-color: #ff6868; border-radius: 8px;">
+    <div style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center; margin-right: 10px;">
     <a href="/courses/fokas/" style="text-decoration: none; color: white; font-weight: bold;">Project: Fokas method for IBVPs of heat equation</a>
 </div>
 </div>
@@ -61,7 +61,7 @@ Discussions range from classical, centuries-old techniques to open questions of 
     <li> <a href="#graham">Microhydrodynamics, Brownian Motion, and Complex Fluids</a>, by Michael D. Graham</li>
 </ul>
     </div>
-    <div style="display: inline-block; padding: 2px 6px; background-color: #ff6868; border-radius: 8px;">
+    <div style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
     <a href="/courses/vortex_dynamics/" style="text-decoration: none; color: white; font-weight: bold;">Movies of vortex dynamics in two-dimensional potential flow</a>
 </div>
 </div>
@@ -79,7 +79,7 @@ meromorphic functions, conformal mappings, harmonic functions, approximation and
     <li> <a href="#stein-shakarchi-complex">Complex Analysis</a>, by Elias M. Stein and Rami Shakarchi</li>
 </ul>
     </div>
-    <div style="display: inline-block; padding: 2px 6px; background-color: #ff6868; border-radius: 8px;">
+    <div style="display: inline; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
     <a href="/courses/selected/" style="text-decoration: none; color: white; font-weight: bold;">Project: Selected Problems in Complex Analysis</a>
 </div>
 </div>
