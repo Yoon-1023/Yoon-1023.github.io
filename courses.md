@@ -24,22 +24,33 @@ permalink: /courses/
 .course-reading {
     margin-top: 10px;
 }
+/* Reusable button style for details */
+.details-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6868;
+    border-radius: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+.details-button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
 </style>
 
 <div class="course-box">
     <div class="course-content">
         <h3>Spring 2024-MATH 704: Methods of Applied Math II</h3>
         <p><strong>Instructor:</strong> <a href="https://people.math.wisc.edu/~thiffeault/">Prof. Jean-Luc Thiffeault</a></p>
-        <p><strong>Content:</strong> Derivation, nature and solution of canonical partial differential equations of applied mathematics. Con-
-servation laws, advection, diffusion. First order PDEs, characteristics, shocks. Traffic flow, eikonal and
-Hamilton-Jacobi equations. Higher order PDEs: classification, Fourier analysis, well-posedness. Series
-solutions and integral transforms. Green’s functions and distributions. Similarity solutions. Asymptotics
-of Fourier integrals. Laplace’s method, stationary phase. Ship waves. Perturbation methods.</p>
+        <p><strong>Content:</strong> Derivation, nature and solution of canonical partial differential equations of applied mathematics. Conservation laws, advection, diffusion. First order PDEs, characteristics, shocks. Traffic flow, eikonal and Hamilton-Jacobi equations. Higher order PDEs: classification, Fourier analysis, well-posedness. Series solutions and integral transforms. Green’s functions and distributions. Similarity solutions. Asymptotics of Fourier integrals. Laplace’s method, stationary phase. Ship waves. Perturbation methods.</p>
         <p class="course-reading"><strong>Reading:</strong> <a href="#olver">Introduction to Partial Differential Equations</a></p>
     </div>
-    <div style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center; margin-right: 10px;">
-    <a href="/courses/fokas/" style="text-decoration: none; color: white; font-weight: bold;">Project: Fokas method for IBVPs of heat equation</a>
-</div>
+    <!-- Button using the reusable class -->
+    <div class="details-button">
+        <a href="/courses/fokas/">Project: Fokas method for IBVPs of heat equation</a>
+    </div>
 </div>
 
 <div class="course-box">
