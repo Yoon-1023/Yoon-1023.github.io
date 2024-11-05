@@ -154,7 +154,7 @@ application in finance, filtering, and control.</p>
             
             <li><strong>The Vector Field Method:</strong> This method consists of physical space techniques (in contrast to Fourier or spectral analysis) designed to capture the long-time dispersive behavior of solutions. The method revolves around the use of strategically chosen vector fields on the background space-time, often associated with exact or approximate symmetries of the equation. This approach has become fundamental in the study of highly nonlinear hyperbolic PDEs and has driven recent advances in the field.</li>
             
-            <li><strong>Secondary Objectives:</strong> A secondary aim of this course is to introduce low regularity theory results associated with notable models in nonlinear hyperbolic PDEs. Beginning with the basics, including the linear wave equation on $\mathbb{R}^{1+d}$, we will gradually build toward more advanced topics. Open problems in this area will also be discussed, providing a look at ongoing research. A general understanding of PDEs is assumed for this course.</li>
+            <li><strong>Secondary Objectives:</strong> A secondary aim of this course is to introduce low regularity theory results associated with notable models in nonlinear hyperbolic PDEs. Beginning with the basics, including the linear wave equation on ℝ<sup>1+d</sup>, we will gradually build toward more advanced topics. Open problems in this area will also be discussed, providing a look at ongoing research. A general understanding of PDEs is assumed for this course.</li>
         </ul>
         
         <p><strong>Reading:</strong></p>
@@ -177,7 +177,7 @@ application in finance, filtering, and control.</p>
             
             <li><strong>Singular Integrals:</strong> Theory and applications of integrals with singularities.</li>
             
-            <li><strong>Hardy Spaces ($H^1$) and $BMO$ (Bounded Mean Oscillation):</strong> Exploration of function spaces that generalize $ L^p $ spaces, with applications in harmonic analysis.</li>
+            <li><strong>Hardy Spaces (H<sup>1</sup>) and <span style="font-style: italic;">BMO</span> (Bounded Mean Oscillation):</strong> Exploration of function spaces that generalize $ L^p $ spaces, with applications in harmonic analysis.</li>
             
             <li><strong>Orthogonality and Almost Orthogonality:</strong> Concepts of orthogonality in functional spaces and their relaxed forms.</li>
             
