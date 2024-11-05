@@ -55,7 +55,7 @@ Discussions range from classical, centuries-old techniques to open questions of 
         <ul>
     <li> <a href="#acheson">Elementary Fluid Dynamics</a>, by David J. Acheson</li>
     <li> <a href="#batchelor">An Introduction to Fluid Dynamics</a>, by George Keith Batchelor</li>
-    <li> <a href="#landau-lifshitz">Fluid Mechanics: Volume *</a>, by Lev D. Landau and Evgenii M. Lifshitz</li>
+    <li> <a href="#landau-lifshitz">Fluid Mechanics: Volume </a>, by Lev D. Landau and Evgenii M. Lifshitz</li>
     <li> <a href="#currie">Fundamental Mechanics of Fluids</a>, by Iain G. Currie</li>
     <li> <a href="#saffman">Vortex Dynamics</a>, by Philip G. Saffman</li>
     <li> <a href="#graham">Microhydrodynamics, Brownian Motion, and Complex Fluids</a>, by Michael D. Graham</li>
