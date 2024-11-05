@@ -27,16 +27,15 @@ permalink: /courses/
 /* Reusable button style for details */
 .details-button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 8px 16px;
     background-color: #ff6868;
     border-radius: 12px;
     text-align: center;
     margin-top: 10px;
-}
-.details-button a {
+    margin-right: 10px;
     text-decoration: none;
-    color: white;
     font-weight: bold;
+    color: white;
 }
 </style>
 
@@ -48,9 +47,7 @@ permalink: /courses/
         <p class="course-reading"><strong>Reading:</strong> <a href="#olver">Introduction to Partial Differential Equations</a></p>
     </div>
     <!-- Button using the reusable class -->
-    <div class="details-button">
-        <a href="/courses/fokas/">Project: Fokas method for IBVPs of heat equation</a>
-    </div>
+    <a href="/courses/fokas/" class="details-button">Project: Fokas method for IBVPs of heat equation</a>
 </div>
 
 <div class="course-box">
