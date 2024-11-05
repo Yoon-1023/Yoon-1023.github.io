@@ -177,7 +177,7 @@ application in finance, filtering, and control.</p>
             
             <li><strong>Singular Integrals:</strong> Theory and applications of integrals with singularities.</li>
             
-            <li><strong>Hardy Spaces (H<sup>1</sup>) and <span style="font-style: italic;">BMO</span> (Bounded Mean Oscillation):</strong> Exploration of function spaces that generalize $ L^p $ spaces, with applications in harmonic analysis.</li>
+            <li><strong>Hardy Spaces (H<sup>1</sup>) and <span style="font-style: italic;">BMO</span> (Bounded Mean Oscillation):</strong> Exploration of function spaces that generalize L<sup>p</sup> spaces, with applications in harmonic analysis.</li>
             
             <li><strong>Orthogonality and Almost Orthogonality:</strong> Concepts of orthogonality in functional spaces and their relaxed forms.</li>
             
