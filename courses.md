@@ -37,7 +37,7 @@ solutions and integral transforms. Green’s functions and distributions. Simila
 of Fourier integrals. Laplace’s method, stationary phase. Ship waves. Perturbation methods.</p>
         <p class="course-reading"><strong>Reading:</strong> <a href="#olver">Introduction to Partial Differential Equations</a></p>
     </div>
-    <div style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
+    <div style="display: inline-block; padding: 2px 6px; background-color: #ff6868; border-radius: 8px;">
     <a href="/courses/fokas/" style="text-decoration: none; color: white; font-weight: bold;">Project: Fokas method for IBVPs of heat equation</a>
 </div>
 </div>
