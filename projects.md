@@ -38,6 +38,9 @@ permalink: /projects/
     <div class="project-image">
         <img src="/Fokas/figures/Fokas_2.5.1.png" alt="Figure 3" style="width: 100%; height: auto; border-radius: 8px;">
     </div>
+    <div style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
+    <a href="/courses/fokas/" style="text-decoration: none; color: white; font-weight: bold;">Details</a>
+</div>
 </div>
 
 <div class="project-box">
@@ -50,4 +53,7 @@ permalink: /projects/
         <img src="/Complex/figures/Swiss%20cheese.jpeg" alt="Swiss Cheese" style="width: 100%; height: auto; border-radius: 8px;">
         <p>Source: <a href="https://explainingmaths.wordpress.com/2022/03/08/alice-roth-and-swiss-cheeses/">Explaining Maths</a></p>
     </div>
+    <div style="display: inline-block; padding: 10px 20px; background-color: #ff6868; border-radius: 12px; text-align: center;">
+    <a href="/courses/selected/" style="text-decoration: none; color: white; font-weight: bold;">Details</a>
+</div>
 </div>
