@@ -106,7 +106,7 @@ MathJax = {
     </div>
     
     <div class="project-image">
-        <img src="/Courses/Galois/image.png" alt="image" style="width: 100%; height: auto; border-radius: 8px;">
+        <img src="/Courses/Galois/image.png" alt="image" style="width: 80%; height: auto; border-radius: 8px;">
     </div>
 </div>
 
