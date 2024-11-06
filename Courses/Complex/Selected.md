@@ -88,15 +88,23 @@ For a detailed presentation of the project, view the full PDF below.
     </iframe>
 
     <!-- Full-Screen Button -->
-    <button onclick="openFullScreen()" style="position: absolute; top: 10px; right: 10px; padding: 8px 16px; background-color: #007BFF; color: white; border: none; border-radius: 4px; cursor: pointer; z-index: 10;">
+    <button id="fullscreen-button" onclick="openFullScreen()" style="position: absolute; top: 10px; right: 10px; padding: 8px 16px; background-color: #007BFF; color: white; border: none; border-radius: 4px; cursor: pointer; z-index: 10;">
         Full Screen
+    </button>
+
+    <!-- Exit Full-Screen Button -->
+    <button id="exit-fullscreen-button" onclick="exitFullScreen()" style="position: absolute; top: 10px; right: 10px; padding: 8px 16px; background-color: #FF0000; color: white; border: none; border-radius: 4px; cursor: pointer; z-index: 10; display: none;">
+        Exit Full Screen
     </button>
 </div>
 
 <script>
-    // Function to open the PDF in full-screen mode
+    const iframe = document.getElementById('pdf-viewer');
+    const fullscreenButton = document.getElementById('fullscreen-button');
+    const exitFullscreenButton = document.getElementById('exit-fullscreen-button');
+
+    // Open the PDF in full-screen mode
     function openFullScreen() {
-        const iframe = document.getElementById('pdf-viewer');
         if (iframe.requestFullscreen) {
             iframe.requestFullscreen();
         } else if (iframe.mozRequestFullScreen) { // Firefox
@@ -107,7 +115,38 @@ For a detailed presentation of the project, view the full PDF below.
             iframe.msRequestFullscreen();
         }
     }
+
+    // Exit full-screen mode
+    function exitFullScreen() {
+        if (document.exitFullscreen) {
+            document.exitFullscreen();
+        } else if (document.mozCancelFullScreen) { // Firefox
+            document.mozCancelFullScreen();
+        } else if (document.webkitExitFullscreen) { // Chrome, Safari, Opera
+            document.webkitExitFullscreen();
+        } else if (document.msExitFullscreen) { // IE/Edge
+            document.msExitFullscreen();
+        }
+    }
+
+    // Monitor full-screen state
+    document.addEventListener('fullscreenchange', handleFullscreenChange);
+    document.addEventListener('webkitfullscreenchange', handleFullscreenChange); // Safari/Chrome
+    document.addEventListener('mozfullscreenchange', handleFullscreenChange); // Firefox
+    document.addEventListener('MSFullscreenChange', handleFullscreenChange); // IE/Edge
+
+    function handleFullscreenChange() {
+        if (document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement) {
+            fullscreenButton.style.display = 'none';
+            exitFullscreenButton.style.display = 'block';
+        } else {
+            fullscreenButton.style.display = 'block';
+            exitFullscreenButton.style.display = 'none';
+        }
+    }
 </script>
+
+
 
 <script type="text/javascript" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
