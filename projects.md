@@ -77,6 +77,8 @@ permalink: /projects/
     </div>
 </div>
 
+# Earlier Projects
+
 <div class="project-box">
     <div class="project-text">
         <h3>Kummer Theory and its application to the Galois Theory</h3>
