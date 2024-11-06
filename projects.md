@@ -97,7 +97,7 @@ MathJax = {
     <div class="project-text">
         <h3>Kummer Theory and its application to the Galois Theory</h3>
         <p><strong>Supervisor:</strong> <a href="https://math.nju.edu.cn/szdw/apypl1/20190916/i22153.html">Prof. Hourong Qin</a>, Department of Mathematics, Nanjing University</p>
-        <p><strong>Abstract:</strong> In this project, we focus on the Kummer Theory and its application to the Galois Theory. Explicitly, We will answer how to make the Galois Group \(G=Gal(K/F)\) of a finite Galois expansion \(K/F\) include as many crossed homomorphism groups \(Z\) possible. </p>
+        <p><strong>Abstract:</strong> In this project, we focus on the Kummer Theory and its application to the Galois Theory. Explicitly, We will answer how to make the Galois Group $$G=Gal(K/F)$$ of a finite Galois expansion $$K/F$$ include as many crossed homomorphism groups $$Z$$ possible. </p>
         
         <!-- Details Button at the Bottom -->
         <div class="details-button">
