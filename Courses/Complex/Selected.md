@@ -80,10 +80,34 @@ Let $$D(a_j, r_j)$$ be pairwise disjoint closed discs in $$D(0, 1)$$ such that t
 ## PDF Document
 For a detailed presentation of the project, view the full PDF below.
 
-<iframe src="/Complex/Selected_problems_in_Complex_Analysis.pdf" width="100%" height="600px">
-    This browser does not support PDFs. Please download the PDF to view it: 
-    <a href="/Complex/Selected_problems_in_Complex_Analysis.pdf">Download PDF</a>.
-</iframe>
+<div style="position: relative;">
+    <!-- PDF iframe -->
+    <iframe id="pdf-viewer" src="/Complex/Selected_problems_in_Complex_Analysis.pdf" width="100%" height="600px" style="border: none;">
+        This browser does not support PDFs. Please download the PDF to view it:
+        <a href="/Complex/Selected_problems_in_Complex_Analysis.pdf">Download PDF</a>.
+    </iframe>
+
+    <!-- Full-Screen Button -->
+    <button onclick="openFullScreen()" style="position: absolute; top: 10px; right: 10px; padding: 8px 16px; background-color: #007BFF; color: white; border: none; border-radius: 4px; cursor: pointer; z-index: 10;">
+        Full Screen
+    </button>
+</div>
+
+<script>
+    // Function to open the PDF in full-screen mode
+    function openFullScreen() {
+        const iframe = document.getElementById('pdf-viewer');
+        if (iframe.requestFullscreen) {
+            iframe.requestFullscreen();
+        } else if (iframe.mozRequestFullScreen) { // Firefox
+            iframe.mozRequestFullScreen();
+        } else if (iframe.webkitRequestFullscreen) { // Chrome, Safari, Opera
+            iframe.webkitRequestFullscreen();
+        } else if (iframe.msRequestFullscreen) { // IE/Edge
+            iframe.msRequestFullscreen();
+        }
+    }
+</script>
 
 <script type="text/javascript" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
