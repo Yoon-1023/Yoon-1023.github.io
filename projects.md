@@ -6,6 +6,20 @@ permalink: /projects/
 
 # Completed Projects
 
+<script type="text/x-mathjax-config">
+MathJax = {
+  tex: {
+    packages: ['base', 'ams', 'amscd', 'color', 'newcommand', 'bbox'],
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 <style>
 /* Style for project boxes */
 .project-box {
@@ -96,6 +110,4 @@ permalink: /projects/
     </div>
 </div>
 
-<script type="text/javascript" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
+
