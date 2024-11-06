@@ -4,7 +4,7 @@ title: "Research"
 permalink: /research/
 ---
 
-# Ongoing Research#
+# Ongoing Research
 
 Supervisors: [Prof. Saverio Spagnolie](https://people.math.wisc.edu/~spagnolie/) and [Dr. Thomas G. J. Chandler](https://people.math.wisc.edu/~tgchandler/)
 
