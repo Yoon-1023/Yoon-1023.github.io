@@ -82,71 +82,65 @@ For a detailed presentation of the project, view the full PDF below.
 
 <div style="position: relative;">
     <!-- PDF iframe -->
-    <iframe id="pdf-viewer" src="/Complex/Selected_problems_in_Complex_Analysis.pdf" width="100%" height="600px" style="border: none;">
+    <iframe id="pdf-viewer-selected" src="/Complex/Selected_problems_in_Complex_Analysis.pdf" width="100%" height="600px" style="border: none;">
         This browser does not support PDFs. Please download the PDF to view it:
         <a href="/Complex/Selected_problems_in_Complex_Analysis.pdf">Download PDF</a>.
     </iframe>
 
     <!-- Full-Screen Button -->
-    <button id="fullscreen-button" onclick="openFullScreen()" style="position: absolute; top: 10px; right: 10px; padding: 8px 16px; background-color: #007BFF; color: white; border: none; border-radius: 4px; cursor: pointer; z-index: 10;">
+    <button id="fullscreen-button-selected" onclick="openFullScreen('pdf-viewer-selected', 'fullscreen-button-selected', 'exit-fullscreen-button-selected')" style="position: absolute; top: 10px; right: 10px; padding: 8px 16px; background-color: #007BFF; color: white; border: none; border-radius: 4px; cursor: pointer; z-index: 10;">
         Full Screen
     </button>
 
     <!-- Exit Full-Screen Button -->
-    <button id="exit-fullscreen-button" onclick="exitFullScreen()" style="position: absolute; top: 10px; right: 10px; padding: 8px 16px; background-color: #FF0000; color: white; border: none; border-radius: 4px; cursor: pointer; z-index: 10; display: none;">
+    <button id="exit-fullscreen-button-selected" onclick="exitFullScreen()" style="position: absolute; top: 10px; right: 10px; padding: 8px 16px; background-color: #FF0000; color: white; border: none; border-radius: 4px; cursor: pointer; z-index: 10; display: none;">
         Exit Full Screen
     </button>
 </div>
 
-<script>
-    const iframe = document.getElementById('pdf-viewer');
-    const fullscreenButton = document.getElementById('fullscreen-button');
-    const exitFullscreenButton = document.getElementById('exit-fullscreen-button');
+function openFullScreen(iframeId, fullscreenButtonId, exitButtonId) {
+    const iframe = document.getElementById(iframeId);
+    const fullscreenButton = document.getElementById(fullscreenButtonId);
+    const exitFullscreenButton = document.getElementById(exitButtonId);
 
-    // Open the PDF in full-screen mode
-    function openFullScreen() {
-        if (iframe.requestFullscreen) {
-            iframe.requestFullscreen();
-        } else if (iframe.mozRequestFullScreen) { // Firefox
-            iframe.mozRequestFullScreen();
-        } else if (iframe.webkitRequestFullscreen) { // Chrome, Safari, Opera
-            iframe.webkitRequestFullscreen();
-        } else if (iframe.msRequestFullscreen) { // IE/Edge
-            iframe.msRequestFullscreen();
-        }
+    if (iframe.requestFullscreen) {
+        iframe.requestFullscreen();
+    } else if (iframe.mozRequestFullScreen) {
+        iframe.mozRequestFullScreen();
+    } else if (iframe.webkitRequestFullscreen) {
+        iframe.webkitRequestFullscreen();
+    } else if (iframe.msRequestFullscreen) {
+        iframe.msRequestFullscreen();
     }
+}
 
-    // Exit full-screen mode
-    function exitFullScreen() {
-        if (document.exitFullscreen) {
-            document.exitFullscreen();
-        } else if (document.mozCancelFullScreen) { // Firefox
-            document.mozCancelFullScreen();
-        } else if (document.webkitExitFullscreen) { // Chrome, Safari, Opera
-            document.webkitExitFullscreen();
-        } else if (document.msExitFullscreen) { // IE/Edge
-            document.msExitFullscreen();
-        }
+function exitFullScreen() {
+    if (document.exitFullscreen) {
+        document.exitFullscreen();
+    } else if (document.mozCancelFullScreen) {
+        document.mozCancelFullScreen();
+    } else if (document.webkitExitFullscreen) {
+        document.webkitExitFullscreen();
+    } else if (document.msExitFullscreen) {
+        document.msExitFullscreen();
     }
+}
 
-    // Monitor full-screen state
-    document.addEventListener('fullscreenchange', handleFullscreenChange);
-    document.addEventListener('webkitfullscreenchange', handleFullscreenChange); // Safari/Chrome
-    document.addEventListener('mozfullscreenchange', handleFullscreenChange); // Firefox
-    document.addEventListener('MSFullscreenChange', handleFullscreenChange); // IE/Edge
+document.addEventListener('fullscreenchange', handleFullscreenChange);
+document.addEventListener('webkitfullscreenchange', handleFullscreenChange);
+document.addEventListener('mozfullscreenchange', handleFullscreenChange);
+document.addEventListener('MSFullscreenChange', handleFullscreenChange);
 
-    function handleFullscreenChange() {
-        if (document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement) {
-            fullscreenButton.style.display = 'none';
-            exitFullscreenButton.style.display = 'block';
-        } else {
-            fullscreenButton.style.display = 'block';
-            exitFullscreenButton.style.display = 'none';
-        }
+function handleFullscreenChange() {
+    const fullscreenElements = document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement;
+    if (fullscreenElements) {
+        document.querySelectorAll('.fullscreen-button').forEach(button => button.style.display = 'none');
+        document.querySelectorAll('.exit-fullscreen-button').forEach(button => button.style.display = 'block');
+    } else {
+        document.querySelectorAll('.fullscreen-button').forEach(button => button.style.display = 'block');
+        document.querySelectorAll('.exit-fullscreen-button').forEach(button => button.style.display = 'none');
     }
-</script>
-
-
+}
 
 <script type="text/javascript" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
