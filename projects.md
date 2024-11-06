@@ -46,7 +46,7 @@ permalink: /projects/
     <div class="project-text">
         <h3>Fokas Method for Boundary Value Problems</h3>
         <p><strong>Supervisor:</strong> <a href="https://people.math.wisc.edu/~thiffeault/">Prof. Jean-Luc Thiffeault</a>, Chair, Department of Mathematics, UW-Madison</p>
-        <p><strong>Abstract:</strong> This project investigates the application of the Fokas method, or the Unified Transform Method, to Initial Boundary Value Problems in heat equations. In the first example, defined on the half-line with general Robin boundary conditions and initial conditions, I derived a solution in Ehrenpreis's form, examined the solution's properties, and provided a remark contrasting the image method with the Fokas method. In the second example, using Dirichlet boundary conditions on a finite interval, I derived a similar form of solution and utilized the Half-Residue theorem to recover the typical series solution.</p>
+        <p><strong>Abstract:</strong> This project investigates the application of the Fokas method, or the Unified Transform Method, to Initial Boundary Value Problems in heat equations. In the first example, defined on the half-line with general Robin boundary conditions and initial conditions, I derived a solution in Ehrenpreis's form, examined the solution's properties, and provided a remark contrasting the image method with the Fokas method. In the second example, using Dirichlet boundary conditions on a finite interval, I derived the same form of solution and utilized the Half-Residue theorem to recover the typical series solution.</p>
         
         <!-- Details Button at the Bottom -->
         <div class="details-button">
