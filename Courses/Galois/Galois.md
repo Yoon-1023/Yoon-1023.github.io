@@ -17,7 +17,7 @@ For a detailed presentation of the project, view the full PDF below.
 
 <div style="position: relative;">
     <!-- PDF iframe -->
-    <iframe id="pdf-viewer-selected" src="/Courses/Galois/Galois.pdf" width="100%" height="600px" style="border: none;">
+    <iframe id="pdf-viewer-galois" src="/Courses/Galois/Galois.pdf" width="100%" height="600px" style="border: none;">
         This browser does not support PDFs. Please download the PDF to view it:
         <a href="/Courses/Galois/Galois.pdf">Download PDF</a>.
     </iframe>
