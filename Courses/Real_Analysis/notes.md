@@ -1,24 +1,13 @@
 ---
 layout: default
-title: "Representing Function Values Through Integrals: Applications in Harmonic and Potential Theory"
-permalink: /courses/mathematical_analysis/
+title: "Hardy-Littlewood Maximal Inequalities and Their Applications in Interpolation Problems"
+permalink: /courses/real_analysis/
 ---
 
-# Representing Function Values Through Integrals: Applications in Harmonic and Potential Theory
+# Hardy-Littlewood Maximal Inequalities and Their Applications in Interpolation Problems
 
-In this project, we investigate methods to represent the value of a function at a specific point using integrals. Inspired by analogies between Cauchy Integral Formula in Complex Analysis and fundamental results in Mathematical Analysis, we explore key results in harmonic and potential theory. Specifically, we analyze representation formulas for harmonic functions and their connection to boundary integrals, using tools such as Green’s identities and spherical coordinate transformations. The methods are demonstrated through detailed proofs and examples.
+This project delves into the Hardy-Littlewood maximal inequalities, both strong and weak forms, in the context of real analysis. By systematically deriving and analyzing these inequalities, we investigate their applications, including their extension to function spaces such as  $$L^p(\mathbb{R}^n)$$  and the characterization of singular integral operators. Furthermore, the study provides insights into related inequalities and their significance in the broader framework of harmonic analysis and PDEs.
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between;">
-
-   <div style="width: 45%; text-align: center;">
-       <img src="/Courses/Mathematical_Analysis/figure.png" alt="Figure 1" style="width: 100%; height: auto; border-radius: 8px;">
-   </div>
-
-   <div style="width: 45%; text-align: center;">
-       <img src="/Courses/Mathematical_Analysis/image.png" alt="Figure 2" style="width: 100%; height: auto; border-radius: 8px;">
-   </div>
-
-</div>
 
 ## PDF Document
 For a detailed presentation of the project, view the full PDF below. 
