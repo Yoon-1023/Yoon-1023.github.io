@@ -76,3 +76,25 @@ permalink: /projects/
         <p>Source: <a href="https://explainingmaths.wordpress.com/2022/03/08/alice-roth-and-swiss-cheeses/">Explaining Maths</a></p>
     </div>
 </div>
+
+<div class="project-box">
+    <div class="project-text">
+        <h3>Kummer Theory and its application to the Galois Theory</h3>
+        <p><strong>Supervisor:</strong> <a href="https://math.nju.edu.cn/szdw/apypl1/20190916/i22153.html">Prof. Hourong Qin</a>, Department of Mathematics, Nanjing University</p>
+        <p><strong>Abstract:</strong> In this project, we focus on the Kummer Theory and its application to the Galois Theory. Explicitly, We will answer how to make the Galois Group ¥$G=Gal(K/F)¥$ of a finite Galois expansion $$K/F$$ include as many crossed homomorphism groups $$Z$$ as possible.</p>
+        
+        <!-- Details Button at the Bottom -->
+        <div class="details-button">
+            <a href="/courses/selected/">Details</a>
+        </div>
+    </div>
+    
+    <div class="project-image">
+        <img src="/Complex/figures/Swiss%20cheese.jpeg" alt="Swiss Cheese" style="width: 80%; height: auto; border-radius: 8px;">
+        <p>Source: <a href="https://explainingmaths.wordpress.com/2022/03/08/alice-roth-and-swiss-cheeses/">Explaining Maths</a></p>
+    </div>
+</div>
+
+<script type="text/javascript" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
