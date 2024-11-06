@@ -4,6 +4,8 @@ title: "Selected Problems in Complex Analysis"
 permalink: /courses/selected/
 ---
 
+# Selected Problems in Complex Analysis
+
 **Supervisor**: [Prof. Alexei Poltoratski](https://people.math.wisc.edu/~poltoratski/), Department of Mathematics, UW-Madison
 
 This project involves solving a series of complex analysis problems that delve into advanced topics to deepen understanding. Covered areas include modulus estimates for subcollections of complex numbers, injective extensions of holomorphic functions, and zeros analysis of transcendental equations. Additionally, the project applies Gauss-Lucas theorem to convex hulls, explores subharmonicity and Laplacians in strict harmonicity problems, and investigates "Swiss Cheese" sets related to Mergelyan’s theorem, illustrating limits of polynomial approximation on non-dense subsets in the complex plane.
