@@ -95,6 +95,25 @@ MathJax = {
 
 <div class="project-box">
     <div class="project-text">
+        <h3>Hardy-Littlewood Maximal Inequalities and Their
+Applications in Interpolation Problems</h3>
+        <p><strong>Supervisor:</strong> <a href="http://maths.nju.edu.cn/~luyong/">Prof. Yong Lu</a>, Department of Mathematics, Nanjing University</p>
+        <p><strong>Abstract:</strong> This project delves into the Hardy-Littlewood maximal inequalities, both strong and weak forms, in the context of real analysis. By systematically deriving and analyzing these inequalities, we investigate their applications, including their extension to function spaces such as  $L^p(\mathbb{R}^n)$  and the characterization of singular integral operators. Furthermore, the study provides insights into related inequalities and their significance in the broader framework of harmonic analysis and PDEs. </p>
+        
+        <!-- Details Button at the Bottom -->
+        <div class="details-button">
+            <a href="/courses/real_analysis/">Details</a>
+        </div>
+    </div>
+    
+    <div class="project-image">
+        <img src="/Courses/Real_Analysis/image.png" alt="image" style="width: 80%; height: auto; border-radius: 8px;">
+    </div>
+</div>
+
+
+<div class="project-box">
+    <div class="project-text">
         <h3>Kummer Theory and its application to the Galois Theory</h3>
         <p><strong>Supervisor:</strong> <a href="https://math.nju.edu.cn/szdw/apypl1/20190916/i22153.html">Prof. Hourong Qin</a>, Department of Mathematics, Nanjing University</p>
         <p><strong>Abstract:</strong> In this project, we focus on the Kummer Theory and its application to the Galois Theory. Explicitly, We will answer how to make the Galois Group \(G=Gal(K/F)\) of a finite Galois expansion \(K/F\) include as many crossed homomorphism groups \(Z\) possible. </p>
