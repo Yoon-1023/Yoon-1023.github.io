@@ -38,6 +38,68 @@ For a detailed presentation of the project, view the full PDF below.
     <a href="/Fokas/Fokas_method_for_heat_equations.pdf">Download PDF</a>.
 </iframe>
 
+<div style="position: relative;">
+    <!-- PDF iframe -->
+    <iframe id="pdf-viewer-fokas" src="/Fokas/Fokas_method_for_heat_equations.pdf" width="100%" height="600px" style="border: none;">
+        This browser does not support PDFs. Please download the PDF to view it:
+        <a href="/Fokas/Fokas_method_for_heat_equations.pdf">Download PDF</a>.
+    </iframe>
+
+    <!-- Full-Screen Button -->
+    <button id="fullscreen-button-fokas" onclick="openFullScreen('pdf-viewer-fokas', 'fullscreen-button-fokas', 'exit-fullscreen-button-fokas')" style="position: absolute; top: 10px; right: 10px; padding: 8px 16px; background-color: #007BFF; color: white; border: none; border-radius: 4px; cursor: pointer; z-index: 10;">
+        Full Screen
+    </button>
+
+    <!-- Exit Full-Screen Button -->
+    <button id="exit-fullscreen-button-fokas" onclick="exitFullScreen()" style="position: absolute; top: 10px; right: 10px; padding: 8px 16px; background-color: #FF0000; color: white; border: none; border-radius: 4px; cursor: pointer; z-index: 10; display: none;">
+        Exit Full Screen
+    </button>
+</div>
+
+function openFullScreen(iframeId, fullscreenButtonId, exitButtonId) {
+    const iframe = document.getElementById(iframeId);
+    const fullscreenButton = document.getElementById(fullscreenButtonId);
+    const exitFullscreenButton = document.getElementById(exitButtonId);
+
+    if (iframe.requestFullscreen) {
+        iframe.requestFullscreen();
+    } else if (iframe.mozRequestFullScreen) {
+        iframe.mozRequestFullScreen();
+    } else if (iframe.webkitRequestFullscreen) {
+        iframe.webkitRequestFullscreen();
+    } else if (iframe.msRequestFullscreen) {
+        iframe.msRequestFullscreen();
+    }
+}
+
+function exitFullScreen() {
+    if (document.exitFullscreen) {
+        document.exitFullscreen();
+    } else if (document.mozCancelFullScreen) {
+        document.mozCancelFullScreen();
+    } else if (document.webkitExitFullscreen) {
+        document.webkitExitFullscreen();
+    } else if (document.msExitFullscreen) {
+        document.msExitFullscreen();
+    }
+}
+
+document.addEventListener('fullscreenchange', handleFullscreenChange);
+document.addEventListener('webkitfullscreenchange', handleFullscreenChange);
+document.addEventListener('mozfullscreenchange', handleFullscreenChange);
+document.addEventListener('MSFullscreenChange', handleFullscreenChange);
+
+function handleFullscreenChange() {
+    const fullscreenElements = document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement;
+    if (fullscreenElements) {
+        document.querySelectorAll('.fullscreen-button').forEach(button => button.style.display = 'none');
+        document.querySelectorAll('.exit-fullscreen-button').forEach(button => button.style.display = 'block');
+    } else {
+        document.querySelectorAll('.fullscreen-button').forEach(button => button.style.display = 'block');
+        document.querySelectorAll('.exit-fullscreen-button').forEach(button => button.style.display = 'none');
+    }
+}
+
 <a href="javascript:history.back()" style="display: inline-block; margin: 10px 0; padding: 8px 16px; background-color: #4CAF50; color: white; border-radius: 4px; text-decoration: none; font-weight: bold;">
     Go Back
 </a>
