@@ -14,18 +14,18 @@ For a detailed presentation of the project, view the full PDF below.
 
 <div style="position: relative;">
     <!-- PDF iframe -->
-    <iframe id="pdf-viewer-notes" src="/Courses/Mathematical_Analysis/notes.pdf" width="100%" height="600px" style="border: none;">
+    <iframe id="pdf-viewer-real" src="/Courses/Real_Analysis/project.pdf" width="100%" height="600px" style="border: none;">
         This browser does not support PDFs. Please download the PDF to view it:
-        <a href="/Courses/Mathematical_Analysis/notes.pdf">Download PDF</a>.
+        <a href="/Courses/Real_Analysis/project.pdf">Download PDF</a>.
     </iframe>
 
     <!-- Full-Screen Button -->
-    <button id="fullscreen-button-notes" onclick="openFullScreen('pdf-viewer-notes', 'fullscreen-button-notes', 'exit-fullscreen-button-notes')" style="position: absolute; top: 10px; right: 10px; padding: 8px 16px; background-color: #007BFF; color: white; border: none; border-radius: 4px; cursor: pointer; z-index: 10;">
+    <button id="fullscreen-button-real" onclick="openFullScreen('pdf-viewer-real', 'fullscreen-button-real', 'exit-fullscreen-button-real')" style="position: absolute; top: 10px; right: 10px; padding: 8px 16px; background-color: #007BFF; color: white; border: none; border-radius: 4px; cursor: pointer; z-index: 10;">
         Full Screen
     </button>
 
     <!-- Exit Full-Screen Button -->
-    <button id="exit-fullscreen-button-notes" onclick="exitFullScreen()" style="position: absolute; top: 10px; right: 10px; padding: 8px 16px; background-color: #FF0000; color: white; border: none; border-radius: 4px; cursor: pointer; z-index: 10; display: none;">
+    <button id="exit-fullscreen-button-real" onclick="exitFullScreen()" style="position: absolute; top: 10px; right: 10px; padding: 8px 16px; background-color: #FF0000; color: white; border: none; border-radius: 4px; cursor: pointer; z-index: 10; display: none;">
         Exit Full Screen
     </button>
 </div>
