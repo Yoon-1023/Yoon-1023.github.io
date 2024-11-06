@@ -4,7 +4,9 @@ title: "Report"
 permalink: /courses/galois/
 ---
 
-**Supervisor**: [Prof. Alexei Poltoratski](https://people.math.wisc.edu/~poltoratski/), Department of Mathematics, UW-Madison
+# Investigation of Kummer Theory and its application to the Galois Theory
+
+**Supervisor**: [Prof. Hourong Qin](https://math.nju.edu.cn/szdw/apypl1/20190916/i22153.html), Department of Mathematics, Nanjing University
 
 This project involves solving a series of complex analysis problems that delve into advanced topics to deepen understanding. Covered areas include modulus estimates for subcollections of complex numbers, injective extensions of holomorphic functions, and zeros analysis of transcendental equations. Additionally, the project applies Gauss-Lucas theorem to convex hulls, explores subharmonicity and Laplacians in strict harmonicity problems, and investigates "Swiss Cheese" sets related to Mergelyan’s theorem, illustrating limits of polynomial approximation on non-dense subsets in the complex plane.
 
