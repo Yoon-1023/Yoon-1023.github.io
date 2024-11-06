@@ -110,4 +110,22 @@ MathJax = {
     </div>
 </div>
 
+## Fall 2022
 
+<div class="project-box">
+    <div class="project-text">
+        <h3>Representing Function Values Through Integrals: Applications in Harmonic and Potential Theory
+</h3>
+        <p><strong>Supervisor:</strong> <a href="https://math.nju.edu.cn/jzyg/apypl/20240321/i261827.html">Prof. Dong Miao</a>, Department of Mathematics, Nanjing University</p>
+        <p><strong>Abstract:</strong> In this project, we investigate methods to represent the value of a function at a specific point using integrals. Inspired by analogies between Cauchy Integral Formula in Complex Analysis and fundamental results in Mathematical Analysis, we explore key results in harmonic and potential theory. Specifically, we analyze representation formulas for harmonic functions and their connection to boundary integrals, using tools such as Green’s identities and spherical coordinate transformations. The methods are demonstrated through detailed proofs and examples. </p>
+        
+        <!-- Details Button at the Bottom -->
+        <div class="details-button">
+            <a href="/courses/mathematical_analysis/">Details</a>
+        </div>
+    </div>
+    
+    <div class="project-image">
+        <img src="/Courses/Mathematical_Analysis/image.png" alt="image" style="width: 80%; height: auto; border-radius: 8px;">
+    </div>
+</div>
