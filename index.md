@@ -67,7 +67,7 @@ permalink: /
 
   <p>
       More broadly, I am fascinated by the application of analytical mathematics to model physical systems, particularly where intricate 
-  mathematical methods reveal insights into real-world phenomena. For example, I am interested in the interactions of bodies and boundaries in 
+  mathematical methods reveal insights into real-world phenomena. Recently, I found interest in the interactions of bodies and boundaries in 
   three-dimensional unsteady Stokes flow, which generally involves exploring the Maxey-Riley equation using the Laplace transform method and 
   Lorentz reciprocity principles.
   </p>
