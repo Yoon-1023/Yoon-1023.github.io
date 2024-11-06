@@ -8,8 +8,9 @@ permalink: /courses/galois/
 
 **Supervisor**: [Prof. Hourong Qin](https://math.nju.edu.cn/szdw/apypl1/20190916/i22153.html), Department of Mathematics, Nanjing University
 
-This project involves solving a series of complex analysis problems that delve into advanced topics to deepen understanding. Covered areas include modulus estimates for subcollections of complex numbers, injective extensions of holomorphic functions, and zeros analysis of transcendental equations. Additionally, the project applies Gauss-Lucas theorem to convex hulls, explores subharmonicity and Laplacians in strict harmonicity problems, and investigates "Swiss Cheese" sets related to Mergelyan’s theorem, illustrating limits of polynomial approximation on non-dense subsets in the complex plane.
+This project explores the utility of group actions and their connection to symmetry, a concept central to Galois theory. Inspired by Professor Qin’s emphasis on “the greatest utility of a group lies in its action,” we examine the symmetry of equation roots, tracing its origins to mathematicians like Lagrange and Vandermonde. A natural progression from their work leads to Kummer theory, where the inclusion of $$m$$-th roots of unity plays a crucial role in understanding field extensions. This investigation builds on the foundational idea that symmetry, captured through group actions, provides powerful tools for uncovering invariants in both mathematics and the physical world.
 
+**Time**: Fall 2023
 
 ## PDF Document
 For a detailed presentation of the project, view the full PDF below.
