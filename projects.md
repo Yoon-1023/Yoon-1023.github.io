@@ -97,7 +97,8 @@ MathJax = {
     <div class="project-text">
         <h3>Kummer Theory and its application to the Galois Theory</h3>
         <p><strong>Supervisor:</strong> <a href="https://math.nju.edu.cn/szdw/apypl1/20190916/i22153.html">Prof. Hourong Qin</a>, Department of Mathematics, Nanjing University</p>
-        <p><strong>Abstract:</strong> In this project, we focus on the Kummer Theory and its application to the Galois Theory. Explicitly, We will answer how to make the Galois Group $$G=Gal(K/F)$$ of a finite Galois expansion $$K/F$$ include as many crossed homomorphism groups $$Z$$ as possible.</p>
+        <p><strong>Abstract:</strong> In this project, we focus on the Kummer Theory and its application to the Galois Theory. Explicitly, We will answer how to make the Galois Group $$G=Gal(K/F)$$ of a finite Galois expansion $$K/F$$ include as many crossed homomorphism groups $$Z$$ as possible. This project explores the utility of group actions and their connection to symmetry, a concept central to Galois theory. Inspired by Professor Qin’s emphasis on “the greatest utility of a group lies in its action,” we examine the symmetry of equation roots, tracing its origins to mathematicians like Lagrange and Vandermonde. A natural progression from their work leads to Kummer theory, where the inclusion of $$m$$-th roots of unity plays a crucial role in understanding field extensions. This investigation builds on the foundational idea that symmetry, captured through group actions, provides powerful tools for uncovering invariants in both mathematics and the physical world.
+</p>
         
         <!-- Details Button at the Bottom -->
         <div class="details-button">
