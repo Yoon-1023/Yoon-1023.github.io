@@ -108,7 +108,7 @@ meromorphic functions, conformal mappings, harmonic functions, approximation and
     <li> <a href="#folland">Real Analysis: Modern Techniques and Their Applications</a>, by Gerald B. Folland</li>
     <li> <a href="#rudin">Real and Complex Analysis</a>, by Walter Rudin</li>
 </ul>
-    <div>
+    </div>
 </div>
 
 <div class="course-box">
