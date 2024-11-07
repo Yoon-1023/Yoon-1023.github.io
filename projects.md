@@ -60,7 +60,7 @@ MathJax = {
     <div class="project-text">
         <h3>Fokas Method for Boundary Value Problems</h3>
         <p><strong>Supervisor:</strong> <a href="https://people.math.wisc.edu/~thiffeault/">Prof. Jean-Luc Thiffeault</a>, Chair, Department of Mathematics, UW-Madison</p>
-        <p><strong>Abstract:</strong> Explored solutions to Initial Boundary Value Problems (IBVPs) for the heat equation using the \href{https://en.wikipedia.org/wiki/Fokas_method}{Fokas method (unified transform method)}. Derived solutions in \href{https://en.wikipedia.org/wiki/Ehrenpreis%27s_fundamental_principle}{Ehrenpreis’s form} for a half-line problem with general Robin boundary conditions and a source term dependent on both time and space, comparing the method with the classical image approach. For a finite interval problem with Dirichlet boundary conditions, derived a similar form and recovered the traditional series solution using the Half-Residue Theorem.</p>
+        <p><strong>Abstract:</strong> Explored solutions to Initial Boundary Value Problems (IBVPs) for the heat equation using the Fokas method (unified transform method). Derived solutions in Ehrenpreis’s form for a half-line problem with general Robin boundary conditions and a source term dependent on both time and space, comparing the method with the classical image approach. For a finite interval problem with Dirichlet boundary conditions, derived a similar form and recovered the traditional series solution using the Half-Residue Theorem.</p>
         
         <!-- Details Button at the Bottom -->
         <div class="details-button">
