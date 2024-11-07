@@ -103,11 +103,12 @@ meromorphic functions, conformal mappings, harmonic functions, approximation and
             <li><strong>Hilbert Spaces:</strong> Riesz representation theorem, orthogonality, duality and adjoints, introduction to Fourier analysis.</li>
             <li><strong>Distribution Theory:</strong> Distributions, tempered and periodic distributions, Paley–Wiener theory, Sobolev spaces.</li>
         </ul>
-        <p><strong>Reading:</strong></p>
+        <p class="course-reading"><strong>Reading:</strong></p>
         <ul>
     <li> <a href="#folland">Real Analysis: Modern Techniques and Their Applications</a>, by Gerald B. Folland</li>
     <li> <a href="#rudin">Real and Complex Analysis</a>, by Walter Rudin</li>
 </ul>
+        <div>
 </div>
 
 <div class="course-box">
