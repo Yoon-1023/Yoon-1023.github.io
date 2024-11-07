@@ -129,7 +129,7 @@ Applications in Interpolation Problems</h3>
     </div>
 </div>
 
-## Fall 2022
+## Fall 2022 (Exploratory Project)
 
 <div class="project-box">
     <div class="project-text">
