@@ -5,6 +5,13 @@ permalink: /
 ---
 
 <style>
+/* Overall page content background */
+body {
+  background-color: #f9f9f9; /* Slight grey background */
+  margin: 0;
+  padding: 0;
+}
+
 /* Home-specific container for layout */
 .home-container {
   display: flex;
@@ -12,9 +19,7 @@ permalink: /
   justify-content: space-between;
   gap: 20px;
   margin-top: 20px;
-  background-color: #f9f9f9; /* Slight grey background for the content */
-  padding: 20px;
-  border-radius: 0; /* No rounded edges */
+  padding: 20px; /* Padding for spacing inside the grey background */
 }
 
 /* Box with photo and titles */
@@ -22,24 +27,18 @@ permalink: /
   width: 250px;
   text-align: center;
   padding: 10px;
-  border: none; /* Remove border */
   background-color: white; /* White box background */
   border-radius: 0; /* No rounded edges */
-}
-
-.photo-box img {
-  width: 100%;
-  border-radius: 0; /* No rounded edges for the photo */
-  margin-bottom: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional subtle shadow */
 }
 
 /* About Me section */
 .about-me {
   flex: 1;
   padding: 10px;
-  border: none; /* Remove border */
   background-color: white; /* White box background */
   border-radius: 0; /* No rounded edges */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional subtle shadow */
 }
 </style>
 
