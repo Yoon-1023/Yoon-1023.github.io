@@ -19,12 +19,6 @@ header {
   padding: 20px 0;
 }
 
-/* Separation line for clarity below the header */
-hr {
-  border-top: 2px solid #ddd;
-  margin: 0;
-}
-
 /* Home-specific container for layout */
 .home-container {
   display: flex;
