@@ -22,14 +22,29 @@ body {
   padding: 20px; /* Padding for spacing inside the grey background */
 }
 
-/* Box with photo and titles */
+/* Photo container styling */
 .photo-box {
-  width: 250px;
-  text-align: center;
-  padding: 10px;
-  background-color: white; /* White box background */
-  border-radius: 0; /* No rounded edges */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional subtle shadow */
+  width: 250px; /* Fixed width for the box */
+  text-align: center; /* Center-align content */
+  padding: 10px; /* Padding inside the box */
+  background-color: white; /* White background for contrast */
+  margin: 0 auto; /* Center the box horizontally */
+}
+
+/* Photo styling */
+.photo-box img {
+  width: 100%; /* Ensure it scales to the container width */
+  max-width: 250px; /* Limit maximum width */
+  height: auto; /* Keep the original aspect ratio */
+  margin-bottom: 10px; /* Add space below the image */
+  display: block; /* Prevent inline spacing issues */
+}
+
+/* General container background below the separation line */
+.home-container {
+  background-color: #f7f7f7; /* Slightly grey background */
+  padding: 20px; /* Add padding around the content */
+  border-radius: 8px; /* Rounded corners for aesthetic */
 }
 
 /* About Me section */
