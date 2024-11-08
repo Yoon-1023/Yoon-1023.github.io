@@ -17,7 +17,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 20px;
+  gap: 50px;
   margin-top: 20px;
   padding: 20px; /* Padding for spacing inside the grey background */
 }
