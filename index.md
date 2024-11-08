@@ -5,11 +5,24 @@ permalink: /
 ---
 
 <style>
-/* Overall page content background */
+/* Overall page content background below header */
 body {
-  background-color: #f9f9f9; /* Slight grey background */
+  background-color: #f9f9f9; /* Slight grey background for the whole page */
   margin: 0;
   padding: 0;
+}
+
+/* Header area styling */
+header {
+  background-color: white;
+  margin: 0;
+  padding: 20px 0;
+}
+
+/* Separation line for clarity below the header */
+hr {
+  border-top: 2px solid #ddd;
+  margin: 0;
 }
 
 /* Home-specific container for layout */
@@ -18,8 +31,9 @@ body {
   flex-direction: row;
   justify-content: space-between;
   gap: 20px;
-  margin-top: 20px;
   padding: 20px; /* Padding for spacing inside the grey background */
+  background-color: #f7f7f7; /* Slightly grey background for content */
+  border-radius: 8px; /* Rounded corners for aesthetic */
 }
 
 /* Photo container styling */
@@ -28,6 +42,7 @@ body {
   text-align: center; /* Center-align content */
   padding: 10px; /* Padding inside the box */
   background-color: white; /* White background for contrast */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   margin: 0 auto; /* Center the box horizontally */
 }
 
@@ -40,17 +55,10 @@ body {
   display: block; /* Prevent inline spacing issues */
 }
 
-/* General container background below the separation line */
-.home-container {
-  background-color: #f7f7f7; /* Slightly grey background */
-  padding: 20px; /* Add padding around the content */
-  border-radius: 8px; /* Rounded corners for aesthetic */
-}
-
 /* About Me section */
 .about-me {
   flex: 1;
-  padding: 10px;
+  padding: 20px;
   background-color: white; /* White box background */
   border-radius: 0; /* No rounded edges */
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional subtle shadow */
