@@ -13,15 +13,18 @@
 <body> 
 
     <!-- Navigation Bar -->
-<nav style="padding: 15px 0;">
-    <ul style="display: flex; justify-content: center; list-style: none; padding: 0; gap: 20px;">
+<header style="text-align: center; margin-bottom: 20px;">
+    <h1 style="margin: 0; font-size: 2.5em; font-weight: bold;">Your Name</h1>
+    <nav style="padding: 15px 0;">
+        <ul style="display: flex; justify-content: center; list-style: none; padding: 0; gap: 20px;">
         <li><a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %}active{% endif %}">Home</a></li>
         <li><a href="{{ '/research/' | relative_url }}" class="{% if page.url == '/research/' %}active{% endif %}">Research</a></li>
         <li><a href="{{ '/projects/' | relative_url }}" class="{% if page.url == '/projects/' %}active{% endif %}">Projects</a></li>
         <li><a href="{{ '/courses/' | relative_url }}" class="{% if page.url contains '/courses/' or page.url == '/vortex_dynamics/' %}active{% endif %}">Courses</a></li>
         <li><a href="{{ '/Materials/CV.pdf' | absolute_url }}" target="_self">CV</a></li>
-    </ul>
-</nav>
+        </ul>
+    </nav>
+</header>
 
 <style>
 /* Navigation link styles */
