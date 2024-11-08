@@ -19,4 +19,4 @@ navbar:
   - title: "Courses"
     url: /courses/
   - title: "CV"
-    url: "/Materials/CV.pdf"
+    url: /cv/
