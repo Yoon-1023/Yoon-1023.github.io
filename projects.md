@@ -70,7 +70,7 @@ header {
 
 <div class="project-box">
     <div class="project-text">
-        <h3>Fokas Method for Boundary Value Problems</h3>
+        <h3>Fokas Method for Intial Boundary Value Problems of Heat Equations</h3>
         <p><strong>Supervisor:</strong> <a href="https://people.math.wisc.edu/~thiffeault/">Prof. Jean-Luc Thiffeault</a>, Chair, Department of Mathematics, UW-Madison</p>
         <p><strong>Abstract:</strong> Explored solutions to Initial Boundary Value Problems (IBVPs) for the heat equation using the Fokas method (unified transform method). Derived solutions in Ehrenpreis’s form for a half-line problem with general Robin boundary conditions and a source term dependent on both time and space, comparing the method with the classical image approach. For a finite interval problem with Dirichlet boundary conditions, derived a similar form and recovered the traditional series solution using the Half-Residue Theorem.</p>
         
@@ -106,7 +106,6 @@ header {
 ## Fall 2023
 
 <div class="project-box">
-    <div class="project-text">
         <h3>Hardy-Littlewood Maximal Inequalities and Their
 Applications in Interpolation Problems</h3>
         <p><strong>Supervisor:</strong> <a href="http://maths.nju.edu.cn/~luyong/">Prof. Yong Lu</a>, Department of Mathematics, Nanjing University</p>
@@ -116,16 +115,10 @@ Applications in Interpolation Problems</h3>
         <div class="details-button">
             <a href="/courses/real_analysis/">Details</a>
         </div>
-    </div>
-    
-    <div class="project-image">
-        <img src="/Courses/Real_Analysis/photo.png" alt="image" style="width: 80%; height: auto; border-radius: 8px;">
-    </div>
 </div>
 
 
 <div class="project-box">
-    <div class="project-text">
         <h3>Kummer Theory and its application to the Galois Theory</h3>
         <p><strong>Supervisor:</strong> <a href="https://math.nju.edu.cn/szdw/apypl1/20190916/i22153.html">Prof. Hourong Qin</a>, Department of Mathematics, Nanjing University</p>
         <p><strong>Abstract:</strong> In this project, we focus on the Kummer Theory and its application to the Galois Theory. Explicitly, We will answer how to make the Galois Group \(G=Gal(K/F)\) of a finite Galois expansion \(K/F\) include as many crossed homomorphism groups \(Z\) as possible. </p>
@@ -134,17 +127,11 @@ Applications in Interpolation Problems</h3>
         <div class="details-button">
             <a href="/courses/galois/">Details</a>
         </div>
-    </div>
-    
-    <div class="project-image">
-        <img src="/Courses/Galois/image.png" alt="image" style="width: 80%; height: auto; border-radius: 8px;">
-    </div>
 </div>
 
-## Fall 2022 (Exploratory Project)
+## Fall 2022 
 
 <div class="project-box">
-    <div class="project-text">
         <h3>Representing Function Values Through Integrals: Applications in Harmonic and Potential Theory
 </h3>
         <p><strong>Supervisor:</strong> <a href="https://math.nju.edu.cn/jzyg/apypl/20240321/i261827.html">Prof. Dong Miao</a>, Department of Mathematics, Nanjing University</p>
@@ -154,9 +141,4 @@ Applications in Interpolation Problems</h3>
         <div class="details-button">
             <a href="/courses/mathematical_analysis/">Details</a>
         </div>
-    </div>
-    
-    <div class="project-image">
-        <img src="/Courses/Mathematical_Analysis/image.png" alt="image" style="width: 80%; height: auto; border-radius: 8px;">
-    </div>
 </div>
