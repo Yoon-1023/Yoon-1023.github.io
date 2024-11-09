@@ -3,7 +3,20 @@ layout: default
 title: "Hardy-Littlewood Maximal Inequalities and Their Applications in Interpolation Problems"
 permalink: /courses/real_analysis/
 ---
-
+<style>
+/* Overall page content background below header */
+body {
+  background-color: #f9f9f9; /* Slight grey background for the whole page */
+  margin: 0;
+  padding: 0;
+}
+  /* Header area styling */
+header {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+</style>
 # Hardy-Littlewood Maximal Inequalities and Their Applications in Interpolation Problems
 
 This project delves into the Hardy-Littlewood maximal inequalities, both strong and weak forms, in the context of real analysis. By systematically deriving and analyzing these inequalities, we investigate their applications, including their extension to function spaces such as  $$L^p(\mathbb{R}^n)$$  and the characterization of singular integral operators. Furthermore, the study provides insights into related inequalities and their significance in the broader framework of harmonic analysis and PDEs.
