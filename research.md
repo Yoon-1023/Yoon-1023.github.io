@@ -27,21 +27,6 @@ Nematic liquid crystals, composed of rod-like molecules with directional order, 
 
 Based on the general approach presented in [*A nematic liquid crystal with an immersed body: equilibrium, stress, and paradox*](#key-references) and [*Exact and approximate solutions for elastic interactions in a nematic liquid crystal*](#key-references), I examine the equilibrium configurations of a semi-infinite nematic liquid crystal with an immersed body in two dimensions, as well as the associated body forces, torques and tractions. Inspired by the previous work by Crowdy for [*Solving problems in multiply connected domains*](#key-references), a complex variable approach is adopted to derive an analytic solution. Free periods (circulations) of a complex director field, which correspond to topological defect positioning and net topological charge, are determined asymptotically or numerically to minimize the elastic energy within the entire bulk. With a far-field condition that depends on the geometry and type of anchoring, a general, analytical description of body-boundary interactions will be provided, along with illustrations of examples using an arbitrary cylinder in a half-plane and a triangle of arbitrary position and orientation in an arbitrary wedge domain.
 
-## Key Figures
-<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: center;">
-
-   <div style="width: 59%; text-align: center;">
-       <img src="/LC/figures/conformal_mapping.jpg" alt="Conformal Mapping" style="width: 100%; height: auto; border-radius: 8px;">
-       <p>Figure 1: Conformal Mapping</p>
-   </div>
-
-   <div style="width: 31%; text-align: center;">
-       <img src="/LC/figures/integral_curves.jpg" alt="Integral Curves" style="width: 100%; height: auto; border-radius: 8px;">
-       <p>Figure 2: Integral Curves</p>
-   </div>
-
-</div>
-
 ## Current Draft
 
 <div style="position: relative;">
