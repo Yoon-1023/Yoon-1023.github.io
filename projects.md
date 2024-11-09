@@ -33,6 +33,25 @@ header {
   margin: 0;
   padding: 0;
 }
+.project-box-no-image {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.project-box-no-image h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.project-box-no-image p {
+  margin: 0 0 10px;
+  line-height: 1.6;
+  color: #555;
+}
 /* Style for project boxes */
 .project-box {
     display: flex;
@@ -105,7 +124,7 @@ header {
 
 ## Fall 2023
 
-<div class="project-box">
+<div class="project-box-no-image">
         <h3>Hardy-Littlewood Maximal Inequalities and Their
 Applications in Interpolation Problems</h3>
         <p><strong>Supervisor:</strong> <a href="http://maths.nju.edu.cn/~luyong/">Prof. Yong Lu</a>, Department of Mathematics, Nanjing University</p>
@@ -118,7 +137,7 @@ Applications in Interpolation Problems</h3>
 </div>
 
 
-<div class="project-box">
+<div class="project-box-no-image">
         <h3>Kummer Theory and its application to the Galois Theory</h3>
         <p><strong>Supervisor:</strong> <a href="https://math.nju.edu.cn/szdw/apypl1/20190916/i22153.html">Prof. Hourong Qin</a>, Department of Mathematics, Nanjing University</p>
         <p><strong>Abstract:</strong> In this project, we focus on the Kummer Theory and its application to the Galois Theory. Explicitly, We will answer how to make the Galois Group \(G=Gal(K/F)\) of a finite Galois expansion \(K/F\) include as many crossed homomorphism groups \(Z\) as possible. </p>
@@ -131,7 +150,7 @@ Applications in Interpolation Problems</h3>
 
 ## Fall 2022 
 
-<div class="project-box">
+<div class="project-box-no-image">
         <h3>Representing Function Values Through Integrals: Applications in Harmonic and Potential Theory
 </h3>
         <p><strong>Supervisor:</strong> <a href="https://math.nju.edu.cn/jzyg/apypl/20240321/i261827.html">Prof. Dong Miao</a>, Department of Mathematics, Nanjing University</p>
