@@ -3,7 +3,20 @@ layout: default
 title: "Representing Function Values Through Integrals: Applications in Harmonic and Potential Theory"
 permalink: /courses/mathematical_analysis/
 ---
-
+<style>
+/* Overall page content background below header */
+body {
+  background-color: #f9f9f9; /* Slight grey background for the whole page */
+  margin: 0;
+  padding: 0;
+}
+  /* Header area styling */
+header {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+</style>
 # Representing Function Values Through Integrals: Applications in Harmonic and Potential Theory
 
 In this project, we investigate methods to represent the value of a function at a specific point using integrals. Inspired by analogies between Cauchy Integral Formula in Complex Analysis and fundamental results in Mathematical Analysis, we explore key results in harmonic and potential theory. Specifically, we analyze representation formulas for harmonic functions and their connection to boundary integrals, using tools such as Green’s identities and spherical coordinate transformations. The methods are demonstrated through detailed proofs and examples.
