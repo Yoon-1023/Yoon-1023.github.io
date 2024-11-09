@@ -3,7 +3,20 @@ layout: default
 title: "Movies of Vortex Dynamics"
 permalink: /courses/vortex_dynamics/
 ---
-
+<style>
+/* Overall page content background below header */
+body {
+  background-color: #f9f9f9; /* Slight grey background for the whole page */
+  margin: 0;
+  padding: 0;
+}
+  /* Header area styling */
+header {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+</style>
 # Vortex-dynamics
 
 This page includes my numerical simulations for vortex dynamics in two-dimensional potential flow.
