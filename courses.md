@@ -7,6 +7,18 @@ permalink: /courses/
 # Graduate Courses
 
 <style>
+/* Overall page content background below header */
+body {
+  background-color: #f9f9f9; /* Slight grey background for the whole page */
+  margin: 0;
+  padding: 0;
+}
+  /* Header area styling */
+header {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
 /* Style for course boxes */
 .course-box {
     display: flex;
@@ -16,7 +28,7 @@ permalink: /courses/
     margin-bottom: 20px;
     border-radius: 12px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #f9f9f9;
+    background-color: white;
 }
 .course-content {
     margin-bottom: 15px;
