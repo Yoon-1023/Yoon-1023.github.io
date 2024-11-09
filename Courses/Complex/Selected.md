@@ -3,7 +3,20 @@ layout: default
 title: "Selected Problems in Complex Analysis"
 permalink: /courses/selected/
 ---
-
+<style>
+/* Overall page content background below header */
+body {
+  background-color: #f9f9f9; /* Slight grey background for the whole page */
+  margin: 0;
+  padding: 0;
+}
+  /* Header area styling */
+header {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+</style>
 # Selected Problems in Complex Analysis
 
 **Supervisor**: [Prof. Alexei Poltoratski](https://people.math.wisc.edu/~poltoratski/), Department of Mathematics, UW-Madison
