@@ -11,6 +11,13 @@ body {
   margin: 0;
   padding: 0;
 }
+  /* Header area styling */
+header {
+  background-color: white;
+  margin: 0;
+  padding: 20px 0;
+}
+
 
 /* Home-specific container for layout */
 .home-container {
@@ -20,7 +27,7 @@ body {
   gap: 50px;
   padding: 20px; /* Padding for spacing inside the grey background */
   background-color: #f7f7f7; /* Slightly grey background for content */
-  border-radius: 8px; /* Rounded corners for aesthetic */
+  border-radius: 0; /* Rounded corners for aesthetic */
 }
 
 /* Photo container styling */
