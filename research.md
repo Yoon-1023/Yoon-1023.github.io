@@ -4,6 +4,21 @@ title: "Research"
 permalink: /research/
 ---
 
+<style>
+/* Overall page content background below header */
+body {
+  background-color: #f9f9f9; /* Slight grey background for the whole page */
+  margin: 0;
+  padding: 0;
+}
+  /* Header area styling */
+header {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+</style>
+
 # Ongoing Research
 
 Supervisors: [Prof. Saverio Spagnolie](https://people.math.wisc.edu/~spagnolie/) and [Dr. Thomas G. J. Chandler](https://people.math.wisc.edu/~tgchandler/)
