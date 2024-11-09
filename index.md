@@ -12,13 +12,6 @@ body {
   padding: 0;
 }
 
-/* Header area styling */
-header {
-  background-color: white;
-  margin: 0;
-  padding: 0;
-}
-
 /* Home-specific container for layout */
 .home-container {
   display: flex;
