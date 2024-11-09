@@ -21,6 +21,18 @@ MathJax = {
 </script>
 
 <style>
+/* Overall page content background below header */
+body {
+  background-color: #f9f9f9; /* Slight grey background for the whole page */
+  margin: 0;
+  padding: 0;
+}
+  /* Header area styling */
+header {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
 /* Style for project boxes */
 .project-box {
     display: flex;
@@ -32,7 +44,7 @@ MathJax = {
     margin-bottom: 20px;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #f9f9f9;
+    background-color: white;
 }
 .project-text {
     width: 50%;
