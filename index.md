@@ -25,7 +25,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   gap: 50px;
-  padding: 20px; /* Padding for spacing inside the grey background */
+  padding: 0; /* Padding for spacing inside the grey background */
   background-color: #f7f7f7; /* Slightly grey background for content */
   border-radius: 0; /* Rounded corners for aesthetic */
 }
