@@ -3,20 +3,7 @@ layout: default
 title: "Fokas Method for IBVPs of Heat Equations"
 permalink: /courses/fokas/
 ---
-<style>
-/* Overall page content background below header */
-body {
-  background-color: #f9f9f9; /* Slight grey background for the whole page */
-  margin: 0;
-  padding: 0;
-}
-  /* Header area styling */
-header {
-  background-color: white;
-  margin: 0;
-  padding: 0;
-}
-</style>
+
 # Fokas Method for IBVPs of Heat Equations
 
 **Supervisor**: [Prof. Jean-Luc Thiffeault](https://people.math.wisc.edu/~thiffeault/), Chair, Department of Mathematics, UW-Madison
