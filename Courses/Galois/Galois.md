@@ -3,7 +3,20 @@ layout: default
 title: "Report"
 permalink: /courses/galois/
 ---
-
+<style>
+/* Overall page content background below header */
+body {
+  background-color: #f9f9f9; /* Slight grey background for the whole page */
+  margin: 0;
+  padding: 0;
+}
+  /* Header area styling */
+header {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+</style>
 # Investigation of Kummer Theory and its application to the Galois Theory
 
 **Supervisor**: [Prof. Hourong Qin](https://math.nju.edu.cn/szdw/apypl1/20190916/i22153.html), Department of Mathematics, Nanjing University
