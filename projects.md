@@ -119,7 +119,7 @@ Applications in Interpolation Problems</h3>
     </div>
     
     <div class="project-image">
-        <img src="/Courses/Real_Analysis/image.png" alt="image" style="width: 80%; height: auto; border-radius: 8px;">
+        <img src="/Courses/Real_Analysis/photo.png" alt="image" style="width: 80%; height: auto; border-radius: 8px;">
     </div>
 </div>
 
