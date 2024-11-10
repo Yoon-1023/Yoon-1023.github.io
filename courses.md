@@ -140,7 +140,7 @@ application in finance, filtering, and control.</p>
     </div>
 </div>
 
-## Advanced Topic Courses
+# Advanced Topic Courses
 
 <div class="course-box">
     <div class="course-content">
