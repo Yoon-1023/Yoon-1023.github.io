@@ -62,7 +62,7 @@ header {
 <div class="home-container">
   <!-- Left box with photo and titles -->
   <div class="photo-box">
-    <img src="/dc55329f32f89fddf885749e03580c5b.jpeg" alt="Junhao Yin's photo">
+    <img src="/IMG_0587.jpeg" alt="Junhao Yin's photo">
     <h3>Junhao Yin</h3>
     <p>Senior Undergrad</p>
     <p>Nanjing University</p>
