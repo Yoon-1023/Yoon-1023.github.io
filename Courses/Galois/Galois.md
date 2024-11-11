@@ -31,8 +31,11 @@ For a detailed presentation of the project, view the full PDF below.
 <div style="position: relative;">
     <!-- PDF iframe -->
     <iframe id="pdf-viewer-galois" src="/Courses/Galois/Galois.pdf" width="100%" height="600px" style="border: none;">
-        This browser does not support PDFs. Please download the PDF to view it:
-        <a href="/Courses/Galois/Galois.pdf">Download PDF</a>.
+        Your browser does not support viewing PDFs directly. Please consider using 
+        <a href="https://www.google.com/chrome/" style="display: inline-flex; align-items: center; text-decoration: none; color: #007BFF;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Google_Chrome_icon_%282011%29.png" alt="Google Chrome" style="width: 16px; height: 16px; margin-right: 5px;">
+            Google Chrome
+        </a>
     </iframe>
 
     <!-- Full-Screen Button -->
