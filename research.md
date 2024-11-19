@@ -51,29 +51,27 @@ header {
 /* General styling for content box headers */
 .research-content-box h1 {
     font-size: 2.5rem; /* Large title size */
-    margin-top: 30px; /* Add spacing above the title */
-    margin-bottom: 20px; /* Add spacing below the title */
+    margin-top: 60px; /* Add spacing above the title */
+    margin-bottom: 50px; /* Add spacing below the title */
     color: #222; /* Darker color for prominence */
     font-weight: bold; /* Highlight importance */
 }
 
 .research-content-box h2 {
     font-size: 2rem; /* Medium subtitle size */
-    margin-top: 25px; /* Add spacing above the subtitle */
-    margin-bottom: 15px; /* Add spacing below the subtitle */
+    margin-top: 35px; /* Add spacing above the subtitle */
+    margin-bottom: 25px; /* Add spacing below the subtitle */
     color: #333; /* Slightly lighter than h1 */
     font-weight: bold; /* Maintain emphasis */
-    border-bottom: 2px solid #ddd; /* Optional underline for separation */
     padding-bottom: 8px; /* Space below the text */
 }
 
 .research-content-box h3 {
     font-size: 1.5rem; /* Smaller subtitle size */
-    margin-top: 20px; /* Add spacing above */
-    margin-bottom: 10px; /* Add spacing below */
+    margin-top: 30px; /* Add spacing above */
+    margin-bottom: 20px; /* Add spacing below */
     color: #555; /* Lighter than h2 */
     font-weight: bold; /* Stand out */
-    border-bottom: 1px solid #ddd; /* Optional thinner underline */
     padding-bottom: 5px; /* Space below text */
 }
 
@@ -86,9 +84,9 @@ header {
 .research-content-box hr {
     border: none; /* Remove default border */
     border-top: 2px solid #ddd; /* Custom border style */
-    margin-top: 30px; /* Space above the line */
-    margin-bottom: 30px; /* Space below the line */
-    width: 90%; /* Slightly reduced width for better aesthetics */
+    margin-top: 60px; /* Space above the line */
+    margin-bottom: 60px; /* Space below the line */
+    width: 98%; /* Slightly reduced width for better aesthetics */
     margin-left: auto; /* Center the line */
     margin-right: auto; /* Center the line */
 }
