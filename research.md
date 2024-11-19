@@ -108,8 +108,19 @@ header {
   <!-- Separation line -->
     <hr>
     <h2>Example 1: An immersed cylinder in a half-plane liquid crystal with tangential anchoring</h2>
+    <p><strong>Varing circulation/Period</strong></p>
     <video autoplay loop muted playsinline style="width: 100%; height: auto;">
         <source src="/LC/Movies/Half_Plane_Cylinder/integral_curves_Gamma.mp4" type="video/mp4">
+        Your browser does not support the video tag. Please update your browser.
+    </video>
+    <p><strong>Varing anchoring strength</strong></p>
+    <video autoplay loop muted playsinline style="width: 100%; height: auto;">
+        <source src="/LC/Movies/Half_Plane_Cylinder/integral_curves_omega.mp4" type="video/mp4">
+        Your browser does not support the video tag. Please update your browser.
+    </video>
+    <p><strong>Quasi-stable Evolution</strong></p>
+    <video autoplay loop muted playsinline style="width: 100%; height: auto;">
+        <source src="/LC/Movies/Half_Plane_Cylinder/Quasi_Stable_Evolution.mp4" type="video/mp4">
         Your browser does not support the video tag. Please update your browser.
     </video>
     <p>
