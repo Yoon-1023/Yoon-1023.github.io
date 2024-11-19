@@ -41,7 +41,7 @@ header {
     max-width: 1100px; 
     margin: 20px auto; /* Center the content */
     background-color: white; /* White background for readability */
-    padding: 40px; /* Add some padding */
+    padding: 80px; /* Add some padding */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for aesthetics */
     border-radius: 8px; /* Rounded corners */
     border: 1px solid #ddd; /* Optional border for contrast */
