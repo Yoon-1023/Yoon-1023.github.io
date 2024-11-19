@@ -78,8 +78,7 @@ header {
       fluid dynamics, stochastic modeling, and dynamical systems.
     </p>
     <p>
-      My current research, supervised by <a href="https://people.math.wisc.edu/~spagnolie/">Prof. Saverio Spagnolie</a> and based on the work of 
-      <a href="https://people.math.wisc.edu/~tgchandler/">Dr. Thomas G. J. Chandler</a>, focuses on the elastic interaction of an immersed body 
+      My current research, advised by <a href="https://people.math.wisc.edu/~spagnolie/">Prof. Saverio Spagnolie</a>, focuses on the elastic interaction of an immersed body 
       within a semi-infinite nematic liquid crystal. This project utilizes a blend of applied mathematical techniques, including asymptotic 
       analysis, numerical methods, and complex analysis, to tackle the unique challenges presented by the multiply-connected geometry in anisotropic 
       environments.
