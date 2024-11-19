@@ -41,7 +41,7 @@ header {
     max-width: 1100px; 
     margin: 20px auto; /* Center the content */
     background-color: white; /* White background for readability */
-    padding: 80px; /* Add some padding */
+    padding: 60px; /* Add some padding */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for aesthetics */
     border-radius: 8px; /* Rounded corners */
     border: 1px solid #ddd; /* Optional border for contrast */
@@ -51,7 +51,7 @@ header {
 /* General styling for content box headers */
 .research-content-box h1 {
     font-size: 2.5rem; /* Large title size */
-    margin-top: 60px; /* Add spacing above the title */
+    margin-top: 30px; /* Add spacing above the title */
     margin-bottom: 50px; /* Add spacing below the title */
     color: #222; /* Darker color for prominence */
     font-weight: bold; /* Highlight importance */
@@ -86,7 +86,7 @@ header {
     border-top: 2px solid #ddd; /* Custom border style */
     margin-top: 60px; /* Space above the line */
     margin-bottom: 60px; /* Space below the line */
-    width: 98%; /* Slightly reduced width for better aesthetics */
+    width: 99%; /* Slightly reduced width for better aesthetics */
     margin-left: auto; /* Center the line */
     margin-right: auto; /* Center the line */
 }
