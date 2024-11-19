@@ -17,41 +17,55 @@ header {
   margin: 0;
   padding: 0;
 }
+
+  /* Styling for the PDF Button */
+.pdf-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.pdf-button:hover {
+    background-color: #0056b3; /* Darker blue for hover effect */
+}
+  /* Style for the main content box */
+.research-content-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 900px;
+}
 </style>
 
-# Ongoing Research
-
-Supervisors: [Prof. Saverio Spagnolie](https://people.math.wisc.edu/~spagnolie/) and [Dr. Thomas G. J. Chandler](https://people.math.wisc.edu/~tgchandler/)
-
-Nematic liquid crystals, composed of rod-like molecules with directional order, exhibit complex behaviors due to the elasticity of their orientational structure. When immersed bodies are introduced into these materials, they disrupt the local orientation, creating defects and elastic stresses that lead to intricate body-boundary interactions. These interactions are influenced by factors such as anchoring conditions, defect positioning, and the geometric configuration of boundaries, all of which contribute to the unique physical properties of the system. A semi-infinite configuration, in particular, is of broad experimental and theoretical interest, as it effectively simulates realistic conditions encountered in many laboratory and industrial applications.
-
-Based on the recent work including [*A nematic liquid crystal with an immersed body: equilibrium, stress, and paradox*](#key-references) and [*Exact and approximate solutions for elastic interactions in a nematic liquid crystal*](#key-references), I examine the equilibrium configurations of a semi-infinite nematic liquid crystal with an immersed body in two dimensions, as well as the associated body forces, torques and tractions. Inspired by the previous work by Crowdy for [*Solving problems in multiply connected domains*](#key-references), a complex variable approach is adopted to derive an analytic solution. Free periods (circulations) of a complex director field, which correspond to topological defect positioning and net topological charge, are determined asymptotically or numerically to minimize the elastic energy within the entire bulk. With a far-field condition that depends on the geometry and type of anchoring, a general, analytical description of body-boundary interactions will be provided, along with illustrations of examples using an arbitrary cylinder in a half-plane and a triangle of arbitrary position and orientation in an arbitrary wedge domain.
-
-## Current Draft
-
-<div style="position: relative;">
-    <!-- PDF iframe -->
-    <iframe id="pdf-viewer-lc" src="/LC/Interaction_of_an_immersed_body_in_a_semi_infinite_nematic_liquid_crystal.pdf" width="100%" height="600px" style="border: none;">
-        Your browser does not support viewing PDFs directly. Please consider using 
-        <a href="https://www.google.com/chrome/" style="display: inline-flex; align-items: center; text-decoration: none; color: #007BFF;">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Google_Chrome_icon_%282011%29.png" alt="Google Chrome" style="width: 16px; height: 16px; margin-right: 5px;">
-            Google Chrome
-        </a>
-        for the best experience.
-    </iframe>
-
-    <!-- Full-Screen Button -->
-    <button id="fullscreen-button-lc" onclick="openFullScreen('pdf-viewer-lc', 'fullscreen-button-lc', 'exit-fullscreen-button-lc')" style="position: absolute; top: 10px; right: 10px; padding: 8px 16px; background-color: #007BFF; color: white; border: none; border-radius: 4px; cursor: pointer; z-index: 10;">
-        Full Screen
-    </button>
-
-    <!-- Exit Full-Screen Button -->
-    <button id="exit-fullscreen-button-lc" onclick="exitFullScreen()" style="position: absolute; top: 10px; right: 10px; padding: 8px 16px; background-color: #FF0000; color: white; border: none; border-radius: 4px; cursor: pointer; z-index: 10; display: none;">
-        Exit Full Screen
-    </button>
+<div class="research-content-box">
+    <h2>Research Overview</h2>
+    <p>
+        Supervisors: [Prof. Saverio Spagnolie](https://people.math.wisc.edu/~spagnolie/) and [Dr. Thomas G. J. Chandler](https://people.math.wisc.edu/~tgchandler/)
+    </p>
+    <p>
+        Nematic liquid crystals, composed of rod-like molecules with directional order, exhibit complex behaviors due to the elasticity of their orientational structure. When immersed bodies are introduced into these materials, they disrupt the local orientation, creating defects and elastic stresses that lead to intricate body-boundary interactions. These interactions are influenced by factors such as anchoring conditions, defect positioning, and the geometric configuration of boundaries, all of which contribute to the unique physical properties of the system. A semi-infinite configuration, in particular, is of broad experimental and theoretical interest, as it effectively simulates realistic conditions encountered in many laboratory and industrial applications.
+    </p>
+    <p>
+        Based on the recent work including [*A nematic liquid crystal with an immersed body: equilibrium, stress, and paradox*](#key-references) and [*Exact and approximate solutions for elastic interactions in a nematic liquid crystal*](#key-references), I examine the equilibrium configurations of a semi-infinite nematic liquid crystal with an immersed body in two dimensions, as well as the associated body forces, torques and tractions. Inspired by the previous work by Crowdy for [*Solving problems in multiply connected domains*](#key-references), a complex variable approach is adopted to derive an analytic solution. Free periods (circulations) of a complex director field, which correspond to topological defect positioning and net topological charge, are determined asymptotically or numerically to minimize the elastic energy within the entire bulk. With a far-field condition that depends on the geometry and type of anchoring, a general, analytical description of body-boundary interactions will be provided, along with illustrations of examples using an arbitrary cylinder in a half-plane and a triangle of arbitrary position and orientation in an arbitrary wedge domain.
+    </p>
+    <p>
+        For more details, view the PDF document below:
+    </p>
+    <!-- Clickable Button -->
+    <a href="/LC/Interaction_of_an_immersed_body_in_a_semi_infinite_nematic_liquid_crystal.pdf" class="pdf-button" target="_blank">
+        View Full PDF
+    </a>
 </div>
-
-<script src="/assets/js/pdf-fullscreen.js"></script>
 
 ## Key References
 
