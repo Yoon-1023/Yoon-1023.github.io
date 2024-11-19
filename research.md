@@ -103,9 +103,8 @@ header {
 <div class="research-content-box">
     <h1>Research Overview</h1>
     <p>
-        <strong>Supervisors:</strong> 
-        <a href="https://people.math.wisc.edu/~spagnolie/">Prof. Saverio Spagnolie</a>, 
-        <a href="https://people.math.wisc.edu/~tgchandler/">Dr. Thomas G. J. Chandler</a>.
+        <strong>Advisor:</strong> 
+        <a href="https://people.math.wisc.edu/~spagnolie/">Prof. Saverio Spagnolie</a>.
     </p>
     <p>
         Nematic liquid crystals, composed of rod-like molecules with directional order, exhibit complex behaviors due to the elasticity of their orientational structure. When immersed bodies are introduced into these materials, they disrupt the local orientation, creating defects and elastic stresses that lead to intricate body-boundary interactions. These interactions are influenced by factors such as anchoring conditions, defect positioning, and the geometric configuration of boundaries, all of which contribute to the unique physical properties of the system. A semi-infinite configuration, in particular, is of broad experimental and theoretical interest, as it effectively simulates realistic conditions encountered in many laboratory and industrial applications.
