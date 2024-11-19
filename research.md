@@ -95,7 +95,7 @@ header {
 </style>
 
 <div class="research-content-box">
-    <h2>Research Overview</h2>
+    <h1>Research Overview</h1>
     <p>
         <strong>Supervisors:</strong> 
         <a href="https://people.math.wisc.edu/~spagnolie/">Prof. Saverio Spagnolie</a>, 
@@ -109,7 +109,11 @@ header {
     </p>
   <!-- Separation line -->
     <hr>
-  
+    <h2>Example 1: An immersed cylinder in a half-plane liquid crystal with tangential anchoring</h2>
+    <video autoplay loop muted playsinline style="width: 100%; height: auto;">
+        <source src="/LC/Movies/Half_Plane_Cylinder/integral_curves_Gamma.mp4" type="video/mp4">
+        Your browser does not support the video tag. Please update your browser.
+    </video>
     <p>
         For more details, view the PDF document below:
     </p>
@@ -131,3 +135,15 @@ header {
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 
+<script>
+    const video = document.querySelector('video');
+    video.onended = () => {
+        video.playbackRate = -1; // Reverse playback
+        video.play();
+    };
+    video.onplay = () => {
+        if (video.currentTime === 0) {
+            video.playbackRate = 1; // Forward playback
+        }
+    };
+</script>
