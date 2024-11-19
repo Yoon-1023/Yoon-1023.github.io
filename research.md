@@ -133,36 +133,3 @@ header {
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 
-<script>
-    const video = document.querySelector('video');
-    let reverseInterval = null;
-
-    function playForward() {
-        clearInterval(reverseInterval); // Clear any existing reverse playback interval
-        video.playbackRate = 1; // Normal forward playback
-        video.play();
-    }
-
-    function playBackward() {
-        clearInterval(reverseInterval); // Clear any previous interval
-        video.pause(); // Pause the video before starting manual reverse playback
-
-        reverseInterval = setInterval(() => {
-            if (video.currentTime > 0) {
-                video.currentTime -= 0.033; // Move 1 frame back (approx. 30fps)
-            } else {
-                clearInterval(reverseInterval); // Stop when the video reaches the beginning
-                playForward(); // Switch back to forward playback
-            }
-        }, 33); // Repeat every 33ms (30fps)
-    }
-
-    // Loop between forward and backward playback
-    video.onended = playBackward;
-
-    video.onplay = () => {
-        if (video.currentTime === 0) {
-            playForward();
-        }
-    };
-</script>
