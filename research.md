@@ -117,7 +117,7 @@ header {
     
     <!-- Clickable Button -->
     <a href="/LC/Interaction_of_an_immersed_body_in_a_semi_infinite_nematic_liquid_crystal.pdf" class="pdf-button" target="_blank">
-        View Full PDF
+        View PDF
     </a>
   <!-- Separation line -->
     <hr>
@@ -136,10 +136,17 @@ header {
         Your browser does not support the video tag. Please update your browser.
     </video>
     </div>
-    <p style="font-size: 19px;"><strong>Quasi-stable Evolution</strong></p>
+    <h2>Quasi-stable Evolution</h2>
     <div class="video-container">
     <video autoplay loop muted playsinline style="width: 80%; height: auto;">
         <source src="/LC/Movies/Half_Plane_Cylinder/Quasi_Stable_Evolution.mp4" type="video/mp4">
+        Your browser does not support the video tag. Please update your browser.
+    </video>
+    </div>
+    <p style="font-size: 19px;"><strong>Evolution of free energy and body force</strong></p>
+    <div class="video-container">
+    <video autoplay loop muted playsinline style="width: 80%; height: auto;">
+        <source src="/LC/Movies/Half_Plane_Cylinder/combined_evolution.mp4" type="video/mp4">
         Your browser does not support the video tag. Please update your browser.
     </video>
     </div>
