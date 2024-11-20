@@ -111,8 +111,8 @@ header {
     </p>
     <p>
         Based on the recent work including <a href="#key-references">A nematic liquid crystal with an immersed body: equilibrium, stress, and paradox</a> and <a href="#key-references">Exact and approximate solutions for elastic interactions in a nematic liquid crystal</a>, I examine the equilibrium configurations of a semi-infinite nematic liquid crystal with an immersed body in two dimensions, as well as the associated body forces, torques and tractions. Inspired by the previous work by Crowdy for <a href="#key-references">Solving problems in multiply connected domains</a>, a complex variable approach is adopted to derive an analytic solution. Free periods (circulations) of a complex director field, which correspond to topological defect positioning and net topological charge, are determined asymptotically or numerically to minimize the elastic energy within the entire bulk. With a far-field condition that depends on the geometry and type of anchoring, a general, analytical description of body-boundary interactions will be provided, along with illustrations of examples using an arbitrary cylinder in a half-plane and a triangle of arbitrary position and orientation in an arbitrary wedge domain.
-    </p>
-    <p style="font-size: 19px;">For more details, view the PDF document below:</p>
+    <hr>
+    <h3>For more details, view the PDF document below:</h3>
     
     <!-- Clickable Button -->
     <a href="/LC/Interaction_of_an_immersed_body_in_a_semi_infinite_nematic_liquid_crystal.pdf" class="pdf-button" target="_blank">
