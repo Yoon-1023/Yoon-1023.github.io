@@ -145,7 +145,7 @@ header {
 </div>
 <p style="font-size: 19px;"><strong>Evolution of free energy and body force</strong></p>
 <div class="video-container">
-    <video id="video2" autoplay loop muted playsinline style="width: 80%; height: auto;">
+    <video id="video2" autoplay loop muted playsinline style="width: 100%; height: auto;">
         <source src="/LC/Movies/Half_Plane_Cylinder/combined_evolution.mp4" type="video/mp4">
         Your browser does not support the video tag. Please update your browser.
     </video>
