@@ -145,7 +145,7 @@ header {
     </div>
 </div>
 
-## Key References
+# Key References
 
 1. **Chandler, T. G. J., & Spagnolie, S. E.** (2023). *A nematic liquid crystal with an immersed body: equilibrium, stress, and paradox*. Journal of Fluid Mechanics, 967. Cambridge University Press. DOI: [10.1017/jfm.2023.488](http://dx.doi.org/10.1017/jfm.2023.488)
 
