@@ -138,18 +138,18 @@ header {
     </div>
     <h3>Quasi-stable Evolution</h3>
     <div class="video-container">
-    <video autoplay loop muted playsinline style="width: 80%; height: auto;">
+    <video id="video1" autoplay loop muted playsinline style="width: 80%; height: auto;">
         <source src="/LC/Movies/Half_Plane_Cylinder/Quasi_Stable_Evolution.mp4" type="video/mp4">
         Your browser does not support the video tag. Please update your browser.
     </video>
-    </div>
-    <p style="font-size: 19px;"><strong>Evolution of free energy and body force</strong></p>
-    <div class="video-container">
-    <video autoplay loop muted playsinline style="width: 80%; height: auto;">
+</div>
+<p style="font-size: 19px;"><strong>Evolution of free energy and body force</strong></p>
+<div class="video-container">
+    <video id="video2" autoplay loop muted playsinline style="width: 80%; height: auto;">
         <source src="/LC/Movies/Half_Plane_Cylinder/combined_evolution.mp4" type="video/mp4">
         Your browser does not support the video tag. Please update your browser.
     </video>
-    </div>
+</div>
 </div>
 
 # Key References
@@ -162,5 +162,27 @@ header {
 
 <script type="text/javascript" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
+<script>
+    // Get the two video elements
+    const video1 = document.getElementById('video1');
+    const video2 = document.getElementById('video2');
+
+    // Synchronize the playback
+    function syncVideos() {
+        // Adjust video2's current time to match video1
+        if (Math.abs(video1.currentTime - video2.currentTime) > 0.1) {
+            video2.currentTime = video1.currentTime;
+        }
+        // Match the playback rates
+        video2.playbackRate = video1.playbackRate;
+    }
+
+    // Add event listeners to video1 (master) to sync video2 (slave)
+    video1.addEventListener('play', () => video2.play());
+    video1.addEventListener('pause', () => video2.pause());
+    video1.addEventListener('seeked', syncVideos);
+    video1.addEventListener('timeupdate', syncVideos);
 </script>
 
