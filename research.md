@@ -136,7 +136,7 @@ header {
         Your browser does not support the video tag. Please update your browser.
     </video>
     </div>
-    <h2>Quasi-stable Evolution</h2>
+    <h3>Quasi-stable Evolution</h3>
     <div class="video-container">
     <video autoplay loop muted playsinline style="width: 80%; height: auto;">
         <source src="/LC/Movies/Half_Plane_Cylinder/Quasi_Stable_Evolution.mp4" type="video/mp4">
