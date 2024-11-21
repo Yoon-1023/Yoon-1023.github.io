@@ -116,9 +116,7 @@ header {
     <h3>For more details, view the PDF document and animations below:</h3>
     
     <!-- Clickable Button -->
-    <a href="/LC/Interaction_of_an_immersed_body_in_a_semi_infinite_nematic_liquid_crystal.pdf" class="pdf-button" target="_blank">
-        View PDF
-    </a>
+    
   <!-- Separation line -->
     <hr>
     <h2>Example 1: An immersed cylinder in a half-plane liquid crystal with tangential anchoring</h2>
