@@ -116,7 +116,7 @@ header {
   <!-- Separation line -->
     <hr>
     <h2>Example 1: An immersed cylinder in a half-plane liquid crystal with tangential anchoring</h2>
-    <h3>Varying circulation/Period</strong></h3>
+    <h3>Varying circulation/Period</h3>
     <div class="video-container">
     <video autoplay loop muted playsinline style="width: 80%; height: auto;">
         <source src="/LC/Movies/Half_Plane_Cylinder/integral_curves_Gamma.mp4" type="video/mp4">
@@ -130,7 +130,7 @@ header {
         Your browser does not support the video tag. Please update your browser.
     </video>
     </div>
-    <h3>Varing anchoring strength</strong></h3>
+    <h3>Varing anchoring strength</h3>
     <div class="video-container">
     <video autoplay loop muted playsinline style="width: 80%; height: auto;">
         <source src="/LC/Movies/Half_Plane_Cylinder/integral_curves_omega.mp4" type="video/mp4">
