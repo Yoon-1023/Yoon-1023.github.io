@@ -32,6 +32,27 @@ In this project, I explore solutions to various Initial Boundary Value Problems 
 
 </div>
 
+<div style="position: relative;">
+    <!-- PDF iframe -->
+    <iframe id="pdf-viewer-selected" src="/Fokas/Exploring the Fokas Method for Heat Equation IBVPs.pdf" width="100%" height="600px" style="border: none;">
+        Your browser does not support viewing PDFs directly. Please consider using 
+        <a href="https://www.google.com/chrome/" style="display: inline-flex; align-items: center; text-decoration: none; color: #007BFF;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Google_Chrome_icon_%282011%29.png" alt="Google Chrome" style="width: 16px; height: 16px; margin-right: 5px;">
+            Google Chrome
+        </a>
+    </iframe>
+
+    <!-- Full-Screen Button -->
+    <button id="fullscreen-button-selected" onclick="openFullScreen('pdf-viewer-selected', 'fullscreen-button-selected', 'exit-fullscreen-button-selected')" style="position: absolute; top: 10px; right: 10px; padding: 8px 16px; background-color: #007BFF; color: white; border: none; border-radius: 4px; cursor: pointer; z-index: 10;">
+        Full Screen
+    </button>
+
+    <!-- Exit Full-Screen Button -->
+    <button id="exit-fullscreen-button-selected" onclick="exitFullScreen()" style="position: absolute; top: 10px; right: 10px; padding: 8px 16px; background-color: #FF0000; color: white; border: none; border-radius: 4px; cursor: pointer; z-index: 10; display: none;">
+        Exit Full Screen
+    </button>
+</div>
+
 
 <a href="javascript:history.back()" style="display: inline-block; margin: 10px 0; padding: 8px 16px; background-color: #4CAF50; color: white; border-radius: 4px; text-decoration: none; font-weight: bold;">
     Go Back
