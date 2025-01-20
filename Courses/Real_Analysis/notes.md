@@ -19,7 +19,7 @@ header {
 </style>
 # Hardy-Littlewood Maximal Inequalities and Their Applications in Interpolation Problems
 
-This project revisits the Hardy-Littlewood maximal inequalities, both strong and weak forms. By systematically deriving and analyzing these inequalities, we investigate their applications, including their extension to function spaces such as  $$L^p(\mathbb{R}^n)$$  and the characterization of singular integral operators. Furthermore, the study provides insights into related inequalities and their significance in the broader framework of harmonic analysis and PDEs.
+In this project, we revisit the Hardy-Littlewood maximal inequalities, both strong and weak forms. By systematically deriving and analyzing these inequalities, we investigate their applications, including their extension to function spaces such as  $$L^p(\mathbb{R}^n)$$  and the characterization of singular integral operators. Furthermore, the study provides insights into related inequalities and their significance in the broader framework of harmonic analysis and PDEs.
 
 
 ## PDF Document
