@@ -110,7 +110,7 @@ header {
       The independent research is about the
 interaction of an immersed body and boundary in two-dimensional semi-infinite nematic
 liquid crystals. The nematic liquid crystals consist of rod-like molecules that exhibit directional order and elastically deformable
-orientational structure, hence displaying rich phenomenology. defects and elastic
+orientational structure, hence displaying rich phenomenology, where defects and elastic
 stresses lead to complicated body-boundary interactions. These depend on boundary anchoring
 conditions, the positioning of topological defects, and geometric configuration of
 boundaries, thus giving rise to the peculiar physical properties of the system. Of particular
@@ -122,18 +122,16 @@ problem to be phrased and solved using techniques from complex analysis.
     </p>
     <p>
       I have given
-analytical solutions for equilibrium configurations by using methods of complex variables
+analytical solutions for equilibrium configurations using methods of complex variables
 and overcoming some difficulties in assembling modified Green’s functions to represent solutions in
 multiply-connected domains. The positioning of topological defects is determined numerically
 to minimize the elastic energy within the bulk nematic fluid. Additionally, far-field
 asymptotics for the energy and body forces are calculated, and the quasi-static evolution
-of the cylinder’s motion is explored. This work represents an unprecedented understanding
+of the body’s motion is explored. This work represents an unprecedented understanding
 of the way geometry and elasticity interact in an anisotropic material, enhancing both
 theoretical insight and practical implementation. Current efforts concern elastic response
 towards relaxation of the free energy within the bulk, and anchoring induced flow in
-multiply-connected configurations. An article covering Analytical Solutions to Boundary-
-Body Interactions and Deformations in Nematic Liquid Crystals is estimated to be submitted
-to Physical Review E or Soft Matter in the upcoming year.
+multiply-connected configurations.
     </p>
     
   <!-- Separation line -->
