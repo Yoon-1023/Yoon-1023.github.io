@@ -107,10 +107,33 @@ header {
         <a href="https://people.math.wisc.edu/~spagnolie/">Prof. Saverio Spagnolie</a>.
     </p>
     <p>
-        Nematic liquid crystals, composed of rod-like molecules with directional order, exhibit complex behaviors due to the elasticity of their orientational structure. When immersed bodies are introduced into these materials, they disrupt the local orientation, creating defects and elastic stresses that lead to intricate body-boundary interactions. These interactions are influenced by factors such as anchoring conditions, defect positioning, and the geometric configuration of boundaries, all of which contribute to the unique physical properties of the system. A semi-infinite configuration, in particular, is of broad experimental and theoretical interest, as it effectively simulates realistic conditions encountered in many laboratory and industrial applications.
+      The independent research is about the
+interaction of an immersed body and boundary in two-dimensional semi-infinite nematic
+liquid crystals. The nematic liquid crystals consist of rod-like molecules that exhibit directional order and elastically deformable
+orientational structure, hence displaying rich phenomenology. defects and elastic
+stresses lead to complicated body-boundary interactions. These depend on boundary anchoring
+conditions, the positioning of topological defects, and geometric configuration of
+boundaries, thus giving rise to the peculiar physical properties of the system. Of particular
+interest is the semi-infinite configuration whereby the bulk defects are taken to the
+far field. In two dimensions, the orientation of the liquid crystals is described by a director
+field, which, at equilibrium, satisfies the Laplace equations. This harmonicity allows
+the director field to be embedded within a locally analytic function, allowing the entire
+problem to be phrased and solved using techniques from complex analysis.
     </p>
     <p>
-        Based on the recent work including <a href="#key-references">A nematic liquid crystal with an immersed body: equilibrium, stress, and paradox</a> and <a href="#key-references">Exact and approximate solutions for elastic interactions in a nematic liquid crystal</a>, I examine the equilibrium configurations of a semi-infinite nematic liquid crystal with an immersed body in two dimensions, as well as the associated body forces, torques and tractions. Inspired by the previous work by Crowdy for <a href="#key-references">Solving problems in multiply connected domains</a>, a complex variable approach is adopted to derive an analytic solution. Free periods (circulations) of a complex director field, which correspond to topological defect positioning and net topological charge, are determined asymptotically or numerically to minimize the elastic energy within the entire bulk. With a far-field condition that depends on the geometry and type of anchoring, a general, analytical description of body-boundary interactions will be provided, along with illustrations of examples using an arbitrary cylinder in a half-plane and a triangle of arbitrary position and orientation in an arbitrary wedge domain.
+      I have given
+analytical solutions for equilibrium configurations by using methods of complex variables
+and overcoming some difficulties in assembling modified Green’s functions to represent solutions in
+multiply-connected domains. The positioning of topological defects is determined numerically
+to minimize the elastic energy within the bulk nematic fluid. Additionally, far-field
+asymptotics for the energy and body forces are calculated, and the quasi-static evolution
+of the cylinder’s motion is explored. This work represents an unprecedented understanding
+of the way geometry and elasticity interact in an anisotropic material, enhancing both
+theoretical insight and practical implementation. Current efforts concern elastic response
+towards relaxation of the free energy within the bulk, and anchoring induced flow in
+multiply-connected configurations. An article covering Analytical Solutions to Boundary-
+Body Interactions and Deformations in Nematic Liquid Crystals is estimated to be submitted
+to Physical Review E or Soft Matter in the upcoming year.
     </p>
     
   <!-- Separation line -->
