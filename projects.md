@@ -128,7 +128,7 @@ header {
         <h3>Hardy-Littlewood Maximal Inequalities and Their
 Applications in Interpolation Problems</h3>
         <p><strong>Supervisor:</strong> <a href="http://maths.nju.edu.cn/~luyong/">Prof. Yong Lu</a>, Department of Mathematics, Nanjing University</p>
-        <p><strong>Abstract:</strong> This project revisits the Hardy-Littlewood maximal inequalities, both strong and weak forms. By systematically deriving and analyzing these inequalities, we investigate their applications, including their extension to function spaces such as  \(L^p(\mathbb{R}^n)\)  and the characterization of singular integral operators. Tthe study provides insights into related inequalities and their significance in the broader framework of harmonic analysis and PDEs. </p>
+        <p><strong>Abstract:</strong> In this project, we revisit the Hardy-Littlewood maximal inequalities, both strong and weak forms. By systematically deriving and analyzing these inequalities, we investigate their applications, including their extension to function spaces such as  \(L^p(\mathbb{R}^n)\)  and the characterization of singular integral operators. Tthe study provides insights into related inequalities and their significance in the broader framework of harmonic analysis and PDEs. </p>
         
         <!-- Details Button at the Bottom -->
         <div class="details-button">
