@@ -128,7 +128,7 @@ header {
         <h3>Hardy-Littlewood Maximal Inequalities and Their
 Applications in Interpolation Problems</h3>
         <p><strong>Supervisor:</strong> <a href="http://maths.nju.edu.cn/~luyong/">Prof. Yong Lu</a>, Department of Mathematics, Nanjing University</p>
-        <p><strong>Abstract:</strong> This project delves into the Hardy-Littlewood maximal inequalities, both strong and weak forms, in the context of real analysis. By systematically deriving and analyzing these inequalities, we investigate their applications, including their extension to function spaces such as  \(L^p(\mathbb{R}^n)\)  and the characterization of singular integral operators. Furthermore, the study provides insights into related inequalities and their significance in the broader framework of harmonic analysis and PDEs. </p>
+        <p><strong>Abstract:</strong> This project revisits the Hardy-Littlewood maximal inequalities, both strong and weak forms. By systematically deriving and analyzing these inequalities, we investigate their applications, including their extension to function spaces such as  \(L^p(\mathbb{R}^n)\)  and the characterization of singular integral operators. Tthe study provides insights into related inequalities and their significance in the broader framework of harmonic analysis and PDEs. </p>
         
         <!-- Details Button at the Bottom -->
         <div class="details-button">
@@ -154,7 +154,7 @@ Applications in Interpolation Problems</h3>
         <h3>Representing Function Values Through Integrals: Applications in Harmonic and Potential Theory
 </h3>
         <p><strong>Supervisor:</strong> <a href="https://math.nju.edu.cn/jzyg/apypl/20240321/i261827.html">Prof. Dong Miao</a>, Department of Mathematics, Nanjing University</p>
-        <p><strong>Abstract:</strong> In this project, we investigate methods to represent the value of a function at a specific point using integrals. Inspired by analogies between Cauchy Integral Formula in Complex Analysis and fundamental results in Mathematical Analysis, we explore key results in harmonic and potential theory. Specifically, we analyze representation formulas for harmonic functions and their connection to boundary integrals, using tools such as Green’s identities and spherical coordinate transformations. The methods are demonstrated through detailed proofs and examples. </p>
+        <p><strong>Abstract:</strong> In this project, we investigate methods to represent the value of a function at a specific point using integrals. Inspired by analogies between Cauchy Integral Formula in Complex Analysis and fundamental results in Mathematical Analysis, we explore key results in harmonic and potential theory. Specifically, we analyze representation formulas for harmonic functions and their connection to boundary integrals, using tools such as Green’s identities and spherical coordinate transformations. </p>
         
         <!-- Details Button at the Bottom -->
         <div class="details-button">
