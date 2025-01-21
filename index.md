@@ -85,9 +85,10 @@ header {
     </p>
     <p>
       More broadly, I am fascinated by the application of analytical mathematics to model physical systems, particularly where intricate 
-      mathematical methods reveal insights into real-world phenomena. Recently, I found interest in the interactions of bodies and boundaries in 
-      three-dimensional unsteady Stokes flow, which generally involves exploring the Maxey-Riley equation using the Laplace transform method and 
-      Lorentz reciprocity principles.
+      mathematical methods reveal insights into real-world phenomena. Recently, I found interest in the interaction of deformable immersed bodies with water waves. This study is relevant from an
+engineering viewpoint for designing floating wind turbine platforms, wave energy converters
+using controlled deformation to operate effectively, as well as for ecological studies
+into flexible biological objects such as kelp and coral reefs for informing conservation policy.
     </p>
   </div>
 </div>
