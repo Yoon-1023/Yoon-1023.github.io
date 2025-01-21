@@ -71,7 +71,7 @@ header {
 
   <!-- About Me section on the right -->
   <div class="about-me">
-    <h2>About Me</h2>
+    <h2>Welcome to my site!</h2>
     <p>
       I am majoring in Mathematics and Applied Mathematics at Nanjing University and have been studying at the University of Wisconsin-Madison 
       through its VISP Pre-Master Program since Spring 2024. My research interests span a broad range of topics in physical mathematics, including 
